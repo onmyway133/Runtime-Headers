@@ -1,0 +1,164 @@
+<HTML>
+<HEAD>
+<TITLE>PowerlogLiteOperators.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/PowerlogLiteOperators.framework
+106 classes
+
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/CStat.h">CStat.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularCellPlmnSearchCount.h">KCellularCellPlmnSearchCount.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularGsmL1State.h">KCellularGsmL1State.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularLteCdrxConfig.h">KCellularLteCdrxConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularLteComponentCarrierInfo.h">KCellularLteComponentCarrierInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularLteDataInactivityBeforeIdle.h">KCellularLteDataInactivityBeforeIdle.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularLteFwDuplexMode.h">KCellularLteFwDuplexMode.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularLtePagingCycle.h">KCellularLtePagingCycle.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularLtePdcchStateStats.h">KCellularLtePdcchStateStats.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularLteRadioLinkFailure.h">KCellularLteRadioLinkFailure.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularLteRrcState.h">KCellularLteRrcState.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularPerClientProfileTriggerCount.h">KCellularPerClientProfileTriggerCount.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularPeripheralStats.h">KCellularPeripheralStats.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularPmicHwStats.h">KCellularPmicHwStats.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularProtocolStackCpuStats.h">KCellularProtocolStackCpuStats.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularProtocolStackHist.h">KCellularProtocolStackHist.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularProtocolStackPowerState.h">KCellularProtocolStackPowerState.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularRrcModeHist.h">KCellularRrcModeHist.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularServingCellLost.h">KCellularServingCellLost.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularTdsL1State.h">KCellularTdsL1State.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularTdsRrcState.h">KCellularTdsRrcState.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularWcdmaCpcStat.h">KCellularWcdmaCpcStat.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularWcdmaDataInactivityBeforeIdle.h">KCellularWcdmaDataInactivityBeforeIdle.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularWcdmaL1State.h">KCellularWcdmaL1State.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularWcdmaRabStatus.h">KCellularWcdmaRabStatus.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularWcdmaRrcConfiguration.h">KCellularWcdmaRrcConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/KCellularWcdmaRrcConnectionState.h">KCellularWcdmaRrcConnectionState.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLAccessibilityAgent.h">PLAccessibilityAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLAccountingDebugService.h">PLAccountingDebugService.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLAggregateDictionaryService.h">PLAggregateDictionaryService.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLAirplayService.h">PLAirplayService.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLAudioAgent.h">PLAudioAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBAgent.h">PLBBAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBCodes.h">PLBBCodes.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBEurekaEventGPS.h">PLBBEurekaEventGPS.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBEurekaEventHandler.h">PLBBEurekaEventHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBEurekaEventMsg.h">PLBBEurekaEventMsg.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBEurekaLogMsg.h">PLBBEurekaLogMsg.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBICEMsg.h">PLBBICEMsg.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBMav10HwMsgParser.h">PLBBMav10HwMsgParser.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBMav13HwMsgParser.h">PLBBMav13HwMsgParser.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBMav16HwMsgParser.h">PLBBMav16HwMsgParser.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBMav16HwRfLTELogMsg.h">PLBBMav16HwRfLTELogMsg.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBMavHwRf1xLogMsg.h">PLBBMavHwRf1xLogMsg.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBMavHwRfGSMLogMsg.h">PLBBMavHwRfGSMLogMsg.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBMavHwRfHDRLogMsg.h">PLBBMavHwRfHDRLogMsg.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBMavHwRfLTELogMsg.h">PLBBMavHwRfLTELogMsg.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBMavHwRfOOSLogMsg.h">PLBBMavHwRfOOSLogMsg.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBMavHwRfTDSLogMsg.h">PLBBMavHwRfTDSLogMsg.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBMavHwRfWCDMALogMsg.h">PLBBMavHwRfWCDMALogMsg.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBMavLogMsg.h">PLBBMavLogMsg.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBMsgAll.h">PLBBMsgAll.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBMsgHandler.h">PLBBMsgHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBMsgItem.h">PLBBMsgItem.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBMsgRoot.h">PLBBMsgRoot.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBSleepWakeMsg.h">PLBBSleepWakeMsg.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBTelephonyActivityMsg.h">PLBBTelephonyActivityMsg.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBBTelephonyRegMsg.h">PLBBTelephonyRegMsg.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBLMDebugService.h">PLBLMDebugService.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBackupRestoreAgent.h">PLBackupRestoreAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBasebandEurekaLogMessage.h">PLBasebandEurekaLogMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBasebandEurekaMessage.h">PLBasebandEurekaMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBasebandExtraCode.h">PLBasebandExtraCode.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBasebandHardwareMessage.h">PLBasebandHardwareMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBasebandLogChannel.h">PLBasebandLogChannel.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBasebandMavLogMessage.h">PLBasebandMavLogMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBasebandMessage.h">PLBasebandMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLBluetoothAgent.h">PLBluetoothAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLButtonAgent.h">PLButtonAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLCPUEnergyIssueDetectorService.h">PLCPUEnergyIssueDetectorService.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLCameraAgent.h">PLCameraAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLConfigAgent.h">PLConfigAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLDebugService.h">PLDebugService.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLDuetEventTransition.h">PLDuetEventTransition.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLDuetService.h">PLDuetService.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLEduAgent.h">PLEduAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLHealthKitAgent.h">PLHealthKitAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLHomeKitAgent.h">PLHomeKitAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLICEBBHardwareMessage.h">PLICEBBHardwareMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLICEBBMetric.h">PLICEBBMetric.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLICEBBMetricUtility.h">PLICEBBMetricUtility.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLIOReportAgent.h">PLIOReportAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLIdentityServicesAgent.h">PLIdentityServicesAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLInitialSyncAgent.h">PLInitialSyncAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLLocaleAgent.h">PLLocaleAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLMav2BasebandHardwareMessage.h">PLMav2BasebandHardwareMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLMav4BasebandHardwareMessage.h">PLMav4BasebandHardwareMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLMav5BasebandHardwareMessage.h">PLMav5BasebandHardwareMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLMav7BasebandHardwareMessage.h">PLMav7BasebandHardwareMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLNetworkAgent.h">PLNetworkAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLNfcAgent.h">PLNfcAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLPidAndProcessName.h">PLPidAndProcessName.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLPowerAssertionAgent.h">PLPowerAssertionAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLProcessPortMap.h">PLProcessPortMap.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLPushAgent.h">PLPushAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLRenderingAgent.h">PLRenderingAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLSCDynamicStoreAgent.h">PLSCDynamicStoreAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLSmartConnectorAgent.h">PLSmartConnectorAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLSpringBoardAgent.h">PLSpringBoardAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLStoreAgent.h">PLStoreAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLTelephonyConnection.h">PLTelephonyConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLVideoAgent.h">PLVideoAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLWatchKitAgent.h">PLWatchKitAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PLWifiAgent.h">PLWifiAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PStat.h">PStat.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogLiteOperators.framework/PowerlogMetricLog.h">PowerlogMetricLog.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

@@ -1,0 +1,183 @@
+<HTML>
+<HEAD>
+<TITLE>LinkPresentation.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/LinkPresentation.framework
+125 classes
+
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPAnimationMaskView.h">LPAnimationMaskView.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPAppLinkPresentationProperties.h">LPAppLinkPresentationProperties.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPArtworkMetadata.h">LPArtworkMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPAudioMetadata.h">LPAudioMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPCSSResolver.h">LPCSSResolver.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPCSSVariable.h">LPCSSVariable.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPCaptionBarAccessoryStyle.h">LPCaptionBarAccessoryStyle.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPCaptionBarAccessoryView.h">LPCaptionBarAccessoryView.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPCaptionBarPresentationProperties.h">LPCaptionBarPresentationProperties.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPCaptionBarStyle.h">LPCaptionBarStyle.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPCaptionBarView.h">LPCaptionBarView.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPCaptionPresentationProperties.h">LPCaptionPresentationProperties.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPCaptionRowPresentationProperties.h">LPCaptionRowPresentationProperties.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPComponentView.h">LPComponentView.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPCustomLinkMetadata.h">LPCustomLinkMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPEmailCompatibleHTMLCaptionBarComponent.h">LPEmailCompatibleHTMLCaptionBarComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPEmailCompatibleHTMLCaptionBarItemComponent.h">LPEmailCompatibleHTMLCaptionBarItemComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPEmailCompatibleHTMLCaptionBarRowComponent.h">LPEmailCompatibleHTMLCaptionBarRowComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPEmailCompatibleHTMLIconComponent.h">LPEmailCompatibleHTMLIconComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPEmailCompatibleHTMLLinkComponent.h">LPEmailCompatibleHTMLLinkComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPEmailCompatibleHTMLTextComponent.h">LPEmailCompatibleHTMLTextComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPEmailCompatibleHTMLVerticalTextStackComponent.h">LPEmailCompatibleHTMLVerticalTextStackComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPFlippedView.h">LPFlippedView.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPGameCenterInvitationMetadata.h">LPGameCenterInvitationMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPGlyphStyle.h">LPGlyphStyle.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPHTMLCaptionBarAccessoryComponent.h">LPHTMLCaptionBarAccessoryComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPHTMLCaptionBarComponent.h">LPHTMLCaptionBarComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPHTMLComponent.h">LPHTMLComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPHTMLGlyphComponent.h">LPHTMLGlyphComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPHTMLHorizontalCaptionPairComponent.h">LPHTMLHorizontalCaptionPairComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPHTMLIconComponent.h">LPHTMLIconComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPHTMLImageComponent.h">LPHTMLImageComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPHTMLImageContainerComponent.h">LPHTMLImageContainerComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPHTMLLinkComponent.h">LPHTMLLinkComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPHTMLPlaceholderImageGenerator.h">LPHTMLPlaceholderImageGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPHTMLQuoteComponent.h">LPHTMLQuoteComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPHTMLTapToLoadComponent.h">LPHTMLTapToLoadComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPHTMLTextComponent.h">LPHTMLTextComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPHTMLVerticalTextStackComponent.h">LPHTMLVerticalTextStackComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPHTMLVideoComponent.h">LPHTMLVideoComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPHorizontalCaptionPairView.h">LPHorizontalCaptionPairView.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPIconMetadata.h">LPIconMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPImage.h">LPImage.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPImageMetadata.h">LPImageMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPImageView.h">LPImageView.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPImageViewStyle.h">LPImageViewStyle.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPLinkHTMLGenerator.h">LPLinkHTMLGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPLinkHTMLTextGenerator.h">LPLinkHTMLTextGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPLinkMetadata.h">LPLinkMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPLinkMetadataPresentationTransformer.h">LPLinkMetadataPresentationTransformer.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPLinkMetadataPreviewTransformer.h">LPLinkMetadataPreviewTransformer.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPLinkMetadataStatusTransformer.h">LPLinkMetadataStatusTransformer.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPLinkMetadataStoreTransformer.h">LPLinkMetadataStoreTransformer.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPLinkRendererShared.h">LPLinkRendererShared.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPLinkView.h">LPLinkView.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPMIMETypeRegistry.h">LPMIMETypeRegistry.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPMediaPlaybackManager.h">LPMediaPlaybackManager.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPMetadataProvider.h">LPMetadataProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPMetadataProviderSpecialization.h">LPMetadataProviderSpecialization.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPOneShotFetcher.h">LPOneShotFetcher.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPPadding.h">LPPadding.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPPlaceholderPlayButton.h">LPPlaceholderPlayButton.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPPlayButton.h">LPPlayButton.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPPlayButtonStyle.h">LPPlayButtonStyle.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPPointUnit.h">LPPointUnit.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPPresentationSpecializations.h">LPPresentationSpecializations.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPSettings.h">LPSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPSize.h">LPSize.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPSpecializationMetadata.h">LPSpecializationMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPStatistics.h">LPStatistics.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPStatisticsTimingToken.h">LPStatisticsTimingToken.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPStreamingVideoView.h">LPStreamingVideoView.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPTapToLoadView.h">LPTapToLoadView.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPTapToLoadViewStyle.h">LPTapToLoadViewStyle.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPTestingOverrides.h">LPTestingOverrides.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPTextRowStyle.h">LPTextRowStyle.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPTextView.h">LPTextView.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPTextViewStyle.h">LPTextViewStyle.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPTheme.h">LPTheme.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPThemeParametersObserver.h">LPThemeParametersObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPURLSuffixChecker.h">LPURLSuffixChecker.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPVerticalTextStackView.h">LPVerticalTextStackView.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPVerticalTextStackViewStyle.h">LPVerticalTextStackViewStyle.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPVideo.h">LPVideo.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPVideoMetadata.h">LPVideoMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPVideoResolver.h">LPVideoResolver.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPVideoView.h">LPVideoView.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPVideoViewStyle.h">LPVideoViewStyle.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPWebLinkPresentationProperties.h">LPWebLinkPresentationProperties.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPYouTubePlayerScriptMessageHandler.h">LPYouTubePlayerScriptMessageHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPYouTubePlayerView.h">LPYouTubePlayerView.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPYouTubeURLComponents.h">LPYouTubeURLComponents.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPYouTubeVideoView.h">LPYouTubeVideoView.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiCloudSharingMetadata.h">LPiCloudSharingMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiCloudSharingMetadataProviderSpecialization.h">LPiCloudSharingMetadataProviderSpecialization.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaAlbumMetadata.h">LPiTunesMediaAlbumMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaAlbumUnresolvedMetadata.h">LPiTunesMediaAlbumUnresolvedMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaArtistMetadata.h">LPiTunesMediaArtistMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaArtistUnresolvedMetadata.h">LPiTunesMediaArtistUnresolvedMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaAsset.h">LPiTunesMediaAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaAudioBookMetadata.h">LPiTunesMediaAudioBookMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaAudioBookUnresolvedMetadata.h">LPiTunesMediaAudioBookUnresolvedMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaBookMetadata.h">LPiTunesMediaBookMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaBookUnresolvedMetadata.h">LPiTunesMediaBookUnresolvedMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaLookupItemArtwork.h">LPiTunesMediaLookupItemArtwork.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaLookupTask.h">LPiTunesMediaLookupTask.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaMetadataProviderSpecialization.h">LPiTunesMediaMetadataProviderSpecialization.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaMusicVideoMetadata.h">LPiTunesMediaMusicVideoMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaMusicVideoUnresolvedMetadata.h">LPiTunesMediaMusicVideoUnresolvedMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaOffer.h">LPiTunesMediaOffer.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaPlaylistMetadata.h">LPiTunesMediaPlaylistMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaPlaylistUnresolvedMetadata.h">LPiTunesMediaPlaylistUnresolvedMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaRadioMetadata.h">LPiTunesMediaRadioMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaRadioUnresolvedMetadata.h">LPiTunesMediaRadioUnresolvedMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaSoftwareMetadata.h">LPiTunesMediaSoftwareMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaSoftwareUnresolvedMetadata.h">LPiTunesMediaSoftwareUnresolvedMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaSongMetadata.h">LPiTunesMediaSongMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaSongUnresolvedMetadata.h">LPiTunesMediaSongUnresolvedMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaStorefrontMappings.h">LPiTunesMediaStorefrontMappings.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesMediaURLComponents.h">LPiTunesMediaURLComponents.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesPlayButton.h">LPiTunesPlayButton.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesPlayButtonView.h">LPiTunesPlayButtonView.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesPlaybackInformation.h">LPiTunesPlaybackInformation.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesPreviewPlayButton.h">LPiTunesPreviewPlayButton.h</A>
+<A HREF="/tree/PrivateFrameworks/LinkPresentation.framework/LPiTunesStoreInformation.h">LPiTunesStoreInformation.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

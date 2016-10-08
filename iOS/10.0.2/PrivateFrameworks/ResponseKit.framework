@@ -1,0 +1,112 @@
+<HTML>
+<HEAD>
+<TITLE>ResponseKit.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/ResponseKit.framework
+54 classes
+
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKAssets.h">RKAssets.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKBundleDataProvider.h">RKBundleDataProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKClassification.h">RKClassification.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKEventIdentification.h">RKEventIdentification.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKEventIdentifier.h">RKEventIdentifier.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKLexicalEntity.h">RKLexicalEntity.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKLinguisticDataProvider.h">RKLinguisticDataProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKMessageClassifier.h">RKMessageClassifier.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKMessageResponseManager.h">RKMessageResponseManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKMontrealModel.h">RKMontrealModel.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKPersistentPersonalizer.h">RKPersistentPersonalizer.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKProactiveGrammar.h">RKProactiveGrammar.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKResponse.h">RKResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKResponseCollection.h">RKResponseCollection.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier.h">RKSentenceClassifier.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_ar_AE.h">RKSentenceClassifier_ar_AE.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_ca_ES.h">RKSentenceClassifier_ca_ES.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_cs_CZ.h">RKSentenceClassifier_cs_CZ.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_da_DK.h">RKSentenceClassifier_da_DK.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_de_DE.h">RKSentenceClassifier_de_DE.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_el_GR.h">RKSentenceClassifier_el_GR.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_en_US.h">RKSentenceClassifier_en_US.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_es_ES.h">RKSentenceClassifier_es_ES.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_fi_FI.h">RKSentenceClassifier_fi_FI.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_fr_BE.h">RKSentenceClassifier_fr_BE.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_fr_FR.h">RKSentenceClassifier_fr_FR.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_he_IL.h">RKSentenceClassifier_he_IL.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_hi_IN.h">RKSentenceClassifier_hi_IN.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_hr_HR.h">RKSentenceClassifier_hr_HR.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_hu_HU.h">RKSentenceClassifier_hu_HU.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_id_ID.h">RKSentenceClassifier_id_ID.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_it_IT.h">RKSentenceClassifier_it_IT.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_ja_JP.h">RKSentenceClassifier_ja_JP.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_ko_KO.h">RKSentenceClassifier_ko_KO.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_ms_MY.h">RKSentenceClassifier_ms_MY.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_nb_NO.h">RKSentenceClassifier_nb_NO.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_nl_BE.h">RKSentenceClassifier_nl_BE.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_nl_NL.h">RKSentenceClassifier_nl_NL.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_pl_PL.h">RKSentenceClassifier_pl_PL.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_pt_BR.h">RKSentenceClassifier_pt_BR.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_ro_RO.h">RKSentenceClassifier_ro_RO.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_ru_RU.h">RKSentenceClassifier_ru_RU.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_sk_SK.h">RKSentenceClassifier_sk_SK.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_sv_SE.h">RKSentenceClassifier_sv_SE.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_th_TH.h">RKSentenceClassifier_th_TH.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_tr_TR.h">RKSentenceClassifier_tr_TR.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_uk_UA.h">RKSentenceClassifier_uk_UA.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_vi_VN.h">RKSentenceClassifier_vi_VN.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_zh_Hans_CN.h">RKSentenceClassifier_zh_Hans_CN.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKSentenceClassifier_zh_Hant_CN.h">RKSentenceClassifier_zh_Hant_CN.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKText.h">RKText.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKTextAnnotation.h">RKTextAnnotation.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/RKUtilities.h">RKUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/ResponseKit.framework/_RKResponse.h">_RKResponse.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

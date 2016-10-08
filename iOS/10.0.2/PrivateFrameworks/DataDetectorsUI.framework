@@ -1,0 +1,116 @@
+<HTML>
+<HEAD>
+<TITLE>DataDetectorsUI.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/DataDetectorsUI.framework
+58 classes
+
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDAction.h">DDAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDActionController.h">DDActionController.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDActionNaturalLanguageContext.h">DDActionNaturalLanguageContext.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDActionSuggestionsContext.h">DDActionSuggestionsContext.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDAddToAddressBookAction.h">DDAddToAddressBookAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDAddToContactsViewController.h">DDAddToContactsViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDAddToReadingListAction.h">DDAddToReadingListAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDAddressAction.h">DDAddressAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDAssistedCallAction.h">DDAssistedCallAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDCallAction.h">DDCallAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDContactUtils.h">DDContactUtils.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDCopyAction.h">DDCopyAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDCoreRecents.h">DDCoreRecents.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDCreateEventAction.h">DDCreateEventAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDDetectionController.h">DDDetectionController.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDDirectionsAction.h">DDDirectionsAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDEventComponents.h">DDEventComponents.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDFaceTimeAudioAction.h">DDFaceTimeAudioAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDFallbackController.h">DDFallbackController.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDFlightAction.h">DDFlightAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDFlightPreviewAction.h">DDFlightPreviewAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDMapAction.h">DDMapAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDOpenMapsAction.h">DDOpenMapsAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDOpenURLAction.h">DDOpenURLAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDOperation.h">DDOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDParsecAction.h">DDParsecAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDParsecCollectionViewController.h">DDParsecCollectionViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDParsecLoadingViewController.h">DDParsecLoadingViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDParsecNoDataViewController.h">DDParsecNoDataViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDParsecPreviewAction.h">DDParsecPreviewAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDParsecRemoteCollectionViewController.h">DDParsecRemoteCollectionViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDPersonAction.h">DDPersonAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDPreviewAction.h">DDPreviewAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDRange.h">DDRange.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDRelayCallAction.h">DDRelayCallAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDRemoteAction.h">DDRemoteAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDRemoteActionContext.h">DDRemoteActionContext.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDRemoteActionHostContext.h">DDRemoteActionHostContext.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDRemoteActionHostViewController.h">DDRemoteActionHostViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDRemoteActionManagerViewController.h">DDRemoteActionManagerViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDRemoteActionViewController.h">DDRemoteActionViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDRemoteActionViewControllerProvider.h">DDRemoteActionViewControllerProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDRemoteActionViewServiceContext.h">DDRemoteActionViewServiceContext.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDRemoteTimeLineViewControllerProvider.h">DDRemoteTimeLineViewControllerProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDResultTracker.h">DDResultTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDSafariViewController.h">DDSafariViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDSearchWebAction.h">DDSearchWebAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDSendMailAction.h">DDSendMailAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDShowCalendarAction.h">DDShowCalendarAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDShowItemAction.h">DDShowItemAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDTTYCallAction.h">DDTTYCallAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDTelephoneNumberAction.h">DDTelephoneNumberAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDTextKitOperation.h">DDTextKitOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDTextMessageAction.h">DDTextMessageAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDTimeLineAction.h">DDTimeLineAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDTrackShipmentAction.h">DDTrackShipmentAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDURLPreviewAction.h">DDURLPreviewAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataDetectorsUI.framework/DDWebKitOperation.h">DDWebKitOperation.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

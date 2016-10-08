@@ -1,0 +1,153 @@
+<HTML>
+<HEAD>
+<TITLE>WebKitLegacy.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/WebKitLegacy.framework
+95 classes
+
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebApplicationCache.h">WebApplicationCache.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebApplicationCacheQuotaManager.h">WebApplicationCacheQuotaManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebArchive.h">WebArchive.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebArchivePrivate.h">WebArchivePrivate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebBackForwardList.h">WebBackForwardList.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebBasePluginPackage.h">WebBasePluginPackage.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebCache.h">WebCache.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebCoreScrollView.h">WebCoreScrollView.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebCoreStatistics.h">WebCoreStatistics.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebDataSource.h">WebDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebDatabaseManager.h">WebDatabaseManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebDatabaseQuotaManager.h">WebDatabaseQuotaManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebDefaultEditingDelegate.h">WebDefaultEditingDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebDefaultFormDelegate.h">WebDefaultFormDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebDefaultFrameLoadDelegate.h">WebDefaultFrameLoadDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebDefaultPolicyDelegate.h">WebDefaultPolicyDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebDefaultResourceLoadDelegate.h">WebDefaultResourceLoadDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebDefaultUIDelegate.h">WebDefaultUIDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebDefaultUIKitDelegate.h">WebDefaultUIKitDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebDeviceOrientation.h">WebDeviceOrientation.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebDeviceOrientationInternal.h">WebDeviceOrientationInternal.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebDeviceOrientationProviderMock.h">WebDeviceOrientationProviderMock.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebDeviceOrientationProviderMockInternal.h">WebDeviceOrientationProviderMockInternal.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebDownload.h">WebDownload.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebDownloadInternal.h">WebDownloadInternal.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebEditorUndoTarget.h">WebEditorUndoTarget.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebElementDictionary.h">WebElementDictionary.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebFixedPositionContent.h">WebFixedPositionContent.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebFormDelegate.h">WebFormDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebFrame.h">WebFrame.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebFramePolicyListener.h">WebFramePolicyListener.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebFramePrivate.h">WebFramePrivate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebFrameView.h">WebFrameView.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebFrameViewPrivate.h">WebFrameViewPrivate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebGeolocation.h">WebGeolocation.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebGeolocationCoreLocationProvider.h">WebGeolocationCoreLocationProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebGeolocationPolicyListener.h">WebGeolocationPolicyListener.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebGeolocationPosition.h">WebGeolocationPosition.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebGeolocationPositionInternal.h">WebGeolocationPositionInternal.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebGeolocationProviderIOS.h">WebGeolocationProviderIOS.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebGeolocationProviderInitializationListener.h">WebGeolocationProviderInitializationListener.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebHTMLRepresentation.h">WebHTMLRepresentation.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebHTMLRepresentationPrivate.h">WebHTMLRepresentationPrivate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebHTMLView.h">WebHTMLView.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebHTMLViewPrivate.h">WebHTMLViewPrivate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebHighlightLayer.h">WebHighlightLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebHistory.h">WebHistory.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebHistoryItem.h">WebHistoryItem.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebHistoryItemPrivate.h">WebHistoryItemPrivate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebHistoryPrivate.h">WebHistoryPrivate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebIndicateLayer.h">WebIndicateLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebInspector.h">WebInspector.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebInspectorFrontend.h">WebInspectorFrontend.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebKitStatistics.h">WebKitStatistics.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebMIMETypeRegistry.h">WebMIMETypeRegistry.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebMainThreadInvoker.h">WebMainThreadInvoker.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebNavigationData.h">WebNavigationData.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebNavigationDataPrivate.h">WebNavigationDataPrivate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebNodeHighlight.h">WebNodeHighlight.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebNodeHighlightView.h">WebNodeHighlightView.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebNodeHighlighter.h">WebNodeHighlighter.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebNotification.h">WebNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebNotificationPrivate.h">WebNotificationPrivate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebOpenPanelResultListener.h">WebOpenPanelResultListener.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebPDFView.h">WebPDFView.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebPDFViewPlaceholder.h">WebPDFViewPlaceholder.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebPlainWhiteView.h">WebPlainWhiteView.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebPluginContainerCheck.h">WebPluginContainerCheck.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebPluginController.h">WebPluginController.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebPluginDatabase.h">WebPluginDatabase.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebPluginPackage.h">WebPluginPackage.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebPolicyDecisionListener.h">WebPolicyDecisionListener.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebPolicyDecisionListenerPrivate.h">WebPolicyDecisionListenerPrivate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebPreferences.h">WebPreferences.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebProgressItem.h">WebProgressItem.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebResource.h">WebResource.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebResourcePrivate.h">WebResourcePrivate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebScriptCallFrame.h">WebScriptCallFrame.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebScriptCallFramePrivate.h">WebScriptCallFramePrivate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebScriptWorld.h">WebScriptWorld.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebScriptWorldPrivate.h">WebScriptWorldPrivate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebSecurityOrigin.h">WebSecurityOrigin.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebSelectionRect.h">WebSelectionRect.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebStorageManager.h">WebStorageManager.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebTextIterator.h">WebTextIterator.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebTextIteratorPrivate.h">WebTextIteratorPrivate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebUndoStep.h">WebUndoStep.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebUserContentURLPattern.h">WebUserContentURLPattern.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebUserContentURLPatternPrivate.h">WebUserContentURLPatternPrivate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebView.h">WebView.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebViewPrivate.h">WebViewPrivate.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/WebVisiblePosition.h">WebVisiblePosition.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/_WebCoreLocationUpdateThreadingProxy.h">_WebCoreLocationUpdateThreadingProxy.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/_WebSafeAsyncForwarder.h">_WebSafeAsyncForwarder.h</A>
+<A HREF="/tree/PrivateFrameworks/WebKitLegacy.framework/_WebSafeForwarder.h">_WebSafeForwarder.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

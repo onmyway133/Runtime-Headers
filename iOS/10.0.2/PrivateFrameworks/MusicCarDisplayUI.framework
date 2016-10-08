@@ -1,0 +1,144 @@
+<HTML>
+<HEAD>
+<TITLE>MusicCarDisplayUI.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/MusicCarDisplayUI.framework
+86 classes
+
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDActionCellConfiguration.h">MCDActionCellConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDActionTableViewCell.h">MCDActionTableViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDAlbumCellConfiguration.h">MCDAlbumCellConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDAlbumTracksCellConfiguration.h">MCDAlbumTracksCellConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDAlbumsDetailTableHeaderView.h">MCDAlbumsDetailTableHeaderView.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDAlbumsDetailViewController.h">MCDAlbumsDetailViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDAlbumsViewController.h">MCDAlbumsViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDAlertController.h">MCDAlertController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDArtistAlbumsDataSource.h">MCDArtistAlbumsDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDArtistCellConfiguration.h">MCDArtistCellConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDArtistsDataSource.h">MCDArtistsDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDArtistsViewController.h">MCDArtistsViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDBrowsableContentNavigationController.h">MCDBrowsableContentNavigationController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDBrowsableContentTableViewController.h">MCDBrowsableContentTableViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDBrowsableContentUtilities.h">MCDBrowsableContentUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDBrowserIdentifiers.h">MCDBrowserIdentifiers.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDBrowserTableViewController.h">MCDBrowserTableViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDBrowserViewController.h">MCDBrowserViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDButton.h">MCDButton.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDCellConfiguration.h">MCDCellConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDComposerCellConfiguration.h">MCDComposerCellConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDComposersViewController.h">MCDComposersViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDContentItemTableViewController.h">MCDContentItemTableViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDErrorLoadingView.h">MCDErrorLoadingView.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDErrorViewController.h">MCDErrorViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDForYouContentManager.h">MCDForYouContentManager.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDForYouViewController.h">MCDForYouViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDGenreCellConfiguration.h">MCDGenreCellConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDGenresViewController.h">MCDGenresViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDGlobalQueueManager.h">MCDGlobalQueueManager.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDLikeActionView.h">MCDLikeActionView.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDLikeActionViewController.h">MCDLikeActionViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDLikeView.h">MCDLikeView.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDLoadingContentView.h">MCDLoadingContentView.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDMediaRemoteNowPlayingViewController.h">MCDMediaRemoteNowPlayingViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDMoreActionCellConfiguration.h">MCDMoreActionCellConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDMusicNowPlayingViewController.h">MCDMusicNowPlayingViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDNewBrowseManager.h">MCDNewBrowseManager.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDNewPlaylistsTableViewController.h">MCDNewPlaylistsTableViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDNewViewController.h">MCDNewViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDNoContentView.h">MCDNoContentView.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDNowPlayingButton.h">MCDNowPlayingButton.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDNowPlayingNavigationController.h">MCDNowPlayingNavigationController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDNowPlayingViewController.h">MCDNowPlayingViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDPCContainer.h">MCDPCContainer.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDPCItem.h">MCDPCItem.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDPCModel.h">MCDPCModel.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDPlayModeButton.h">MCDPlayModeButton.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDPlayModeControlView.h">MCDPlayModeControlView.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDPlayableContentViewController.h">MCDPlayableContentViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDPlaylistCellConfiguration.h">MCDPlaylistCellConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDPlaylistsDataSource.h">MCDPlaylistsDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDPlaylistsViewController.h">MCDPlaylistsViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDProgressBarView.h">MCDProgressBarView.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDProgressView.h">MCDProgressView.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDQueryDataSource.h">MCDQueryDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDQueryPlaybackContext.h">MCDQueryPlaybackContext.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDRadioContentManager.h">MCDRadioContentManager.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDRadioDataSource.h">MCDRadioDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDRadioStationListViewController.h">MCDRadioStationListViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDRadioViewController.h">MCDRadioViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDRecentlyAddedAlbumCellConfiguration.h">MCDRecentlyAddedAlbumCellConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDRecentlyAddedAlbumsViewController.h">MCDRecentlyAddedAlbumsViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDRecentlyAddedQueryDataSource.h">MCDRecentlyAddedQueryDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDRepeatButton.h">MCDRepeatButton.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDRetryButton.h">MCDRetryButton.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDRootController.h">MCDRootController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDSectionedTableViewController.h">MCDSectionedTableViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDShuffleActionCellConfiguration.h">MCDShuffleActionCellConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDSongCellConfiguration.h">MCDSongCellConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDSongsViewController.h">MCDSongsViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDStoreSectionTableViewController.h">MCDStoreSectionTableViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDTableView.h">MCDTableView.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDTableViewCell.h">MCDTableViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDTableViewController.h">MCDTableViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDTitleView.h">MCDTitleView.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCDTransportControlView.h">MCDTransportControlView.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/MCD_OLD_TableViewController.h">MCD_OLD_TableViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/_MCDAlbumTracksCell.h">_MCDAlbumTracksCell.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/_MCDBrowsableContentTableViewPreloader.h">_MCDBrowsableContentTableViewPreloader.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/_MCDBrowsableTableView.h">_MCDBrowsableTableView.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/_MCDBrowsableTableViewCell.h">_MCDBrowsableTableViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/_MCDNowPlayingHostView.h">_MCDNowPlayingHostView.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/_MCDPCNotifcationCallbackHelper.h">_MCDPCNotifcationCallbackHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/_MCDStackItem.h">_MCDStackItem.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicCarDisplayUI.framework/_MCDTableViewCell.h">_MCDTableViewCell.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

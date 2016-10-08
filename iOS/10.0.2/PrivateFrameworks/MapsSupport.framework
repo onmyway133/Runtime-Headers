@@ -1,0 +1,117 @@
+<HTML>
+<HEAD>
+<TITLE>MapsSupport.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/MapsSupport.framework
+59 classes
+
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPBookmarkStorage.h">MSPBookmarkStorage.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPCompanionSyncedItem.h">MSPCompanionSyncedItem.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPContainer.h">MSPContainer.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPContainerCoalescingToken.h">MSPContainerCoalescingToken.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPContainerPersister.h">MSPContainerPersister.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPDirectionsSearch.h">MSPDirectionsSearch.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPDroppedPin.h">MSPDroppedPin.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPFavoritesContainer.h">MSPFavoritesContainer.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPFavoritesFileContainerPersister.h">MSPFavoritesFileContainerPersister.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPFileContainerPersister.h">MSPFileContainerPersister.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPHistoryContainer.h">MSPHistoryContainer.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPHistoryEntryStorage.h">MSPHistoryEntryStorage.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPHistoryFileContainerPersister.h">MSPHistoryFileContainerPersister.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPMapsPaths.h">MSPMapsPaths.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPMapsPushDaemonRemoteProxy.h">MSPMapsPushDaemonRemoteProxy.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPMutableFavorite.h">MSPMutableFavorite.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPMutableFavoritePlace.h">MSPMutableFavoritePlace.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPMutableFavoriteRegion.h">MSPMutableFavoriteRegion.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPMutableFavoriteRoute.h">MSPMutableFavoriteRoute.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPMutableFavoriteTransitLine.h">MSPMutableFavoriteTransitLine.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPMutableHistoryEntry.h">MSPMutableHistoryEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPMutableHistoryEntryPlaceDisplay.h">MSPMutableHistoryEntryPlaceDisplay.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPMutableHistoryEntryRoute.h">MSPMutableHistoryEntryRoute.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPMutableHistoryEntrySearch.h">MSPMutableHistoryEntrySearch.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPMutableHistoryEntryTransitLineItem.h">MSPMutableHistoryEntryTransitLineItem.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPPin.h">MSPPin.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPPinStorage.h">MSPPinStorage.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPPlaceBookmark.h">MSPPlaceBookmark.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPPlaceDisplay.h">MSPPlaceDisplay.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPQuery.h">MSPQuery.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPQuerySearch.h">MSPQuerySearch.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPQuerySource.h">MSPQuerySource.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPRegionBookmark.h">MSPRegionBookmark.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPRemoteFavoritesContainerPersister.h">MSPRemoteFavoritesContainerPersister.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPRemoteHistoryContainerPersister.h">MSPRemoteHistoryContainerPersister.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPRidesharingInformationSource.h">MSPRidesharingInformationSource.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPRidesharingTrip.h">MSPRidesharingTrip.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPRouteBookmark.h">MSPRouteBookmark.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPSerializer.h">MSPSerializer.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPSyncManager.h">MSPSyncManager.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPTransitLineBookmark.h">MSPTransitLineBookmark.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPTransitStorageArtwork.h">MSPTransitStorageArtwork.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPTransitStorageAttribution.h">MSPTransitStorageAttribution.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPTransitStorageIcon.h">MSPTransitStorageIcon.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPTransitStorageIncident.h">MSPTransitStorageIncident.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPTransitStorageIncidentEntity.h">MSPTransitStorageIncidentEntity.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPTransitStorageLine.h">MSPTransitStorageLine.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPTransitStorageLineItem.h">MSPTransitStorageLineItem.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPTransitStorageShield.h">MSPTransitStorageShield.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPTransitStorageSystem.h">MSPTransitStorageSystem.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/MSPUserRoutingPreferences.h">MSPUserRoutingPreferences.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/_MSPContainerEdit.h">_MSPContainerEdit.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/_MSPContainerEditAddition.h">_MSPContainerEditAddition.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/_MSPContainerEditContentUpdate.h">_MSPContainerEditContentUpdate.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/_MSPContainerEditDetector.h">_MSPContainerEditDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/_MSPContainerEditRemoval.h">_MSPContainerEditRemoval.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/_MSPContainerEditReplacedEntirely.h">_MSPContainerEditReplacedEntirely.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/_MSPContainerEditReplacement.h">_MSPContainerEditReplacement.h</A>
+<A HREF="/tree/PrivateFrameworks/MapsSupport.framework/_MSPContainerEditsRecorder.h">_MSPContainerEditsRecorder.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

@@ -1,0 +1,134 @@
+<HTML>
+<HEAD>
+<TITLE>MPUFoundation.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/MPUFoundation.framework
+76 classes
+
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUAVPlayer.h">MPUAVPlayer.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUAVPlaylistManager.h">MPUAVPlaylistManager.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUAbbreviatingLabel.h">MPUAbbreviatingLabel.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUActionCellConfiguration.h">MPUActionCellConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUAnimationFactory.h">MPUAnimationFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUBlockAnimationDelegate.h">MPUBlockAnimationDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUBlurEffectView.h">MPUBlurEffectView.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUBorderConfiguration.h">MPUBorderConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUBorderDrawingCache.h">MPUBorderDrawingCache.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUBorderView.h">MPUBorderView.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUBorderedImageStackItemView.h">MPUBorderedImageStackItemView.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUCellConfiguration.h">MPUCellConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUCellInvalidationContext.h">MPUCellInvalidationContext.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUContentItemIdentifierCollection.h">MPUContentItemIdentifierCollection.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUContentSizeLayoutConstraint.h">MPUContentSizeLayoutConstraint.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUDataSource.h">MPUDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUDataSourceConfiguration.h">MPUDataSourceConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUDataSourceController.h">MPUDataSourceController.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUDataSourceInvalidationContext.h">MPUDataSourceInvalidationContext.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUDataSourceViewController.h">MPUDataSourceViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUEffectCache.h">MPUEffectCache.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUEffectCoordinator.h">MPUEffectCoordinator.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUEffectView.h">MPUEffectView.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUEmphasizedText.h">MPUEmphasizedText.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUFallAnimator.h">MPUFallAnimator.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUFontDescriptor.h">MPUFontDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUFontDescriptorCache.h">MPUFontDescriptorCache.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUFormattingUtilities.h">MPUFormattingUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUHTMLParser.h">MPUHTMLParser.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUHalfTintedTransportButton.h">MPUHalfTintedTransportButton.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUImageStackItemView.h">MPUImageStackItemView.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUJinglePlayActivityReportingController.h">MPUJinglePlayActivityReportingController.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUKeyValueObserver.h">MPUKeyValueObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPULayoutInterpolator.h">MPULayoutInterpolator.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUMarqueeView.h">MPUMarqueeView.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUMutableContentItemIdentifierCollection.h">MPUMutableContentItemIdentifierCollection.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUMutableFontDescriptor.h">MPUMutableFontDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUMutableUserActivityContainerItem.h">MPUMutableUserActivityContainerItem.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUMutableUserActivityContext.h">MPUMutableUserActivityContext.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUNotificationObserver.h">MPUNotificationObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUNowPlayingIndicatorView.h">MPUNowPlayingIndicatorView.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUNumberFormatter.h">MPUNumberFormatter.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUPercentDrivenInteractionTransition.h">MPUPercentDrivenInteractionTransition.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUPinningView.h">MPUPinningView.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUQueryDataSource.h">MPUQueryDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUReportingController.h">MPUReportingController.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUReportingPlaybackObserver.h">MPUReportingPlaybackObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUSearchDataSource.h">MPUSearchDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUSpringAnimationFactory.h">MPUSpringAnimationFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUStackItemView.h">MPUStackItemView.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUStackView.h">MPUStackView.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUStringTruncationStrategy.h">MPUStringTruncationStrategy.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUTableViewController.h">MPUTableViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUTextContainerContentSizeUpdater.h">MPUTextContainerContentSizeUpdater.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUTextDrawingCache.h">MPUTextDrawingCache.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUTextDrawingCacheKey.h">MPUTextDrawingCacheKey.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUTextDrawingContext.h">MPUTextDrawingContext.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUTextDrawingView.h">MPUTextDrawingView.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUTransportButton.h">MPUTransportButton.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUTransportButtonEventHandler.h">MPUTransportButtonEventHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUTransportControl.h">MPUTransportControl.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUUserActivityContainerItem.h">MPUUserActivityContainerItem.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUUserActivityContext.h">MPUUserActivityContext.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUVibrantContentEffectView.h">MPUVibrantContentEffectView.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUViewControllerConfiguration.h">MPUViewControllerConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUViewControllerFactory.h">MPUViewControllerFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/MPUViewControllerTransitionContext.h">MPUViewControllerTransitionContext.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/_MPUFallAnimatorDynamicItem.h">_MPUFallAnimatorDynamicItem.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/_MPUFallAnimatorDynamicSystem.h">_MPUFallAnimatorDynamicSystem.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/_MPUHTMLDefaultDelegate.h">_MPUHTMLDefaultDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/_MPUHTMLParserState.h">_MPUHTMLParserState.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/_MPUMarqueeContentView.h">_MPUMarqueeContentView.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/_MPUProtoBufUserActivityContainerItem.h">_MPUProtoBufUserActivityContainerItem.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/_MPUProtoBufUserActivityContext.h">_MPUProtoBufUserActivityContext.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/_MPUSearchOperation.h">_MPUSearchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/MPUFoundation.framework/_MPUStackItemReuseCache.h">_MPUStackItemReuseCache.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

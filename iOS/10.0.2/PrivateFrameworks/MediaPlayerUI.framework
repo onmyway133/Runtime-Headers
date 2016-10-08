@@ -1,0 +1,125 @@
+<HTML>
+<HEAD>
+<TITLE>MediaPlayerUI.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/MediaPlayerUI.framework
+67 classes
+
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPMediaCollectionDownloadObserver.h">MPMediaCollectionDownloadObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUAVRouteHeaderLabel.h">MPUAVRouteHeaderLabel.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUAVRouteHeaderView.h">MPUAVRouteHeaderView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUAdaptiveCollectionViewController.h">MPUAdaptiveCollectionViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUAirTrafficMediaDownloadObserver.h">MPUAirTrafficMediaDownloadObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUAnimationStep.h">MPUAnimationStep.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUApplicationDefaults.h">MPUApplicationDefaults.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUArtworkView.h">MPUArtworkView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUAutolayoutTableViewCell.h">MPUAutolayoutTableViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUChronologicalProgressView.h">MPUChronologicalProgressView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUCollectionViewController.h">MPUCollectionViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUCompletionFooterView.h">MPUCompletionFooterView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUCompletionQueryDataSource.h">MPUCompletionQueryDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUControlCenterCrossFadeComponent.h">MPUControlCenterCrossFadeComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUControlCenterMediaControlsView.h">MPUControlCenterMediaControlsView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUControlCenterMediaControlsViewController.h">MPUControlCenterMediaControlsViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUControlCenterMetadataView.h">MPUControlCenterMetadataView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUControlCenterTimeView.h">MPUControlCenterTimeView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUControlCenterTransportButton.h">MPUControlCenterTransportButton.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUEmptyNowPlayingView.h">MPUEmptyNowPlayingView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUGradientView.h">MPUGradientView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUIndeterminateProgressIndicatorView.h">MPUIndeterminateProgressIndicatorView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUInsetProxyScrollView.h">MPUInsetProxyScrollView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUItemOfferButton.h">MPUItemOfferButton.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPULockScreenMediaControlsView.h">MPULockScreenMediaControlsView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPULockScreenMediaControlsViewController.h">MPULockScreenMediaControlsViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPULockScreenVolumeSlider.h">MPULockScreenVolumeSlider.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUMatchMediaDownloadObserver.h">MPUMatchMediaDownloadObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUMediaControlsControlCenterTitlesView.h">MPUMediaControlsControlCenterTitlesView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUMediaControlsTitlesView.h">MPUMediaControlsTitlesView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUMediaControlsVolumeView.h">MPUMediaControlsVolumeView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUMediaDownloadObserver.h">MPUMediaDownloadObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUMediaRemoteControlsView.h">MPUMediaRemoteControlsView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUMediaRemoteViewController.h">MPUMediaRemoteViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUMoreListController.h">MPUMoreListController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUMoreNavigationController.h">MPUMoreNavigationController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUNavigationController.h">MPUNavigationController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUNowPlayingArtworkView.h">MPUNowPlayingArtworkView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUNowPlayingController.h">MPUNowPlayingController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUNowPlayingMetadata.h">MPUNowPlayingMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUNowPlayingMetadataView.h">MPUNowPlayingMetadataView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUNowPlayingTitlesView.h">MPUNowPlayingTitlesView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUPlaybackAlertController.h">MPUPlaybackAlertController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPURatingControl.h">MPURatingControl.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPURemoteApplicationActivity.h">MPURemoteApplicationActivity.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPURemoteApplicationActivityController.h">MPURemoteApplicationActivityController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUSharedLibrariesViewController.h">MPUSharedLibrariesViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUSkipLimitView.h">MPUSkipLimitView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUStandardTransportButton.h">MPUStandardTransportButton.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUSupportedRemoteControls.h">MPUSupportedRemoteControls.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUSystemBuyButtonConfiguration.h">MPUSystemBuyButtonConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUSystemMediaControlsView.h">MPUSystemMediaControlsView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUSystemMediaControlsViewController.h">MPUSystemMediaControlsViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUTabBarController.h">MPUTabBarController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUTapLabel.h">MPUTapLabel.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUTextButton.h">MPUTextButton.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUTheme.h">MPUTheme.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUTimeFormatter.h">MPUTimeFormatter.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUTransportControlMediaRemoteController.h">MPUTransportControlMediaRemoteController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUTransportControlsView.h">MPUTransportControlsView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUVignetteBackgroundView.h">MPUVignetteBackgroundView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUVolumeHUDController.h">MPUVolumeHUDController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/MPUVolumeHUDSystemController.h">MPUVolumeHUDSystemController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/_MPUDetailSlider.h">_MPUDetailSlider.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/_MPUSharedLibrariesViewController.h">_MPUSharedLibrariesViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/_MPUViewControllerCreationInformation.h">_MPUViewControllerCreationInformation.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlayerUI.framework/_MPUViewControllerRestoration.h">_MPUViewControllerRestoration.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

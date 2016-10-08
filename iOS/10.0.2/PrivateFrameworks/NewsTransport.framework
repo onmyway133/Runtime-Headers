@@ -1,0 +1,187 @@
+<HTML>
+<HEAD>
+<TITLE>NewsTransport.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/NewsTransport.framework
+129 classes
+
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBAdExposureOpportunity.h">NTPBAdExposureOpportunity.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBAlreadySubscriberSignIn.h">NTPBAlreadySubscriberSignIn.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBAppSessionEnd.h">NTPBAppSessionEnd.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBAppSessionStart.h">NTPBAppSessionStart.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBArticleHostViewExposure.h">NTPBArticleHostViewExposure.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBArticleLikeDislike.h">NTPBArticleLikeDislike.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBArticleListRecord.h">NTPBArticleListRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBArticleRecord.h">NTPBArticleRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBArticleScroll.h">NTPBArticleScroll.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBBackgroundSubscriptionValidation.h">NTPBBackgroundSubscriptionValidation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBBinningConfig.h">NTPBBinningConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBCacheCoordinatorHints.h">NTPBCacheCoordinatorHints.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBCacheHint.h">NTPBCacheHint.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBCategory.h">NTPBCategory.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBChannelMembershipRecord.h">NTPBChannelMembershipRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBChannelMuteUnmute.h">NTPBChannelMuteUnmute.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBConfig.h">NTPBConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBCoverArticleWidgetExposure.h">NTPBCoverArticleWidgetExposure.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBCoverArticleWidgetView.h">NTPBCoverArticleWidgetView.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBCoverArticlesConfig.h">NTPBCoverArticlesConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBDate.h">NTPBDate.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBDeviceInfo.h">NTPBDeviceInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBDevicePushTokenUpdateRequest.h">NTPBDevicePushTokenUpdateRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBEmailOptInInvite.h">NTPBEmailOptInInvite.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBEmailSubscriptionRequest.h">NTPBEmailSubscriptionRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBEndOfArticleExposure.h">NTPBEndOfArticleExposure.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBEndpointConfig.h">NTPBEndpointConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBEnvelope.h">NTPBEnvelope.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBEnvelopeBatch.h">NTPBEnvelopeBatch.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBError.h">NTPBError.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBErrorResponse.h">NTPBErrorResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBEvent.h">NTPBEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBEventObject.h">NTPBEventObject.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBFeedCellExposure.h">NTPBFeedCellExposure.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBFeedCellHostViewExposure.h">NTPBFeedCellHostViewExposure.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBFeedConfiguration.h">NTPBFeedConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBFeedEngagementMenuExposure.h">NTPBFeedEngagementMenuExposure.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBFeedItem.h">NTPBFeedItem.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBFeedItemBatch.h">NTPBFeedItemBatch.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBFeedSubscribeUnsubscribe.h">NTPBFeedSubscribeUnsubscribe.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBFeedViewExposure.h">NTPBFeedViewExposure.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBFeedViewport.h">NTPBFeedViewport.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBFeedViewportEdition.h">NTPBFeedViewportEdition.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBFeedViewportElement.h">NTPBFeedViewportElement.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBFeedViewportGap.h">NTPBFeedViewportGap.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBFeedViewportGroup.h">NTPBFeedViewportGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBFeedViewportHeadline.h">NTPBFeedViewportHeadline.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBForYouConfigRecord.h">NTPBForYouConfigRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBGroupViewExposure.h">NTPBGroupViewExposure.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBIAdConfig.h">NTPBIAdConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBKeyValuePair.h">NTPBKeyValuePair.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBKeyValueStore.h">NTPBKeyValueStore.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBLanguageConfig.h">NTPBLanguageConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBLayoutAttributes.h">NTPBLayoutAttributes.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBLinkTapArticle.h">NTPBLinkTapArticle.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBLocalNotificationReceived.h">NTPBLocalNotificationReceived.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBLocalNotificationReturn.h">NTPBLocalNotificationReturn.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBMediaEngage.h">NTPBMediaEngage.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBMediaEngageComplete.h">NTPBMediaEngageComplete.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBMediaExposure.h">NTPBMediaExposure.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBMediaView.h">NTPBMediaView.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBNetworkEvent.h">NTPBNetworkEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBNetworkEventGroup.h">NTPBNetworkEventGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBNetworkMetrics.h">NTPBNetworkMetrics.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBNetworkSession.h">NTPBNetworkSession.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBNetworkSessionList.h">NTPBNetworkSessionList.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBNoUserAction.h">NTPBNoUserAction.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBNotificationChannel.h">NTPBNotificationChannel.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBNotificationEntity.h">NTPBNotificationEntity.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBNotificationSettingsScreenView.h">NTPBNotificationSettingsScreenView.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBNotificationSubscribeUnsubscribe.h">NTPBNotificationSubscribeUnsubscribe.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBPaidSubscriptionConversionPointExposure.h">NTPBPaidSubscriptionConversionPointExposure.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBPaidSubscriptionResult.h">NTPBPaidSubscriptionResult.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBPaidSubscriptionSheetIapFail.h">NTPBPaidSubscriptionSheetIapFail.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBPaidSubscriptionSheetView.h">NTPBPaidSubscriptionSheetView.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBPersonalizationAggregate.h">NTPBPersonalizationAggregate.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBPersonalizationAggregateDelta.h">NTPBPersonalizationAggregateDelta.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBPersonalizationBucket.h">NTPBPersonalizationBucket.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBPersonalizationChangeGroup.h">NTPBPersonalizationChangeGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBPersonalizationConfig.h">NTPBPersonalizationConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBPersonalizationInstanceHistory.h">NTPBPersonalizationInstanceHistory.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBPersonalizationLocalData.h">NTPBPersonalizationLocalData.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBPersonalizationProfile.h">NTPBPersonalizationProfile.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBPersonalizationTreatment.h">NTPBPersonalizationTreatment.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBPrefetchConfig.h">NTPBPrefetchConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBPublisherWebAccessOptInRequest.h">NTPBPublisherWebAccessOptInRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBPullToRefresh.h">NTPBPullToRefresh.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBPurchaseLookupRecord.h">NTPBPurchaseLookupRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBPurchaseOfferableConfiguration.h">NTPBPurchaseOfferableConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBPushNotifySubscriptionRequest.h">NTPBPushNotifySubscriptionRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBReadingHistoryItem.h">NTPBReadingHistoryItem.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBReadingListAddRemove.h">NTPBReadingListAddRemove.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBReadingListShow.h">NTPBReadingListShow.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBRecommendationBrickExposure.h">NTPBRecommendationBrickExposure.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBRecordBase.h">NTPBRecordBase.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBReportConcern.h">NTPBReportConcern.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBReportConcernSubmission.h">NTPBReportConcernSubmission.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBResourceRecord.h">NTPBResourceRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBRestorePaidSubscription.h">NTPBRestorePaidSubscription.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBSearchBegin.h">NTPBSearchBegin.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBSearchExecute.h">NTPBSearchExecute.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBSearchResultSelect.h">NTPBSearchResultSelect.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBSearchViewExposure.h">NTPBSearchViewExposure.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBSession.h">NTPBSession.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBSessionBatch.h">NTPBSessionBatch.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBShareInformationScreenView.h">NTPBShareInformationScreenView.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBShareResult.h">NTPBShareResult.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBShareSheetExposure.h">NTPBShareSheetExposure.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBShareSheetIapFail.h">NTPBShareSheetIapFail.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBSubscriptionDetectionScreenView.h">NTPBSubscriptionDetectionScreenView.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBTagRecord.h">NTPBTagRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBTelemetry.h">NTPBTelemetry.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBTelemetryNetworkEvent.h">NTPBTelemetryNetworkEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBTelemetryNetworkEventGroup.h">NTPBTelemetryNetworkEventGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBTelemetryStats.h">NTPBTelemetryStats.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBTopStoriesConfig.h">NTPBTopStoriesConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBTopStoriesStyleConfig.h">NTPBTopStoriesStyleConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBTrendingConfig.h">NTPBTrendingConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBTrendingLanguageConfig.h">NTPBTrendingLanguageConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBUserOnboardingBegin.h">NTPBUserOnboardingBegin.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBUserOnboardingChannelPickerComplete.h">NTPBUserOnboardingChannelPickerComplete.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBUserOnboardingResult.h">NTPBUserOnboardingResult.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBUserOnboardingResume.h">NTPBUserOnboardingResume.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBUserOnboardingScreenView.h">NTPBUserOnboardingScreenView.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBViewArticleRequest.h">NTPBViewArticleRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBViewArticleResponse.h">NTPBViewArticleResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBViewInfo.h">NTPBViewInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBWebAccessScreenView.h">NTPBWebAccessScreenView.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsTransport.framework/NTPBWidgetConfig.h">NTPBWidgetConfig.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

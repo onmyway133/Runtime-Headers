@@ -1,0 +1,160 @@
+<HTML>
+<HEAD>
+<TITLE>UserNotificationsUIKit.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/UserNotificationsUIKit.framework
+102 classes
+
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCAnimatableBlurringView.h">NCAnimatableBlurringView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCAnimationCoordinator.h">NCAnimationCoordinator.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCAttachmentViewController.h">NCAttachmentViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCAudioAccessoryHostingView.h">NCAudioAccessoryHostingView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCAudioAttachmentViewController.h">NCAudioAttachmentViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCAudioPlayerController.h">NCAudioPlayerController.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCAudioPlayerControlsView.h">NCAudioPlayerControlsView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCAudioPlayerControlsViewController.h">NCAudioPlayerControlsViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCAudioPlayerTimelineSlider.h">NCAudioPlayerTimelineSlider.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCBannerPresentationAnimator.h">NCBannerPresentationAnimator.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCBannerPresentationController.h">NCBannerPresentationController.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCBannerPresentationTransitionDelegate.h">NCBannerPresentationTransitionDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCBlockTouchesView.h">NCBlockTouchesView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCBulletinActionRunner.h">NCBulletinActionRunner.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCBulletinAttachmentFactory.h">NCBulletinAttachmentFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCBulletinNotificationSource.h">NCBulletinNotificationSource.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCDefaultDateLabel.h">NCDefaultDateLabel.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCImageAttachmentViewController.h">NCImageAttachmentViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCKeyLineView.h">NCKeyLineView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCLegacyAdditionalContentAccessoryView.h">NCLegacyAdditionalContentAccessoryView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCLegacyNotificationActionsView.h">NCLegacyNotificationActionsView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCLegacyNotificationActionsViewController.h">NCLegacyNotificationActionsViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCLegacyNotificationContentContainerViewController.h">NCLegacyNotificationContentContainerViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCLegacyNotificationContentView.h">NCLegacyNotificationContentView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCLegacyNotificationRequestCustomContentProvider.h">NCLegacyNotificationRequestCustomContentProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCLegacyNotificationShortLookView.h">NCLegacyNotificationShortLookView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCLegacyNotificationShortLookViewController.h">NCLegacyNotificationShortLookViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCLegacyNotificationTextInputViewController.h">NCLegacyNotificationTextInputViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCLongLookPresentationController.h">NCLongLookPresentationController.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCLongLookTransitionDelegate.h">NCLongLookTransitionDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCLookHeaderContentView.h">NCLookHeaderContentView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCLookHeaderViewDateLabelFactory.h">NCLookHeaderViewDateLabelFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCLookViewBackdropViewSettings.h">NCLookViewBackdropViewSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCLookViewFontProvider.h">NCLookViewFontProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCMaterialButton.h">NCMaterialButton.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCMaterialView.h">NCMaterialView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCMediaPlayPauseButton.h">NCMediaPlayPauseButton.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationChronologicalList.h">NCNotificationChronologicalList.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationClearAllView.h">NCNotificationClearAllView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationContentContainerViewController.h">NCNotificationContentContainerViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationContentView.h">NCNotificationContentView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationDateLabelFactory.h">NCNotificationDateLabelFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationExtensionCache.h">NCNotificationExtensionCache.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationExtensionContainerViewController.h">NCNotificationExtensionContainerViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationExtensionLoader.h">NCNotificationExtensionLoader.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationExtensionsManager.h">NCNotificationExtensionsManager.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationGrabberView.h">NCNotificationGrabberView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationHiddenRequestsList.h">NCNotificationHiddenRequestsList.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationListCell.h">NCNotificationListCell.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationListCellActionButton.h">NCNotificationListCellActionButton.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationListCellActionButtonsView.h">NCNotificationListCellActionButtonsView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationListCellAudioMessagePlayButton.h">NCNotificationListCellAudioMessagePlayButton.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationListCellScrollView.h">NCNotificationListCellScrollView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationListClearButton.h">NCNotificationListClearButton.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationListCollectionViewFlowLayout.h">NCNotificationListCollectionViewFlowLayout.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationListContainerViewController.h">NCNotificationListContainerViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationListSection.h">NCNotificationListSection.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationListSectionHeaderView.h">NCNotificationListSectionHeaderView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationListTouchEater.h">NCNotificationListTouchEater.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationListViewController.h">NCNotificationListViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationLongLookView.h">NCNotificationLongLookView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationLongLookViewController.h">NCNotificationLongLookViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationNoContentView.h">NCNotificationNoContentView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationPriorityList.h">NCNotificationPriorityList.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationPriorityListViewController.h">NCNotificationPriorityListViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationRequestContentProvider.h">NCNotificationRequestContentProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationRequestCustomContentProvider.h">NCNotificationRequestCustomContentProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationRequestHiddenPreviewContentProvider.h">NCNotificationRequestHiddenPreviewContentProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationRequestPhoneCoalescingContentProvider.h">NCNotificationRequestPhoneCoalescingContentProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationSectionListViewController.h">NCNotificationSectionListViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationShortLookView.h">NCNotificationShortLookView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationShortLookViewController.h">NCNotificationShortLookViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationTextInputView.h">NCNotificationTextInputView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCNotificationViewController.h">NCNotificationViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCPlusDStyling.h">NCPlusDStyling.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCPreviewInteractionGestureRecognizer.h">NCPreviewInteractionGestureRecognizer.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCRelativeDateLabel.h">NCRelativeDateLabel.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCRelativeDateTimer.h">NCRelativeDateTimer.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCShortLookView.h">NCShortLookView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCTransitionManager.h">NCTransitionManager.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCUIMappedImageCache.h">NCUIMappedImageCache.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCVibrantHighContrastStyling.h">NCVibrantHighContrastStyling.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCVibrantLightStyling.h">NCVibrantLightStyling.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCVibrantPrimaryStyling.h">NCVibrantPrimaryStyling.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCVibrantRuleStyling.h">NCVibrantRuleStyling.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCVibrantSecondaryAlternateStyling.h">NCVibrantSecondaryAlternateStyling.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCVibrantSecondaryStyling.h">NCVibrantSecondaryStyling.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCVibrantStyling.h">NCVibrantStyling.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCVibrantWidgetPrimaryHighlightStyling.h">NCVibrantWidgetPrimaryHighlightStyling.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCVibrantWidgetPrimaryStyling.h">NCVibrantWidgetPrimaryStyling.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCVibrantWidgetQuaternaryStyling.h">NCVibrantWidgetQuaternaryStyling.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCVibrantWidgetSecondaryHighlightStyling.h">NCVibrantWidgetSecondaryHighlightStyling.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCVibrantWidgetSecondaryStyling.h">NCVibrantWidgetSecondaryStyling.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCVibrantWidgetTertiaryStyling.h">NCVibrantWidgetTertiaryStyling.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/NCVideoAttachmentViewController.h">NCVideoAttachmentViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/_NCActionButtonDescription.h">_NCActionButtonDescription.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/_NCLookViewDarkenedBlurBackdropViewSettings.h">_NCLookViewDarkenedBlurBackdropViewSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/_NCLookViewUnblurredBackdropViewSettings.h">_NCLookViewUnblurredBackdropViewSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/_NCNotificationViewControllerView.h">_NCNotificationViewControllerView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/_NCShortLookSnapshotView.h">_NCShortLookSnapshotView.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/_NCTransitionAnimationStateManagingViewController.h">_NCTransitionAnimationStateManagingViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UserNotificationsUIKit.framework/_NCVibrantStylingVibrancyEffect.h">_NCVibrantStylingVibrancyEffect.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

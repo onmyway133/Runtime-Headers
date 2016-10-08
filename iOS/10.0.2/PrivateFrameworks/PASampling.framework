@@ -1,0 +1,125 @@
+<HTML>
+<HEAD>
+<TITLE>PASampling.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/PASampling.framework
+67 classes
+
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAAggregatedDispatchQueue.h">PAAggregatedDispatchQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAAggregatedExecutable.h">PAAggregatedExecutable.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAAggregatedInstruction.h">PAAggregatedInstruction.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAAggregatedKernelInstruction.h">PAAggregatedKernelInstruction.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAAggregatedMainThread.h">PAAggregatedMainThread.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAAggregatedProcessInstance.h">PAAggregatedProcessInstance.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAAggregatedTask.h">PAAggregatedTask.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAAggregatedThreadAndDispatchQueue.h">PAAggregatedThreadAndDispatchQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PABinaryLocator.h">PABinaryLocator.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PACSRefWrapper.h">PACSRefWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PACSSymbolOwnerWrapper.h">PACSSymbolOwnerWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAContiguousStack.h">PAContiguousStack.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PACountedFrame.h">PACountedFrame.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PACountedSampleFrame.h">PACountedSampleFrame.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PACountedSampleTreeFrame.h">PACountedSampleTreeFrame.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAException.h">PAException.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAExecutableAggregator.h">PAExecutableAggregator.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAFanSpeed.h">PAFanSpeed.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAFileOutputStream.h">PAFileOutputStream.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAGenealogyBreadcrumb.h">PAGenealogyBreadcrumb.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAGenealogyTimestampedMessage.h">PAGenealogyTimestampedMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAGenealogyTraceMessage.h">PAGenealogyTraceMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAGenealogyTracker.h">PAGenealogyTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAImageInfo.h">PAImageInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAMicrostackshotData.h">PAMicrostackshotData.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAMountSnapshot.h">PAMountSnapshot.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAMountStatus.h">PAMountStatus.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAMountStatusTracker.h">PAMountStatusTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAMutableDataOutputStream.h">PAMutableDataOutputStream.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAOutputStream.h">PAOutputStream.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAPidAndName.h">PAPidAndName.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAPidAndThread.h">PAPidAndThread.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAProcessInstanceAggregator.h">PAProcessInstanceAggregator.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PASample.h">PASample.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PASampleAggregator.h">PASampleAggregator.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PASampleAggregatorOptions.h">PASampleAggregatorOptions.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PASampleFrame.h">PASampleFrame.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PASampleFrameStackshotIterator.h">PASampleFrameStackshotIterator.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PASampleKernelFrame.h">PASampleKernelFrame.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PASamplePowerstatsThreadData.h">PASamplePowerstatsThreadData.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PASampleTaskData.h">PASampleTaskData.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PASampleTaskDataKPerf.h">PASampleTaskDataKPerf.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PASampleTaskDataPrivateData.h">PASampleTaskDataPrivateData.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PASampleThreadData.h">PASampleThreadData.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PASampleThreadDataKPerf.h">PASampleThreadDataKPerf.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PASampleTimeInsensitiveTaskData.h">PASampleTimeInsensitiveTaskData.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PASampleTimeSeriesDataStore.h">PASampleTimeSeriesDataStore.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PASampleUserFrame.h">PASampleUserFrame.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PASampleUserTruncatedBacktrace.h">PASampleUserTruncatedBacktrace.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PASpindumpBinaryFormat.h">PASpindumpBinaryFormat.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAStackshot.h">PAStackshot.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAStackshotFrameIterator.h">PAStackshotFrameIterator.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAStackshotTask.h">PAStackshotTask.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAStackshotThread.h">PAStackshotThread.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PASymbol.h">PASymbol.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PASymbolDataStore.h">PASymbolDataStore.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PASymbolHandle.h">PASymbolHandle.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PASymbolHandleWithKernelBool.h">PASymbolHandleWithKernelBool.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PASymbolOwner.h">PASymbolOwner.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PASymbolSourceInfo.h">PASymbolSourceInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PATimestampIndexedSampleTask.h">PATimestampIndexedSampleTask.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PATimestampIndexedSampleThread.h">PATimestampIndexedSampleThread.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAWSUpdate.h">PAWSUpdate.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAWSUpdateDataStore.h">PAWSUpdateDataStore.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PAWSUpdateTimeToIndexMapping.h">PAWSUpdateTimeToIndexMapping.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PSampleFrameKCDataIterator.h">PSampleFrameKCDataIterator.h</A>
+<A HREF="/tree/PrivateFrameworks/PASampling.framework/PSampleFrameKPerfIterator.h">PSampleFrameKPerfIterator.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

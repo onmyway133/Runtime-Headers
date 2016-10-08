@@ -1,0 +1,165 @@
+<HTML>
+<HEAD>
+<TITLE>ManagedConfiguration.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/ManagedConfiguration.framework
+107 classes
+
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCAPNConfiguration.h">MCAPNConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCAPNInfo.h">MCAPNInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCAPNPayload.h">MCAPNPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCARCHacks.h">MCARCHacks.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCAccountUtilities.h">MCAccountUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCAirPlayDestination.h">MCAirPlayDestination.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCAirPlayPayload.h">MCAirPlayPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCAirPrintPayload.h">MCAirPrintPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCAppEnforcedRestrictionUtilities.h">MCAppEnforcedRestrictionUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCAppLayerVPNPayload.h">MCAppLayerVPNPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCAppWhitelistPayloadBase.h">MCAppWhitelistPayloadBase.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCBatterySaverMode.h">MCBatterySaverMode.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCBook.h">MCBook.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCBookmark.h">MCBookmark.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCBookmarkManager.h">MCBookmarkManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCCalDAVAccountPayload.h">MCCalDAVAccountPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCCardDAVAccountPayload.h">MCCardDAVAccountPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCCellularPayload.h">MCCellularPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCCertificatePayload.h">MCCertificatePayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCCertificateWrapperProfile.h">MCCertificateWrapperProfile.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCChaperonePayload.h">MCChaperonePayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCCloudConfiguration.h">MCCloudConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCCommunicationServiceRulesUtilities.h">MCCommunicationServiceRulesUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCConfigurationProfile.h">MCConfigurationProfile.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCCrypto.h">MCCrypto.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCDefaultsPayload.h">MCDefaultsPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCDependencyReader.h">MCDependencyReader.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCDeviceCapabilities.h">MCDeviceCapabilities.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCDomainsCacheEntry.h">MCDomainsCacheEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCDomainsPayload.h">MCDomainsPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCEASAccountPayload.h">MCEASAccountPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCEDUClassroomPayload.h">MCEDUClassroomPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCEDUModeUtilities.h">MCEDUModeUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCEmailAccountPayload.h">MCEmailAccountPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCEmailAccountPayloadBase.h">MCEmailAccountPayloadBase.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCEncryptedProfileServicePayload.h">MCEncryptedProfileServicePayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCFontPayload.h">MCFontPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCFormatterVendor.h">MCFormatterVendor.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCGlobalHTTPProxyPayload.h">MCGlobalHTTPProxyPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCGmailAccountPayload.h">MCGmailAccountPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCHTTPRequestor.h">MCHTTPRequestor.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCHTTPTransaction.h">MCHTTPTransaction.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCHacks.h">MCHacks.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCHomeScreenLayoutPayload.h">MCHomeScreenLayoutPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCInstallerReader.h">MCInstallerReader.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCJobQueue.h">MCJobQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCKeyValue.h">MCKeyValue.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCKeyValueSection.h">MCKeyValueSection.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCKeychain.h">MCKeychain.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCLDAPAccountPayload.h">MCLDAPAccountPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCLanguageUtilities.h">MCLanguageUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCLazyInitializationUtilities.h">MCLazyInitializationUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCLoggingPayload.h">MCLoggingPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCMDMClient.h">MCMDMClient.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCMDMDeviceQueryUtilities.h">MCMDMDeviceQueryUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCMDMOptionsUtilities.h">MCMDMOptionsUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCMDMPayload.h">MCMDMPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCMDMPowerAssertion.h">MCMDMPowerAssertion.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCManagedAppManagerReader.h">MCManagedAppManagerReader.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCManagedDefaultsManager.h">MCManagedDefaultsManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCManagedDomainsCache.h">MCManagedDomainsCache.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCManagedMediaManagerReader.h">MCManagedMediaManagerReader.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCManifest.h">MCManifest.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCNetrbManager.h">MCNetrbManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCNetworkUsageRulesPayload.h">MCNetworkUsageRulesPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCNotificationSettingsPayload.h">MCNotificationSettingsPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCNumber.h">MCNumber.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCOSXServerAccountPayload.h">MCOSXServerAccountPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCPasscodeManager.h">MCPasscodeManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCPasswordPolicyPayload.h">MCPasswordPolicyPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCPayload.h">MCPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCPlainCertificatePayload.h">MCPlainCertificatePayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCPowerAssertion.h">MCPowerAssertion.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCProcessAssertion.h">MCProcessAssertion.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCProfile.h">MCProfile.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCProfileConnection.h">MCProfileConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCProfileInfo.h">MCProfileInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCProfileServiceProfile.h">MCProfileServiceProfile.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCProfileTrustEvaluator.h">MCProfileTrustEvaluator.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCProfileWarning.h">MCProfileWarning.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCRemovalPasswordPayload.h">MCRemovalPasswordPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCRestrictionManager.h">MCRestrictionManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCRestrictionUtilities.h">MCRestrictionUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCRestrictionsPayload.h">MCRestrictionsPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCSCEPPayload.h">MCSCEPPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCSCFileManager.h">MCSCFileManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCSafariPasswordAutoFillDomainsCache.h">MCSafariPasswordAutoFillDomainsCache.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCSharedDeviceConfigurationPayload.h">MCSharedDeviceConfigurationPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCSingleAppPayload.h">MCSingleAppPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCSingleSignOnPayload.h">MCSingleSignOnPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCSingleSignOnPayloadKerberosInfo.h">MCSingleSignOnPayloadKerberosInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCSubCalAccountPayload.h">MCSubCalAccountPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCTeslaConfiguration.h">MCTeslaConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCTimerContext.h">MCTimerContext.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCTunnelParser.h">MCTunnelParser.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCUnknownPayload.h">MCUnknownPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCUserMDMClient.h">MCUserMDMClient.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCUserNotificationManager.h">MCUserNotificationManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCUserNotificationQueueEntry.h">MCUserNotificationQueueEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCVPNPayload.h">MCVPNPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCVPNPayloadBase.h">MCVPNPayloadBase.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCVersioningUtilities.h">MCVersioningUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCWAPIIdentityCertificatePayload.h">MCWAPIIdentityCertificatePayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCWebClipPayload.h">MCWebClipPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCWebContentFilterPayload.h">MCWebContentFilterPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCWiFiPayload.h">MCWiFiPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/ManagedConfiguration.framework/MCWorkerThread.h">MCWorkerThread.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

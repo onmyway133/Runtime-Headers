@@ -1,0 +1,172 @@
+<HTML>
+<HEAD>
+<TITLE>PreferencesUI.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/PreferencesUI.framework
+114 classes
+
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/AboutDataSource.h">AboutDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/AdSupportAboutController.h">AdSupportAboutController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/AllowChangesCell.h">AllowChangesCell.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/CertTrustSettings.h">CertTrustSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/CurrentTimeCell.h">CurrentTimeCell.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/DNDAllowedListController.h">DNDAllowedListController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/DateRangePane.h">DateRangePane.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/DeviceNameEditingController.h">DeviceNameEditingController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/DeviceNameTextEditCell.h">DeviceNameTextEditCell.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/IgnoreLabelDisableCell.h">IgnoreLabelDisableCell.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/LegalAndRegulatory.h">LegalAndRegulatory.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/LocationIndicatorExplanationView.h">LocationIndicatorExplanationView.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/LocationIndicatorSystemExplanationView.h">LocationIndicatorSystemExplanationView.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/LocationServicesCell.h">LocationServicesCell.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/LocationServicesSubDirectoryCell.h">LocationServicesSubDirectoryCell.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/LocationUsageMixin.h">LocationUsageMixin.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/MultitaskingGestureExplanationView.h">MultitaskingGestureExplanationView.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/NamedURLEditingController.h">NamedURLEditingController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSCarrierRejectCodePane.h">PSCarrierRejectCodePane.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSEnrollContainerViewController.h">PSEnrollContainerViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSEnrollmentNavigationController.h">PSEnrollmentNavigationController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSTimeZoneController.h">PSTimeZoneController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSTouchIDPINController.h">PSTouchIDPINController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIAboutController.h">PSUIAboutController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIAccessoryDetailsController.h">PSUIAccessoryDetailsController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIAdSupportController.h">PSUIAdSupportController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIAdvertisingController.h">PSUIAdvertisingController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIAdvertisingRestrictionsController.h">PSUIAdvertisingRestrictionsController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIAllowLocationRestrictionsController.h">PSUIAllowLocationRestrictionsController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIAllowTCCRestrictionsController.h">PSUIAllowTCCRestrictionsController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIAppCellularUsageCategoryDetailsController.h">PSUIAppCellularUsageCategoryDetailsController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIAppCellularUsageGroupController.h">PSUIAppCellularUsageGroupController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIAppRestrictionsController.h">PSUIAppRestrictionsController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIAppWirelessCellularUsageCategoryDetailsController.h">PSUIAppWirelessCellularUsageCategoryDetailsController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIAppleIDAccountDetailsLinkCell.h">PSUIAppleIDAccountDetailsLinkCell.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIAutomaticContentDownloadController.h">PSUIAutomaticContentDownloadController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUICellularAccountGroupController.h">PSUICellularAccountGroupController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUICellularAccountListGroupController.h">PSUICellularAccountListGroupController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUICellularDataOptionsController.h">PSUICellularDataOptionsController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUICellularPlanManager.h">PSUICellularPlanManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUICellularPlanTableCell.h">PSUICellularPlanTableCell.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUICircleSegment.h">PSUICircleSegment.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUICircleSegmentedControl.h">PSUICircleSegmentedControl.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIColorScheduleController.h">PSUIColorScheduleController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIColorTemperatureController.h">PSUIColorTemperatureController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIColorTemperatureSliderTableCell.h">PSUIColorTemperatureSliderTableCell.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIContinuityController.h">PSUIContinuityController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIControlCenterListController.h">PSUIControlCenterListController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUICountryRestrictionsController.h">PSUICountryRestrictionsController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIDateRangeController.h">PSUIDateRangeController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIDateTimeController.h">PSUIDateTimeController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIDateTimePickerCell.h">PSUIDateTimePickerCell.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIDisplayController.h">PSUIDisplayController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIDoNotDisturbController.h">PSUIDoNotDisturbController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIDoNotDisturbDataSource.h">PSUIDoNotDisturbDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIExplicitCell.h">PSUIExplicitCell.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIFindMyiPhoneController.h">PSUIFindMyiPhoneController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIFingerprintController.h">PSUIFingerprintController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIGeneralController.h">PSUIGeneralController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIHomeButtonCustomizeController.h">PSUIHomeButtonCustomizeController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIHomeKitVisibilityArbitrator.h">PSUIHomeKitVisibilityArbitrator.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUILTEOptionsController.h">PSUILTEOptionsController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUILegalMessagePane.h">PSUILegalMessagePane.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUILicenseMessagePane.h">PSUILicenseMessagePane.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIListRestrictionsController.h">PSUIListRestrictionsController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUILocationCoreRoutineListController.h">PSUILocationCoreRoutineListController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUILocationServicesAuthLevelCell.h">PSUILocationServicesAuthLevelCell.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUILocationServicesAuthorizationLevelController.h">PSUILocationServicesAuthorizationLevelController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUILocationServicesListController.h">PSUILocationServicesListController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUILocationSystemServicesListController.h">PSUILocationSystemServicesListController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIManagedListRestrictionsController.h">PSUIManagedListRestrictionsController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIMotionFitnessController.h">PSUIMotionFitnessController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIMoviesRestrictionsController.h">PSUIMoviesRestrictionsController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIMusicRestrictionsController.h">PSUIMusicRestrictionsController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIParentNotifyingListItemsController.h">PSUIParentNotifyingListItemsController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIPasscodeLockController.h">PSUIPasscodeLockController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIPiPController.h">PSUIPiPController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIPrefsListController.h">PSUIPrefsListController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIPrefsRootController.h">PSUIPrefsRootController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIPrivacyController.h">PSUIPrivacyController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIRFExposurePane.h">PSUIRFExposurePane.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIRegulatoryPane.h">PSUIRegulatoryPane.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIResetPrefController.h">PSUIResetPrefController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIRestrictionsController.h">PSUIRestrictionsController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUISettingsNetworkController.h">PSUISettingsNetworkController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUISettingsNetworkRoamingController.h">PSUISettingsNetworkRoamingController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUISiriContentRestrictionsController.h">PSUISiriContentRestrictionsController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUISoftwareUpdateController.h">PSUISoftwareUpdateController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUISoftwareUpdateManager.h">PSUISoftwareUpdateManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUISoundsPrefController.h">PSUISoundsPrefController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUISpeakersPrefController.h">PSUISpeakersPrefController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUISubtitleTableCell.h">PSUISubtitleTableCell.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUITCCAccessController.h">PSUITCCAccessController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUITVOutController.h">PSUITVOutController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUITVOutManager.h">PSUITVOutManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUITelevisionRestrictionsController.h">PSUITelevisionRestrictionsController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUITimeZonePane.h">PSUITimeZonePane.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIToneController.h">PSUIToneController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUITouchIDPasscodeController.h">PSUITouchIDPasscodeController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIWarrantyPane.h">PSUIWarrantyPane.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIWebRestrictionsController.h">PSUIWebRestrictionsController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIWirelessDataOptionsController.h">PSUIWirelessDataOptionsController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSUIiBooksRestrictionsController.h">PSUIiBooksRestrictionsController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/PSWallClockMinuteTimer.h">PSWallClockMinuteTimer.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/RestrictionsPINController.h">RestrictionsPINController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/SEIDDetailsController.h">SEIDDetailsController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/ShrinkingTextCell.h">ShrinkingTextCell.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/StorageNeededLinkFooterView.h">StorageNeededLinkFooterView.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/SyncIconCell.h">SyncIconCell.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/TimeZoneTableCell.h">TimeZoneTableCell.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/TitleTruncatedCell.h">TitleTruncatedCell.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/URLEditingController.h">URLEditingController.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/URLTextEditCell.h">URLTextEditCell.h</A>
+<A HREF="/tree/PrivateFrameworks/PreferencesUI.framework/UnderlineButton.h">UnderlineButton.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

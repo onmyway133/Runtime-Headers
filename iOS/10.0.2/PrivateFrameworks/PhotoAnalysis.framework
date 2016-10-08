@@ -1,0 +1,114 @@
+<HTML>
+<HEAD>
+<TITLE>PhotoAnalysis.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/PhotoAnalysis.framework
+56 classes
+
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAAcknowledgeDeletionsWorkerJob.h">PHAAcknowledgeDeletionsWorkerJob.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAActivityGovernor.h">PHAActivityGovernor.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAAnalysisProgress.h">PHAAnalysisProgress.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAAnalysisStateObserver.h">PHAAnalysisStateObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAAnalysisWorkerJob.h">PHAAnalysisWorkerJob.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAAssetProcessingJob.h">PHAAssetProcessingJob.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAAssetResourceDataLoader.h">PHAAssetResourceDataLoader.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAAssetResourceDataLoadingOptions.h">PHAAssetResourceDataLoadingOptions.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAAssetResourceDownloadRequestManager.h">PHAAssetResourceDownloadRequestManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHACoalescer.h">PHACoalescer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHACoalescerActivityToken.h">PHACoalescerActivityToken.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHACoalescerContext.h">PHACoalescerContext.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHADirtyChangeBuffer.h">PHADirtyChangeBuffer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHADirtyChangeCoalescer.h">PHADirtyChangeCoalescer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAExecutive.h">PHAExecutive.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAGraphServiceWorker.h">PHAGraphServiceWorker.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAGraphServiceWorkerGraphUpdateJob.h">PHAGraphServiceWorkerGraphUpdateJob.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAGraphWorkerGraphUpdateDetails.h">PHAGraphWorkerGraphUpdateDetails.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAJobCoalescer.h">PHAJobCoalescer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAJobConstraints.h">PHAJobConstraints.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAJobConstraintsObserver.h">PHAJobConstraintsObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAJobCoordinator.h">PHAJobCoordinator.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAJobGenerator.h">PHAJobGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAJobWorkInfo.h">PHAJobWorkInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAJobWorkInfoReader.h">PHAJobWorkInfoReader.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHALibraryChangeBuffer.h">PHALibraryChangeBuffer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHALibraryChangeDetails.h">PHALibraryChangeDetails.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHALibraryChangeListener.h">PHALibraryChangeListener.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAManager.h">PHAManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAMonitoring.h">PHAMonitoring.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAMonitoringProcessInfo.h">PHAMonitoringProcessInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAMonitoringSystemInfo.h">PHAMonitoringSystemInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAPendingRequestReference.h">PHAPendingRequestReference.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAPhotoLibraryList.h">PHAPhotoLibraryList.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAPhotoLibraryReference.h">PHAPhotoLibraryReference.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAPhotoVisionPhotoKitBridge.h">PHAPhotoVisionPhotoKitBridge.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAPredicateValidator.h">PHAPredicateValidator.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAServiceClientHandler.h">PHAServiceClientHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAServiceUnavailableClientHandler.h">PHAServiceUnavailableClientHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHASleepWakeMonitor.h">PHASleepWakeMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHASwizzling.h">PHASwizzling.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAVisionServiceAssetsAnalyzingOperation.h">PHAVisionServiceAssetsAnalyzingOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAVisionServiceFaceProcessingWorker.h">PHAVisionServiceFaceProcessingWorker.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAVisionServicePersistenceDelegate.h">PHAVisionServicePersistenceDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAVisionServicePersistenceDelegateFaceGroupFacesCache.h">PHAVisionServicePersistenceDelegateFaceGroupFacesCache.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAVisionServiceSceneClassificationWorker.h">PHAVisionServiceSceneClassificationWorker.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAVisionServiceSceneClassificationWorkerTaxonomyResolver.h">PHAVisionServiceSceneClassificationWorkerTaxonomyResolver.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAVisionServiceWorker.h">PHAVisionServiceWorker.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAWorker.h">PHAWorker.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAWorkerHealthMonitor.h">PHAWorkerHealthMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAWorkerHealthScoreEntry.h">PHAWorkerHealthScoreEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAWorkerJob.h">PHAWorkerJob.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/PHAWorkerWarmer.h">PHAWorkerWarmer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/_PHAVisionServiceFaceProcessingWorkerFaceClusteringJob.h">_PHAVisionServiceFaceProcessingWorkerFaceClusteringJob.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/_PHAVisionServiceFaceProcessingWorkerJobKeepAlive.h">_PHAVisionServiceFaceProcessingWorkerJobKeepAlive.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoAnalysis.framework/_PHAVisionServiceWorkerAssetProcessingOperation.h">_PHAVisionServiceWorkerAssetProcessingOperation.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

@@ -1,0 +1,226 @@
+<HTML>
+<HEAD>
+<TITLE>CoreSuggestionsInternals.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/CoreSuggestionsInternals.framework
+168 classes
+
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGABContainer.h">SGABContainer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGAddressCoalescingState.h">SGAddressCoalescingState.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGAggregateLogging.h">SGAggregateLogging.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGAhoCorasick.h">SGAhoCorasick.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGAsset.h">SGAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGBigUTF8String.h">SGBigUTF8String.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGBigUTF8StringArchiveStub.h">SGBigUTF8StringArchiveStub.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGBloomFilter.h">SGBloomFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGBloomFilterChunkInMemory.h">SGBloomFilterChunkInMemory.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGBloomFilterChunkInMemorySparse.h">SGBloomFilterChunkInMemorySparse.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGBloomFilterChunkMmap.h">SGBloomFilterChunkMmap.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGBundleIdBlacklist.h">SGBundleIdBlacklist.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGCalendarAttachmentDissector.h">SGCalendarAttachmentDissector.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGChatLengthEstimator.h">SGChatLengthEstimator.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGCoalescingDropBox.h">SGCoalescingDropBox.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGContactAggregator.h">SGContactAggregator.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGContactDetail.h">SGContactDetail.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGContactDetailKey.h">SGContactDetailKey.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGContactDetailSummary.h">SGContactDetailSummary.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGContactDetailsHolder.h">SGContactDetailsHolder.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGContactEntity.h">SGContactEntity.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGCuratedChangeNotifications.h">SGCuratedChangeNotifications.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGCuratedChangeNotificationsAddressBookListener.h">SGCuratedChangeNotificationsAddressBookListener.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGCuratedChangeNotificationsBaseListener.h">SGCuratedChangeNotificationsBaseListener.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGCuratedChangeNotificationsCalendarListener.h">SGCuratedChangeNotificationsCalendarListener.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGCuratedContactKey.h">SGCuratedContactKey.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGCuratedEventKey.h">SGCuratedEventKey.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueue.h">SGDHarvestQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueueCombo.h">SGDHarvestQueueCombo.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueueFileReader.h">SGDHarvestQueueFileReader.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueueFileWriter.h">SGDHarvestQueueFileWriter.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueueInMemory.h">SGDHarvestQueueInMemory.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueueItem.h">SGDHarvestQueueItem.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueueItemInMemory.h">SGDHarvestQueueItemInMemory.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueueItemLegacy.h">SGDHarvestQueueItemLegacy.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueueItemOnDisk.h">SGDHarvestQueueItemOnDisk.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueueLegacy.h">SGDHarvestQueueLegacy.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueueNop.h">SGDHarvestQueueNop.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDHarvestQueueOnDisk.h">SGDHarvestQueueOnDisk.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDNotificationBroadcaster.h">SGDNotificationBroadcaster.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDPowerBudget.h">SGDPowerBudget.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDPowerLog.h">SGDPowerLog.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDSpotlightReceiver.h">SGDSpotlightReceiver.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDSuggestManager.h">SGDSuggestManager.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDSuggestManagerSettingsDecorator.h">SGDSuggestManagerSettingsDecorator.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDWorkQueue.h">SGDWorkQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDWorkQueueFile.h">SGDWorkQueueFile.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDWorkQueueItem.h">SGDWorkQueueItem.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDWorkQueueName.h">SGDWorkQueueName.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDataDetectorDissector.h">SGDataDetectorDissector.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDataDetectorMatch.h">SGDataDetectorMatch.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDataNormalization.h">SGDataNormalization.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDatabaseJournal.h">SGDatabaseJournal.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDatabaseJournalFile.h">SGDatabaseJournalFile.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDatabaseMigratorEntities.h">SGDatabaseMigratorEntities.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDatabaseMigratorSnippets.h">SGDatabaseMigratorSnippets.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDeduper.h">SGDeduper.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDetectedAttributeDissector.h">SGDetectedAttributeDissector.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDuetBridge.h">SGDuetBridge.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGDuplicateKey.h">SGDuplicateKey.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGEKCalendarAdapter.h">SGEKCalendarAdapter.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGEmailKey.h">SGEmailKey.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGEntity.h">SGEntity.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGExtractionDissector.h">SGExtractionDissector.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGFlight.h">SGFlight.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGFlightData.h">SGFlightData.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGHistoryObserver.h">SGHistoryObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGHtmlEntities.h">SGHtmlEntities.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGHtmlParserDissector.h">SGHtmlParserDissector.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGHtmlParserDissectorTask.h">SGHtmlParserDissectorTask.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGIdentityEdge.h">SGIdentityEdge.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGIdentityKey.h">SGIdentityKey.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGIdentityName.h">SGIdentityName.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGInMemoryAdapter.h">SGInMemoryAdapter.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGInhumanDissector.h">SGInhumanDissector.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGInhumans.h">SGInhumans.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGInteractionKey.h">SGInteractionKey.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGIntervalTree.h">SGIntervalTree.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGIntervalTreeNode.h">SGIntervalTreeNode.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGJournal.h">SGJournal.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGJournalEntry.h">SGJournalEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGLRUCache.h">SGLRUCache.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGLabeledValue.h">SGLabeledValue.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMailAttachment.h">SGMailAttachment.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMailPatterns.h">SGMailPatterns.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMailQuoteDissector.h">SGMailQuoteDissector.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMailUtils.h">SGMailUtils.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMessage.h">SGMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMessageKey.h">SGMessageKey.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMicrodataDocument.h">SGMicrodataDocument.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMicrodataItem.h">SGMicrodataItem.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMicrodataItemProp.h">SGMicrodataItemProp.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMicrodataItemScope.h">SGMicrodataItemScope.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMicrodataParser.h">SGMicrodataParser.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGMicrodataParserStackItem.h">SGMicrodataParserStackItem.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGNameInversionPredictor.h">SGNameInversionPredictor.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGNames.h">SGNames.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGNaturalLanguageDissector.h">SGNaturalLanguageDissector.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGNicknames.h">SGNicknames.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGNoCloudNSUbiquitousKeyValueStore.h">SGNoCloudNSUbiquitousKeyValueStore.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGOffsetDictionary.h">SGOffsetDictionary.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGOperationForWithDbLock.h">SGOperationForWithDbLock.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGParsedPersonFromInteraction.h">SGParsedPersonFromInteraction.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGPaths.h">SGPaths.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGPatternDataFile.h">SGPatternDataFile.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGPatterns.h">SGPatterns.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGPipeline.h">SGPipeline.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGPipelineDissector.h">SGPipelineDissector.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGPipelineEntity.h">SGPipelineEntity.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGPlainTextContentCursor.h">SGPlainTextContentCursor.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGPreparedStatement.h">SGPreparedStatement.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGPseudoContactKey.h">SGPseudoContactKey.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGPseudoEventKey.h">SGPseudoEventKey.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGQPAsset.h">SGQPAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGQPAssetManager.h">SGQPAssetManager.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGQPEmotivePhraseDefinition.h">SGQPEmotivePhraseDefinition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGQPEmotivePhrases.h">SGQPEmotivePhrases.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGQPLanguageContext.h">SGQPLanguageContext.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGQPMetricsTracker.h">SGQPMetricsTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGQPMutableUserSession.h">SGQPMutableUserSession.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGQPParsecEntitiesPredictor.h">SGQPParsecEntitiesPredictor.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGQPPhrasebook.h">SGQPPhrasebook.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGQPPhrasebookBuilder.h">SGQPPhrasebookBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGQPPhrasebookBuilderEntry.h">SGQPPhrasebookBuilderEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGQPPreinstalledAsset.h">SGQPPreinstalledAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGQPResponseKitPredictor.h">SGQPResponseKitPredictor.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGQPStoredMessage.h">SGQPStoredMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGQPStoredUserQuery.h">SGQPStoredUserQuery.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGQPWordBoundaries.h">SGQPWordBoundaries.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGQueryPredictions.h">SGQueryPredictions.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGRTCLogging.h">SGRTCLogging.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGRTCLoggingHelpers.h">SGRTCLoggingHelpers.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGRawKey.h">SGRawKey.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGRe2.h">SGRe2.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGRe2Basic.h">SGRe2Basic.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGRe2Lazy.h">SGRe2Lazy.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGRe2PrefilterTree.h">SGRe2PrefilterTree.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGRe2Subregexps.h">SGRe2Subregexps.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGRealtimeEventResponse.h">SGRealtimeEventResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGRealtimeSuggestionsTuple.h">SGRealtimeSuggestionsTuple.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGReplyParserDissector.h">SGReplyParserDissector.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGReverseTemplateJS.h">SGReverseTemplateJS.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGReverseTemplatesJSDataDetectors.h">SGReverseTemplatesJSDataDetectors.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSchemaOrgKey.h">SGSchemaOrgKey.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSeekableData.h">SGSeekableData.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSelfIdentificationDetection.h">SGSelfIdentificationDetection.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGServiceContext.h">SGServiceContext.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSignatureDissector.h">SGSignatureDissector.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSimpleMailHeaderKeyValue.h">SGSimpleMailHeaderKeyValue.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSimpleMailMessage.h">SGSimpleMailMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSlice.h">SGSlice.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSpotlightContactsAdapter.h">SGSpotlightContactsAdapter.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSqlEntityStore.h">SGSqlEntityStore.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSqliteDatabase.h">SGSqliteDatabase.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGStorageContact.h">SGStorageContact.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGStorageEvent.h">SGStorageEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGStorageLocation.h">SGStorageLocation.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGSuggestHistory.h">SGSuggestHistory.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGTextMessage.h">SGTextMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGTextMessageConversationTracker.h">SGTextMessageConversationTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGTextMessageKey.h">SGTextMessageKey.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGThreadParser.h">SGThreadParser.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGTinyLinusMeData.h">SGTinyLinusMeData.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGTokenizer.h">SGTokenizer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGUnforwardDissector.h">SGUnforwardDissector.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGUnrecognizedContactKey.h">SGUnrecognizedContactKey.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGWords.h">SGWords.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestionsInternals.framework/SGXPCActivityManager.h">SGXPCActivityManager.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

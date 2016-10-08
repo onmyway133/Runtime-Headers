@@ -1,0 +1,149 @@
+<HTML>
+<HEAD>
+<TITLE>libTextInputCore.dylib</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/lib/libTextInputCore.dylib
+91 dylibs
+
+<A HREF="/tree/lib/libTextInputCore.dylib/TIAsset.h">TIAsset.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIAssetContentItem.h">TIAssetContentItem.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIAssetManager.h">TIAssetManager.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIAssetVersions.h">TIAssetVersions.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIAssetsForInputMode.h">TIAssetsForInputMode.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIAssetsForInputModeLevel.h">TIAssetsForInputModeLevel.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIAutoshiftRegularExpressionLoader.h">TIAutoshiftRegularExpressionLoader.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TICNContactLoader.h">TICNContactLoader.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TICompiledCollatorFile.h">TICompiledCollatorFile.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIConnectionsMetricsTracker.h">TIConnectionsMetricsTracker.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIContact.h">TIContact.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIContactCollection.h">TIContactCollection.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIContactManager.h">TIContactManager.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TICryptographer.h">TICryptographer.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIDebugValue.h">TIDebugValue.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIInputContextContactLoader.h">TIInputContextContactLoader.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIInputMode.h">TIInputMode.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIKeyboardActivityContext.h">TIKeyboardActivityContext.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIKeyboardActivityController.h">TIKeyboardActivityController.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIKeyboardAssertionManager.h">TIKeyboardAssertionManager.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIKeyboardFeatureSpecialization.h">TIKeyboardFeatureSpecialization.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIKeyboardInputManager.h">TIKeyboardInputManager.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIKeyboardInputManagerBase.h">TIKeyboardInputManagerBase.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIKeyboardInputManagerConfig.h">TIKeyboardInputManagerConfig.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIKeyboardInputManagerKeyboardContext.h">TIKeyboardInputManagerKeyboardContext.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIKeyboardInputManagerLoader.h">TIKeyboardInputManagerLoader.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIKeyboardInputManagerLogger.h">TIKeyboardInputManagerLogger.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIKeyboardInputManagerPolymorph.h">TIKeyboardInputManagerPolymorph.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIKeyboardInputManagerWrapper.h">TIKeyboardInputManagerWrapper.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIKeyboardInputManagerZephyr.h">TIKeyboardInputManagerZephyr.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIKeyboardInputManager_mul.h">TIKeyboardInputManager_mul.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIKeyboardInputManager_zh_ja.h">TIKeyboardInputManager_zh_ja.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIKeyboardQuickTypeSpecialization.h">TIKeyboardQuickTypeSpecialization.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIKeyboardSecureCandidateRenderer.h">TIKeyboardSecureCandidateRenderer.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIKeyboardSecureCandidateTextRendering.h">TIKeyboardSecureCandidateTextRendering.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TILRUDictionary.h">TILRUDictionary.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TILRUDictionaryNode.h">TILRUDictionaryNode.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TILanguageModelAdaptationContext.h">TILanguageModelAdaptationContext.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TILanguageModelLoader.h">TILanguageModelLoader.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TILanguageModelMaintainer.h">TILanguageModelMaintainer.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TILanguageModelOfflineLearningAgent.h">TILanguageModelOfflineLearningAgent.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TILanguageModelOfflineLearningHandle.h">TILanguageModelOfflineLearningHandle.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TILanguageModelOfflineLearningHandleFavonius.h">TILanguageModelOfflineLearningHandleFavonius.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TILanguageModelOfflineLearningHandleLanguageLikelihood.h">TILanguageModelOfflineLearningHandleLanguageLikelihood.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TILanguageModelOfflineLearningHandleMecabra.h">TILanguageModelOfflineLearningHandleMecabra.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TILanguageModelOfflineLearningStrategyMecabraFavonius.h">TILanguageModelOfflineLearningStrategyMecabraFavonius.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TILanguageModelOfflineLearningStrategyResponseKit.h">TILanguageModelOfflineLearningStrategyResponseKit.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TILanguageModelOfflineLearningTask.h">TILanguageModelOfflineLearningTask.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TILanguageModelOfflineLearningTaskMail.h">TILanguageModelOfflineLearningTaskMail.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TILanguageModelOfflineLearningTaskMessages.h">TILanguageModelOfflineLearningTaskMessages.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TILanguageSelectionController.h">TILanguageSelectionController.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TILaunchServicesLookup.h">TILaunchServicesLookup.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIMecabraEnvironment.h">TIMecabraEnvironment.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIMecabraEnvironmentContextWrapper.h">TIMecabraEnvironmentContextWrapper.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIMecabraIMLogger.h">TIMecabraIMLogger.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIMecabraWrapper.h">TIMecabraWrapper.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIMobileAssetMediator.h">TIMobileAssetMediator.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIMobileAssetSyncState.h">TIMobileAssetSyncState.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIMobileAssetTimer.h">TIMobileAssetTimer.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIMobileAssetTimerImpl.h">TIMobileAssetTimerImpl.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TINoncancellableBlockOperation.h">TINoncancellableBlockOperation.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIPersistentQueue.h">TIPersistentQueue.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIProactiveQuickTypeManager.h">TIProactiveQuickTypeManager.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIProactiveTrigger.h">TIProactiveTrigger.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIRecipientModel.h">TIRecipientModel.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIResponseKitTrainerImpl.h">TIResponseKitTrainerImpl.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIRevisionHistory.h">TIRevisionHistory.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIRevisionHistoryToken.h">TIRevisionHistoryToken.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TISCTextRunRequest.h">TISCTextRunRequest.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TISCTextRunResponse.h">TISCTextRunResponse.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TISweepSource.h">TISweepSource.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TITextCheckerExemptions.h">TITextCheckerExemptions.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TITextCheckerExemptionsImpl.h">TITextCheckerExemptionsImpl.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TITokenizationRevision.h">TITokenizationRevision.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TITypingAssertion.h">TITypingAssertion.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIUserDictionaryServer.h">TIUserDictionaryServer.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIWordSearch.h">TIWordSearch.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIWordSearchCandidateResultSet.h">TIWordSearchCandidateResultSet.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIWordSearchController.h">TIWordSearchController.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIWordSearchOperation.h">TIWordSearchOperation.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIWordSearchOperationAcceptCandidate.h">TIWordSearchOperationAcceptCandidate.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIWordSearchOperationAdaptOffline.h">TIWordSearchOperationAdaptOffline.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIWordSearchOperationCancelLastAcceptedCandidate.h">TIWordSearchOperationCancelLastAcceptedCandidate.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIWordSearchOperationContextAcceptCandidate.h">TIWordSearchOperationContextAcceptCandidate.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIWordSearchOperationFlushDynamicData.h">TIWordSearchOperationFlushDynamicData.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIWordSearchOperationGetCandidates.h">TIWordSearchOperationGetCandidates.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIWordSearchOperationPerformMaintenance.h">TIWordSearchOperationPerformMaintenance.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/TIWordSearchOperationSetLanguageModelAdaptationContext.h">TIWordSearchOperationSetLanguageModelAdaptationContext.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/_TILanguageLikelihoodModel.h">_TILanguageLikelihoodModel.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/_TIMultilingualPreferences.h">_TIMultilingualPreferences.h</A>
+<A HREF="/tree/lib/libTextInputCore.dylib/_TIStatisticsProactiveTracker.h">_TIStatisticsProactiveTracker.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

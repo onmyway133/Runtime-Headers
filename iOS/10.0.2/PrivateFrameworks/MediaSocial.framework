@@ -1,0 +1,145 @@
+<HTML>
+<HEAD>
+<TITLE>MediaSocial.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/MediaSocial.framework
+87 classes
+
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAccount.h">MSCLAccount.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAccountDatabase.h">MSCLAccountDatabase.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAccountEntity.h">MSCLAccountEntity.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAccountErrorAlertController.h">MSCLAccountErrorAlertController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAccountStore.h">MSCLAccountStore.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAccountTokenRefreshOperation.h">MSCLAccountTokenRefreshOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAccountTokenRegisterOperation.h">MSCLAccountTokenRegisterOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAlbumSelectionViewController.h">MSCLAlbumSelectionViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAttachment.h">MSCLAttachment.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAttachmentAlertController.h">MSCLAttachmentAlertController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAttachmentDownloadOperation.h">MSCLAttachmentDownloadOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAttachmentPreviewView.h">MSCLAttachmentPreviewView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAttachmentPropertiesTableViewSection.h">MSCLAttachmentPropertiesTableViewSection.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAttachmentPropertiesViewController.h">MSCLAttachmentPropertiesViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAttributionSelectionViewController.h">MSCLAttributionSelectionViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAudioAttachmentPreviewView.h">MSCLAudioAttachmentPreviewView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAudioCoverImageSelectionTableViewCell.h">MSCLAudioCoverImageSelectionTableViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAudioPickerMediaItemTableViewCell.h">MSCLAudioPickerMediaItemTableViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAudioPickerMediaLibraryViewController.h">MSCLAudioPickerMediaLibraryViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAudioPickerSource.h">MSCLAudioPickerSource.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAudioPickerSourcesViewController.h">MSCLAudioPickerSourcesViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAudioPickerViewController.h">MSCLAudioPickerViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAudioPickerVoiceMemoTableViewCell.h">MSCLAudioPickerVoiceMemoTableViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAudioPickerVoiceMemosViewController.h">MSCLAudioPickerVoiceMemosViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAudioPlayer.h">MSCLAudioPlayer.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAudioPlayerManager.h">MSCLAudioPlayerManager.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAudioPlayerStatus.h">MSCLAudioPlayerStatus.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAuthorAlertActionView.h">MSCLAuthorAlertActionView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAuthorSelectionAlertController.h">MSCLAuthorSelectionAlertController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLAuthorView.h">MSCLAuthorView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLComposeImagePickerController.h">MSCLComposeImagePickerController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLComposeLabelValueButton.h">MSCLComposeLabelValueButton.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLComposePostView.h">MSCLComposePostView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLComposePostViewController.h">MSCLComposePostViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLCompositionContainerViewController.h">MSCLCompositionContainerViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLConfiguration.h">MSCLConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLDurationFormatter.h">MSCLDurationFormatter.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLFacebookAccountsRequest.h">MSCLFacebookAccountsRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLFacebookLoadImageOperation.h">MSCLFacebookLoadImageOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLFacebookPage.h">MSCLFacebookPage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLFacebookPageSelectionHeaderView.h">MSCLFacebookPageSelectionHeaderView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLFacebookPageSelectionViewController.h">MSCLFacebookPageSelectionViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLFacebookPageTableViewCell.h">MSCLFacebookPageTableViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLFacebookServiceSetupTableViewSection.h">MSCLFacebookServiceSetupTableViewSection.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLImageAttachmentPreviewView.h">MSCLImageAttachmentPreviewView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLLoadAuthorAlbumsOperation.h">MSCLLoadAuthorAlbumsOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLLoadConfigurationOperation.h">MSCLLoadConfigurationOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLLocalization.h">MSCLLocalization.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLLockupView.h">MSCLLockupView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLMPArtworkCatalogResourceOperation.h">MSCLMPArtworkCatalogResourceOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLManageAccountViewController.h">MSCLManageAccountViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLPhotoPickerCollectionViewCell.h">MSCLPhotoPickerCollectionViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLPhotoPickerCollectionViewLayout.h">MSCLPhotoPickerCollectionViewLayout.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLPhotoPickerShelfViewController.h">MSCLPhotoPickerShelfViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLPreparePostDescriptionOperation.h">MSCLPreparePostDescriptionOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLProximityCoordinator.h">MSCLProximityCoordinator.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLSettingsTableHeaderView.h">MSCLSettingsTableHeaderView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLSettingsTableViewCell.h">MSCLSettingsTableViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLSettingsTextFieldTableViewCell.h">MSCLSettingsTextFieldTableViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLSettingsTextViewTableViewCell.h">MSCLSettingsTextViewTableViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLSetupAccountViewController.h">MSCLSetupAccountViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLSocialService.h">MSCLSocialService.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLSocialServiceSetupTableViewSection.h">MSCLSocialServiceSetupTableViewSection.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLSocialServiceSetupViewController.h">MSCLSocialServiceSetupViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLSoundBiteView.h">MSCLSoundBiteView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLSoundBiteViewButton.h">MSCLSoundBiteViewButton.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLSoundBiteViewController.h">MSCLSoundBiteViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLStoreItem.h">MSCLStoreItem.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLStoreItemArtworkRequest.h">MSCLStoreItemArtworkRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLTag.h">MSCLTag.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLTagDataConsumer.h">MSCLTagDataConsumer.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLTagListTableViewCell.h">MSCLTagListTableViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLTagListViewController.h">MSCLTagListViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLTagTokenTextAttachment.h">MSCLTagTokenTextAttachment.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLTagTokenView.h">MSCLTagTokenView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLTokenTextAttachment.h">MSCLTokenTextAttachment.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLTokenTextAttachmentView.h">MSCLTokenTextAttachmentView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLTokenTextView.h">MSCLTokenTextView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLTokenTextViewTableAssistant.h">MSCLTokenTextViewTableAssistant.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLTwitterAuthenticationRequest.h">MSCLTwitterAuthenticationRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLTwitterServiceSetupTableViewSection.h">MSCLTwitterServiceSetupTableViewSection.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLValueTableViewController.h">MSCLValueTableViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLVideoAttachmentPreviewView.h">MSCLVideoAttachmentPreviewView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLVideoCoverImageSelectionView.h">MSCLVideoCoverImageSelectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLVideoScrubberControl.h">MSCLVideoScrubberControl.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLVoiceRecorder.h">MSCLVoiceRecorder.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaSocial.framework/MSCLWaveformImageProducer.h">MSCLWaveformImageProducer.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

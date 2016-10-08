@@ -1,0 +1,180 @@
+<HTML>
+<HEAD>
+<TITLE>FrontBoard.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/FrontBoard.framework
+122 classes
+
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBAppLibraryLogger.h">FBAppLibraryLogger.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBApplicationDataStoreInProcessRepositoryClient.h">FBApplicationDataStoreInProcessRepositoryClient.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBApplicationDataStoreInProcessRepositoryClientInvalidationSentinel.h">FBApplicationDataStoreInProcessRepositoryClientInvalidationSentinel.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBApplicationDataStoreRepositoryManager.h">FBApplicationDataStoreRepositoryManager.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBApplicationDataStoreRepositoryServer.h">FBApplicationDataStoreRepositoryServer.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBApplicationDataStoreRepositoryServerClient.h">FBApplicationDataStoreRepositoryServerClient.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBApplicationDefaults.h">FBApplicationDefaults.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBApplicationInfo.h">FBApplicationInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBApplicationLibrary.h">FBApplicationLibrary.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBApplicationPlaceholder.h">FBApplicationPlaceholder.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBApplicationProcess.h">FBApplicationProcess.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBApplicationProcessExitContext.h">FBApplicationProcessExitContext.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBApplicationProcessLaunchTransaction.h">FBApplicationProcessLaunchTransaction.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBApplicationProcessWatchdogPolicy.h">FBApplicationProcessWatchdogPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBApplicationProvisioningProfile.h">FBApplicationProvisioningProfile.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBApplicationTerminationAssertion.h">FBApplicationTerminationAssertion.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBApplicationTerminationAssertionService.h">FBApplicationTerminationAssertionService.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBApplicationTerminationAssertionServiceServer.h">FBApplicationTerminationAssertionServiceServer.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBApplicationTrustData.h">FBApplicationTrustData.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBApplicationUpdateScenesTransaction.h">FBApplicationUpdateScenesTransaction.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBBasicSystemServiceFacilityClient.h">FBBasicSystemServiceFacilityClient.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBBundleInfo.h">FBBundleInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBContextLayerHostView.h">FBContextLayerHostView.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBDisableSceneHostingAssertion.h">FBDisableSceneHostingAssertion.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBDisplayLayout.h">FBDisplayLayout.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBDisplayLayoutElement.h">FBDisplayLayoutElement.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBDisplayLayoutService.h">FBDisplayLayoutService.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBDisplayLayoutServiceServer.h">FBDisplayLayoutServiceServer.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBDisplayLayoutTransition.h">FBDisplayLayoutTransition.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBDisplayManager.h">FBDisplayManager.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBExclusiveTouchGestureRecognizer.h">FBExclusiveTouchGestureRecognizer.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBExtensionInfo.h">FBExtensionInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBExtensionProcess.h">FBExtensionProcess.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBExternalSceneLayerHostView.h">FBExternalSceneLayerHostView.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBMutableApplicationDefaults.h">FBMutableApplicationDefaults.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBMutableProcessExecutionContext.h">FBMutableProcessExecutionContext.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBOcclusionsStack.h">FBOcclusionsStack.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBOcclusionsStackEntry.h">FBOcclusionsStackEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBOrderedRequesters.h">FBOrderedRequesters.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBOrientationService.h">FBOrientationService.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBOrientationServiceServer.h">FBOrientationServiceServer.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBPlistApplicationDataStoreRepository.h">FBPlistApplicationDataStoreRepository.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBPreferences.h">FBPreferences.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBProcess.h">FBProcess.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBProcessCPUStatistics.h">FBProcessCPUStatistics.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBProcessExecutionContext.h">FBProcessExecutionContext.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBProcessManager.h">FBProcessManager.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBProcessQueueFactory.h">FBProcessQueueFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBProcessState.h">FBProcessState.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBProcessWatchdog.h">FBProcessWatchdog.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBProcessWatchdogEventContext.h">FBProcessWatchdogEventContext.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBProfileManager.h">FBProfileManager.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBRemoteSceneClientWorkspace.h">FBRemoteSceneClientWorkspace.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBRootSceneContainerView.h">FBRootSceneContainerView.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBRootWindow.h">FBRootWindow.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBScene.h">FBScene.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSceneClientProviderInvalidationAction.h">FBSceneClientProviderInvalidationAction.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSceneDeactivationBand.h">FBSceneDeactivationBand.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSceneEventQueue.h">FBSceneEventQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSceneHostManager.h">FBSceneHostManager.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSceneHostSnapshotView.h">FBSceneHostSnapshotView.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSceneHostWrapperView.h">FBSceneHostWrapperView.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSceneLayer.h">FBSceneLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSceneLayerHostContainerView.h">FBSceneLayerHostContainerView.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSceneLayerHostView.h">FBSceneLayerHostView.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSceneLayerManager.h">FBSceneLayerManager.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSceneManager.h">FBSceneManager.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSceneManagerObserver.h">FBSceneManagerObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSceneMonitor.h">FBSceneMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSceneRotationTransform.h">FBSceneRotationTransform.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSceneSnapshot.h">FBSceneSnapshot.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSceneSnapshotAction.h">FBSceneSnapshotAction.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSceneSnapshotContext.h">FBSceneSnapshotContext.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSceneTransform.h">FBSceneTransform.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSceneUpdateContext.h">FBSceneUpdateContext.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBServiceClientAuthenticator.h">FBServiceClientAuthenticator.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSqliteApplicationDataStoreRepository.h">FBSqliteApplicationDataStoreRepository.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSqliteDatabaseConnection.h">FBSqliteDatabaseConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSqlitePreparedStatement.h">FBSqlitePreparedStatement.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSqliteResultRow.h">FBSqliteResultRow.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSynchronizedTransactionGroup.h">FBSynchronizedTransactionGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSystemApp.h">FBSystemApp.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSystemAppProxyService.h">FBSystemAppProxyService.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSystemAppProxyServiceServer.h">FBSystemAppProxyServiceServer.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSystemAppScene.h">FBSystemAppScene.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSystemAppSceneSpecification.h">FBSystemAppSceneSpecification.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSystemGestureManager.h">FBSystemGestureManager.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSystemGestureView.h">FBSystemGestureView.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSystemService.h">FBSystemService.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSystemServiceFacility.h">FBSystemServiceFacility.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSystemServiceOpenApplicationRequest.h">FBSystemServiceOpenApplicationRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSystemServiceServer.h">FBSystemServiceServer.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBSystemServiceServerClient.h">FBSystemServiceServerClient.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBTransaction.h">FBTransaction.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBTransactionWatchdog.h">FBTransactionWatchdog.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBUIApplicationSceneDeactivationAssertion.h">FBUIApplicationSceneDeactivationAssertion.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBUIApplicationSceneDeactivationManager.h">FBUIApplicationSceneDeactivationManager.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBUIApplicationService.h">FBUIApplicationService.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBUIApplicationWorkspace.h">FBUIApplicationWorkspace.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBUIApplicationWorkspaceScene.h">FBUIApplicationWorkspaceScene.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBUIApplicationWorkspaceServer.h">FBUIApplicationWorkspaceServer.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBUISceneClientBridge.h">FBUISceneClientBridge.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBUISceneHostBridge.h">FBUISceneHostBridge.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBUpdateSceneTransaction.h">FBUpdateSceneTransaction.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBWaitForProcessDeathTransaction.h">FBWaitForProcessDeathTransaction.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBWaitForSceneDestructionTransaction.h">FBWaitForSceneDestructionTransaction.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBWindow.h">FBWindow.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBWindowContextHostManager.h">FBWindowContextHostManager.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBWindowContextManager.h">FBWindowContextManager.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBWorkspace.h">FBWorkspace.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBWorkspaceConnectionListener.h">FBWorkspaceConnectionListener.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBWorkspaceEvent.h">FBWorkspaceEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBWorkspaceEventQueue.h">FBWorkspaceEventQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBWorkspaceEventQueueLock.h">FBWorkspaceEventQueueLock.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBWorkspaceScene.h">FBWorkspaceScene.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/FBWorkspaceServer.h">FBWorkspaceServer.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/_FBSqliteDeferredPreparedSimpleStatement.h">_FBSqliteDeferredPreparedSimpleStatement.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/_FBSqliteFrozenResultRow.h">_FBSqliteFrozenResultRow.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/_FBSqlitePreparedCompoundStatement.h">_FBSqlitePreparedCompoundStatement.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/_FBSqlitePreparedSimpleStatement.h">_FBSqlitePreparedSimpleStatement.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/_FBSystemGestureManager.h">_FBSystemGestureManager.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoard.framework/_FBSystemServiceServerPendingConnection.h">_FBSystemServiceServerPendingConnection.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

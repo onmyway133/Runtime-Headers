@@ -1,0 +1,121 @@
+<HTML>
+<HEAD>
+<TITLE>IDSFoundation.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/IDSFoundation.framework
+63 classes
+
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSAppleRegistrationKeychainReader.h">IDSAppleRegistrationKeychainReader.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSBaseMessage.h">IDSBaseMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSBaseSocketPairConnection.h">IDSBaseSocketPairConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSDelegateInfo.h">IDSDelegateInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSFaceTimeServerBag.h">IDSFaceTimeServerBag.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSMessage.h">IDSMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSMessageContext.h">IDSMessageContext.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSMessageToDelete.h">IDSMessageToDelete.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSProtobuf.h">IDSProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSPushHandler.h">IDSPushHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSPushHandlerContext.h">IDSPushHandlerContext.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSRemoteCredential.h">IDSRemoteCredential.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSRemoteURLConnection.h">IDSRemoteURLConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSendParameters.h">IDSSendParameters.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSServerBag.h">IDSServerBag.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSockAddrWrapper.h">IDSSockAddrWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairAckMessage.h">IDSSocketPairAckMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairAppAckMessage.h">IDSSocketPairAppAckMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairAttachmentMessage.h">IDSSocketPairAttachmentMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairDataMessage.h">IDSSocketPairDataMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairDeliveryReceipt.h">IDSSocketPairDeliveryReceipt.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairDictionaryMessage.h">IDSSocketPairDictionaryMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairEncryptedMessage.h">IDSSocketPairEncryptedMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairErrorMessage.h">IDSSocketPairErrorMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairExpiredAckMessage.h">IDSSocketPairExpiredAckMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairFragmentedMessage.h">IDSSocketPairFragmentedMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairGenericCommandMessage.h">IDSSocketPairGenericCommandMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairGenericGroupMessageCommand.h">IDSSocketPairGenericGroupMessageCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairHandshake.h">IDSSocketPairHandshake.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairKeepAliveMessage.h">IDSSocketPairKeepAliveMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairLocationShareOfferCommand.h">IDSSocketPairLocationShareOfferCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairMessage.h">IDSSocketPairMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairOTREncryptedMessage.h">IDSSocketPairOTREncryptedMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairOTRMessage.h">IDSSocketPairOTRMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairPlayedReceipt.h">IDSSocketPairPlayedReceipt.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairProtobufMessage.h">IDSSocketPairProtobufMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairProxyIncomingNiceMessage.h">IDSSocketPairProxyIncomingNiceMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairProxyOutgoingNiceMessage.h">IDSSocketPairProxyOutgoingNiceMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairReadReceipt.h">IDSSocketPairReadReceipt.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairReflectedDeliveryReceipt.h">IDSSocketPairReflectedDeliveryReceipt.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairResourceTransferMessage.h">IDSSocketPairResourceTransferMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairResourceTransferReceiver.h">IDSSocketPairResourceTransferReceiver.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairResourceTransferSender.h">IDSSocketPairResourceTransferSender.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairSMSDeliveryReceipt.h">IDSSocketPairSMSDeliveryReceipt.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairSMSDownloadOutgoing.h">IDSSocketPairSMSDownloadOutgoing.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairSMSFailure.h">IDSSocketPairSMSFailure.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairSMSOutgoing.h">IDSSocketPairSMSOutgoing.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairSMSReadReceipt.h">IDSSocketPairSMSReadReceipt.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairSMSTextDownloadMessage.h">IDSSocketPairSMSTextDownloadMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairSMSTextMessage.h">IDSSocketPairSMSTextMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairSavedReceipt.h">IDSSocketPairSavedReceipt.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairServiceMapMessage.h">IDSSocketPairServiceMapMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairSessionAcceptMessage.h">IDSSocketPairSessionAcceptMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairSessionCancelMessage.h">IDSSocketPairSessionCancelMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairSessionDeclineMessage.h">IDSSocketPairSessionDeclineMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairSessionEndMessage.h">IDSSocketPairSessionEndMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairSessionInvitationMessage.h">IDSSocketPairSessionInvitationMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairSessionMessage.h">IDSSocketPairSessionMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSocketPairTextMessage.h">IDSSocketPairTextMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSSysdiagnoseLogCollector.h">IDSSysdiagnoseLogCollector.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSWRMExchange.h">IDSWRMExchange.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSWRMMetricContainer.h">IDSWRMMetricContainer.h</A>
+<A HREF="/tree/PrivateFrameworks/IDSFoundation.framework/IDSiMessageServerBag.h">IDSiMessageServerBag.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

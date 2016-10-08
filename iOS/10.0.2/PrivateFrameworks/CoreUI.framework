@@ -1,0 +1,162 @@
+<HTML>
+<HEAD>
+<TITLE>CoreUI.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/CoreUI.framework
+104 classes
+
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CSIBitmapWrapper.h">CSIBitmapWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CSIGenerator.h">CSIGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CSIHelper.h">CSIHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CSITextureHelper.h">CSITextureHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUICatalog.h">CUICatalog.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUICatalogCSIGenerator.h">CUICatalogCSIGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIColor.h">CUIColor.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUICommonAssetStorage.h">CUICommonAssetStorage.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIImage.h">CUIImage.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIMutableCatalog.h">CUIMutableCatalog.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIMutableCommonAssetStorage.h">CUIMutableCommonAssetStorage.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIMutablePSDImageRef.h">CUIMutablePSDImageRef.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIMutableStructuredThemeStore.h">CUIMutableStructuredThemeStore.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIMutableThemeRendition.h">CUIMutableThemeRendition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUINamedData.h">CUINamedData.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUINamedExternalLink.h">CUINamedExternalLink.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUINamedImage.h">CUINamedImage.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUINamedImageAtlas.h">CUINamedImageAtlas.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUINamedImageDescription.h">CUINamedImageDescription.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUINamedLayerImage.h">CUINamedLayerImage.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUINamedLayerStack.h">CUINamedLayerStack.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUINamedLookup.h">CUINamedLookup.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUINamedRenditionInfo.h">CUINamedRenditionInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUINamedTexture.h">CUINamedTexture.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDGradient.h">CUIPSDGradient.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDGradientColorStop.h">CUIPSDGradientColorStop.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDGradientDoubleColorStop.h">CUIPSDGradientDoubleColorStop.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDGradientDoubleOpacityStop.h">CUIPSDGradientDoubleOpacityStop.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDGradientEvaluator.h">CUIPSDGradientEvaluator.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDGradientLayer.h">CUIPSDGradientLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDGradientOpacityStop.h">CUIPSDGradientOpacityStop.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDGradientStop.h">CUIPSDGradientStop.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDImageLayer.h">CUIPSDImageLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDImageRef.h">CUIPSDImageRef.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDLayer.h">CUIPSDLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDLayerBaseRef.h">CUIPSDLayerBaseRef.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDLayerEffectBevelEmboss.h">CUIPSDLayerEffectBevelEmboss.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDLayerEffectColorOverlay.h">CUIPSDLayerEffectColorOverlay.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDLayerEffectComponent.h">CUIPSDLayerEffectComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDLayerEffectDropShadow.h">CUIPSDLayerEffectDropShadow.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDLayerEffectGradientOverlay.h">CUIPSDLayerEffectGradientOverlay.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDLayerEffectInnerGlow.h">CUIPSDLayerEffectInnerGlow.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDLayerEffectInnerShadow.h">CUIPSDLayerEffectInnerShadow.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDLayerEffectOuterGlow.h">CUIPSDLayerEffectOuterGlow.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDLayerEffects.h">CUIPSDLayerEffects.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDLayerEnumerator.h">CUIPSDLayerEnumerator.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDLayerGroupEnd.h">CUIPSDLayerGroupEnd.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDLayerGroupRef.h">CUIPSDLayerGroupRef.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDLayerGroupStart.h">CUIPSDLayerGroupStart.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDLayerMaskRef.h">CUIPSDLayerMaskRef.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDLayerRef.h">CUIPSDLayerRef.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSDLayoutMetricsChannel.h">CUIPSDLayoutMetricsChannel.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPSLayerEffectsPreset.h">CUIPSLayerEffectsPreset.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIPattern.h">CUIPattern.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIRenditionKey.h">CUIRenditionKey.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIRenditionLayerReference.h">CUIRenditionLayerReference.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIRenditionMetrics.h">CUIRenditionMetrics.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIRenditionSliceInformation.h">CUIRenditionSliceInformation.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIRuntimeStatistics.h">CUIRuntimeStatistics.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIShapeEffectPreset.h">CUIShapeEffectPreset.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIShapeEffectStack.h">CUIShapeEffectStack.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUISingleNamedAssetCreator.h">CUISingleNamedAssetCreator.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUISingleNamedAssetMutableStorage.h">CUISingleNamedAssetMutableStorage.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIStructuredThemeStore.h">CUIStructuredThemeStore.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIStyleEffectConfiguration.h">CUIStyleEffectConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUISystemCatalog.h">CUISystemCatalog.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUITextEffectStack.h">CUITextEffectStack.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIThemeDataEffectPreset.h">CUIThemeDataEffectPreset.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIThemeFacet.h">CUIThemeFacet.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIThemeGradient.h">CUIThemeGradient.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIThemeRendition.h">CUIThemeRendition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIThemeSchema.h">CUIThemeSchema.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIThemeSchemaEffectRendition.h">CUIThemeSchemaEffectRendition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIThemeSchemaLayer.h">CUIThemeSchemaLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIThemeSchemaPSDLayer.h">CUIThemeSchemaPSDLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIThemeSchemaPSDLayerGroup.h">CUIThemeSchemaPSDLayerGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIThemeSchemaPSDRenditionLayer.h">CUIThemeSchemaPSDRenditionLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIThemeSchemaRendition.h">CUIThemeSchemaRendition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CUIThemeSchemaRenditionGroup.h">CUIThemeSchemaRenditionGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/CoreUI.h">CoreUI.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_CSIRenditionBlockData.h">_CSIRenditionBlockData.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_CUIExplicitlyPackedContentRendition.h">_CUIExplicitlyPackedContentRendition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_CUIExternalLinkRendition.h">_CUIExternalLinkRendition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_CUIInternalLinkRendition.h">_CUIInternalLinkRendition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_CUIKeyTestOrganizer.h">_CUIKeyTestOrganizer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_CUILayerStackRendition.h">_CUILayerStackRendition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_CUIMacOSThemeSchema.h">_CUIMacOSThemeSchema.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_CUINineImagePieces.h">_CUINineImagePieces.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_CUIPDFRendition.h">_CUIPDFRendition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_CUIPSDStopAndMidpointPair.h">_CUIPSDStopAndMidpointPair.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_CUIPSDSublayerInfo.h">_CUIPSDSublayerInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_CUIRawDataRendition.h">_CUIRawDataRendition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_CUIRawPixelRendition.h">_CUIRawPixelRendition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_CUISubrangeData.h">_CUISubrangeData.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_CUIThemeEffectRendition.h">_CUIThemeEffectRendition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_CUIThemeFacetCacheKey.h">_CUIThemeFacetCacheKey.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_CUIThemeGradientRendition.h">_CUIThemeGradientRendition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_CUIThemePixelRendition.h">_CUIThemePixelRendition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_CUIThemeTextureImageRendition.h">_CUIThemeTextureImageRendition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_CUIThemeTextureRendition.h">_CUIThemeTextureRendition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_CUIThinningPlaceholderRendition.h">_CUIThinningPlaceholderRendition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_CUIiPhoneOSThemeSchema.h">_CUIiPhoneOSThemeSchema.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_CUTextureLink.h">_CUTextureLink.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreUI.framework/_SchemaRenditionTuple.h">_SchemaRenditionTuple.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

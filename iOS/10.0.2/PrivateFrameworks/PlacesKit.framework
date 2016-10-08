@@ -1,0 +1,107 @@
+<HTML>
+<HEAD>
+<TITLE>PlacesKit.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/PlacesKit.framework
+49 classes
+
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PKExtendedTraitCollection.h">PKExtendedTraitCollection.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesGeotaggableSortDescriptor.h">PXPlacesGeotaggableSortDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesImageCache.h">PXPlacesImageCache.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapAdaptiveClusterLayout.h">PXPlacesMapAdaptiveClusterLayout.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapCircleAnnotationView.h">PXPlacesMapCircleAnnotationView.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapCircleRenderer.h">PXPlacesMapCircleRenderer.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapController.h">PXPlacesMapController.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapDefaultLayoutDiffer.h">PXPlacesMapDefaultLayoutDiffer.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapDefaultUpdatePlan.h">PXPlacesMapDefaultUpdatePlan.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapDotsLayout.h">PXPlacesMapDotsLayout.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapDotsOverlay.h">PXPlacesMapDotsOverlay.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapDotsOverlayRenderer.h">PXPlacesMapDotsOverlayRenderer.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapDotsRenderer.h">PXPlacesMapDotsRenderer.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapDotsUpdatePlan.h">PXPlacesMapDotsUpdatePlan.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapFetchResultController.h">PXPlacesMapFetchResultController.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapGeometricClusterLayout.h">PXPlacesMapGeometricClusterLayout.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapInPlaceLayoutDiffer.h">PXPlacesMapInPlaceLayoutDiffer.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapInPlaceUpdatePlan.h">PXPlacesMapInPlaceUpdatePlan.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapLayout.h">PXPlacesMapLayout.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapLayoutChange.h">PXPlacesMapLayoutChange.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapLayoutDiffer.h">PXPlacesMapLayoutDiffer.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapLayoutItemImpl.h">PXPlacesMapLayoutItemImpl.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapLayoutResultImpl.h">PXPlacesMapLayoutResultImpl.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapPassthroughSelectionHandler.h">PXPlacesMapPassthroughSelectionHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapPinRenderer.h">PXPlacesMapPinRenderer.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapPipeline.h">PXPlacesMapPipeline.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapPipelineExecutionContext.h">PXPlacesMapPipelineExecutionContext.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapPipelineFactory.h">PXPlacesMapPipelineFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapPointAnnotation.h">PXPlacesMapPointAnnotation.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapRadiusSelectionHandler.h">PXPlacesMapRadiusSelectionHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapSmallCircleAnnotationView.h">PXPlacesMapSmallCircleAnnotationView.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapSmallCircleRenderer.h">PXPlacesMapSmallCircleRenderer.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapThumbnailAnnotationView.h">PXPlacesMapThumbnailAnnotationView.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapThumbnailClusterLayout.h">PXPlacesMapThumbnailClusterLayout.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapThumbnailRenderer.h">PXPlacesMapThumbnailRenderer.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapUpdatePlanResultImpl.h">PXPlacesMapUpdatePlanResultImpl.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapView.h">PXPlacesMapView.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesMapViewPort.h">PXPlacesMapViewPort.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesPhotoAssetsStore.h">PXPlacesPhotoAssetsStore.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesPinAnnotationView.h">PXPlacesPinAnnotationView.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesPopoverImageFactory.h">PXPlacesPopoverImageFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesSnapshotFactory.h">PXPlacesSnapshotFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesSnapshotOptions.h">PXPlacesSnapshotOptions.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesStore.h">PXPlacesStore.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesTestDataGenerator.h">PXPlacesTestDataGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/PXPlacesTestDataPoint.h">PXPlacesTestDataPoint.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/_PXMapStoreChange.h">_PXMapStoreChange.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/_PXPlacesImageCacheKey.h">_PXPlacesImageCacheKey.h</A>
+<A HREF="/tree/PrivateFrameworks/PlacesKit.framework/__PKObject.h">__PKObject.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

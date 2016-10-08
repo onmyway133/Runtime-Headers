@@ -1,0 +1,75 @@
+<HTML>
+<HEAD>
+<TITLE>LoggingSupport.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/LoggingSupport.framework
+17 classes
+
+<A HREF="/tree/PrivateFrameworks/LoggingSupport.framework/OSActivityCreateEvent.h">OSActivityCreateEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/LoggingSupport.framework/OSActivityEvent.h">OSActivityEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/LoggingSupport.framework/OSActivityEventMessage.h">OSActivityEventMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/LoggingSupport.framework/OSActivityInstrumentation.h">OSActivityInstrumentation.h</A>
+<A HREF="/tree/PrivateFrameworks/LoggingSupport.framework/OSActivityLogMessageEvent.h">OSActivityLogMessageEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/LoggingSupport.framework/OSActivitySignPostEvent.h">OSActivitySignPostEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/LoggingSupport.framework/OSActivityStatedumpEvent.h">OSActivityStatedumpEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/LoggingSupport.framework/OSActivityStream.h">OSActivityStream.h</A>
+<A HREF="/tree/PrivateFrameworks/LoggingSupport.framework/OSActivityTraceMessageEvent.h">OSActivityTraceMessageEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/LoggingSupport.framework/OSActivityTransitionEvent.h">OSActivityTransitionEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/LoggingSupport.framework/OSActivityUserActionEvent.h">OSActivityUserActionEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/LoggingSupport.framework/OSLogDevice.h">OSLogDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/LoggingSupport.framework/OSLogPersistence.h">OSLogPersistence.h</A>
+<A HREF="/tree/PrivateFrameworks/LoggingSupport.framework/OSLogPreferencesCategory.h">OSLogPreferencesCategory.h</A>
+<A HREF="/tree/PrivateFrameworks/LoggingSupport.framework/OSLogPreferencesManager.h">OSLogPreferencesManager.h</A>
+<A HREF="/tree/PrivateFrameworks/LoggingSupport.framework/OSLogPreferencesProcess.h">OSLogPreferencesProcess.h</A>
+<A HREF="/tree/PrivateFrameworks/LoggingSupport.framework/OSLogPreferencesSubsystem.h">OSLogPreferencesSubsystem.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

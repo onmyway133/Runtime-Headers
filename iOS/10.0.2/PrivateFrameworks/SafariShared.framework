@@ -1,0 +1,268 @@
+<HTML>
+<HEAD>
+<TITLE>SafariShared.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/SafariShared.framework
+210 classes
+
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSAWDLogger.h">WBSAWDLogger.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSAddressBookMatch.h">WBSAddressBookMatch.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSAddressBookMatchMarker.h">WBSAddressBookMatchMarker.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSAddressBookValueSpecifier.h">WBSAddressBookValueSpecifier.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSAsynchronousRequestHelper.h">WBSAsynchronousRequestHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSAutomaticReadingListAppExtensionItem.h">WBSAutomaticReadingListAppExtensionItem.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSAutomaticReadingListAppExtensionSource.h">WBSAutomaticReadingListAppExtensionSource.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSAutomaticReadingListItem.h">WBSAutomaticReadingListItem.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSAutomaticReadingListRecordRange.h">WBSAutomaticReadingListRecordRange.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSAutomaticReadingListSinaWeiboItem.h">WBSAutomaticReadingListSinaWeiboItem.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSAutomaticReadingListSinaWeiboSource.h">WBSAutomaticReadingListSinaWeiboSource.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSAutomaticReadingListSocialSource.h">WBSAutomaticReadingListSocialSource.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSAutomaticReadingListTrackedRecordsInfo.h">WBSAutomaticReadingListTrackedRecordsInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSAutomaticReadingListTwitterItem.h">WBSAutomaticReadingListTwitterItem.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSAutomaticReadingListTwitterSource.h">WBSAutomaticReadingListTwitterSource.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSAutomaticReadingListWebFeedItem.h">WBSAutomaticReadingListWebFeedItem.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSAutomaticReadingListWebFeedSource.h">WBSAutomaticReadingListWebFeedSource.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSBookmarkAndHistoryCompletionMatch.h">WBSBookmarkAndHistoryCompletionMatch.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSCache.h">WBSCache.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSClass.h">WBSClass.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSCleanupHandler.h">WBSCleanupHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSCloudHistory.h">WBSCloudHistory.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSCloudHistoryConfiguration.h">WBSCloudHistoryConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSCloudHistoryFetchResult.h">WBSCloudHistoryFetchResult.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSCloudHistoryMergeOperation.h">WBSCloudHistoryMergeOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSCloudHistoryPushAgent.h">WBSCloudHistoryPushAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSCloudHistoryPushAgentProxy.h">WBSCloudHistoryPushAgentProxy.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSCloudHistoryStore.h">WBSCloudHistoryStore.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSCloudHistoryThrottler.h">WBSCloudHistoryThrottler.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSCloudHistoryVisit.h">WBSCloudHistoryVisit.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSCloudHistoryVisitIdentifier.h">WBSCloudHistoryVisitIdentifier.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSCloudTab.h">WBSCloudTab.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSCloudTabCloseRequest.h">WBSCloudTabCloseRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSCloudTabDevice.h">WBSCloudTabDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSCloudTabStore.h">WBSCloudTabStore.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSCompletionListRankingObserver.h">WBSCompletionListRankingObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSCompletionQuery.h">WBSCompletionQuery.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSCredentialMatch.h">WBSCredentialMatch.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSCreditCardData.h">WBSCreditCardData.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSCreditCardDataController.h">WBSCreditCardDataController.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSCreditCardFormatter.h">WBSCreditCardFormatter.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSDuetSession.h">WBSDuetSession.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSEncryptedCloudKeyValueStore.h">WBSEncryptedCloudKeyValueStore.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFeedElement.h">WBSFeedElement.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFeedEntry.h">WBSFeedEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFeedFinderController.h">WBSFeedFinderController.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFeedMetadata.h">WBSFeedMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFeedParser.h">WBSFeedParser.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFeedSource.h">WBSFeedSource.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFluidProgressAnimation.h">WBSFluidProgressAnimation.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFluidProgressController.h">WBSFluidProgressController.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFluidProgressState.h">WBSFluidProgressState.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFormAutoFillClassificationToCorrectionsTransformer.h">WBSFormAutoFillClassificationToCorrectionsTransformer.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFormAutoFillCorrectionManager.h">WBSFormAutoFillCorrectionManager.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFormAutoFillCorrectionSet.h">WBSFormAutoFillCorrectionSet.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFormAutoFillCorrectionsDomainNormalizer.h">WBSFormAutoFillCorrectionsDomainNormalizer.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFormAutoFillCorrectionsHistoryObserver.h">WBSFormAutoFillCorrectionsHistoryObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFormAutoFillCorrectionsSQLiteStore.h">WBSFormAutoFillCorrectionsSQLiteStore.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFormAutoFillItem.h">WBSFormAutoFillItem.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFormAutoFillMetadataCorrector.h">WBSFormAutoFillMetadataCorrector.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor.h">WBSFormAutoFillParsecCrowdsourcedCorrectionsProcessor.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFormAutoFillParsecDomainPolicyProvider.h">WBSFormAutoFillParsecDomainPolicyProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFormAutoFillParsecFeedbackProcessor.h">WBSFormAutoFillParsecFeedbackProcessor.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFormDataController.h">WBSFormDataController.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFormFieldClassificationCorrector.h">WBSFormFieldClassificationCorrector.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFormFieldFingerprinter.h">WBSFormFieldFingerprinter.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFormMetadata.h">WBSFormMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFormMetadataController.h">WBSFormMetadataController.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFormToABBinder.h">WBSFormToABBinder.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFrequentlyVisitedSiteCandidate.h">WBSFrequentlyVisitedSiteCandidate.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFrequentlyVisitedSitesBannedURLStore.h">WBSFrequentlyVisitedSitesBannedURLStore.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSFrequentlyVisitedSitesController.h">WBSFrequentlyVisitedSitesController.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSHistory.h">WBSHistory.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSHistoryAccessSession.h">WBSHistoryAccessSession.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSHistoryAccessSessionProxy.h">WBSHistoryAccessSessionProxy.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSHistoryAgeAndItemCountLimitEnforcementPlan.h">WBSHistoryAgeAndItemCountLimitEnforcementPlan.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSHistoryConnection.h">WBSHistoryConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSHistoryConnectionProxy.h">WBSHistoryConnectionProxy.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSHistoryDatabaseAccessBroker.h">WBSHistoryDatabaseAccessBroker.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSHistoryDatabaseSchemaMigrator.h">WBSHistoryDatabaseSchemaMigrator.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSHistoryDeletionPlan.h">WBSHistoryDeletionPlan.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSHistoryItem.h">WBSHistoryItem.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSHistoryNotification.h">WBSHistoryNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSHistoryPropertyListLoader.h">WBSHistoryPropertyListLoader.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSHistorySQLiteStore.h">WBSHistorySQLiteStore.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSHistoryService.h">WBSHistoryService.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSHistorySession.h">WBSHistorySession.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSHistorySessionController.h">WBSHistorySessionController.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSHistorySessionIntervalCache.h">WBSHistorySessionIntervalCache.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSHistoryTombstone.h">WBSHistoryTombstone.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSHistoryURLCompletionDataStore.h">WBSHistoryURLCompletionDataStore.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSHistoryURLCompletionMatchData.h">WBSHistoryURLCompletionMatchData.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSHistoryURLCompletionSession.h">WBSHistoryURLCompletionSession.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSHistoryVisit.h">WBSHistoryVisit.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSImageFetchingURLSessionTaskManager.h">WBSImageFetchingURLSessionTaskManager.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSImageUtilities.h">WBSImageUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSJavaScriptDialogCompletionHandler.h">WBSJavaScriptDialogCompletionHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSJavaScriptDialogManager.h">WBSJavaScriptDialogManager.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSMetadataExtractor.h">WBSMetadataExtractor.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSMultiRoundAutoFillManager.h">WBSMultiRoundAutoFillManager.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSOpenSearchDescription.h">WBSOpenSearchDescription.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSOpenSearchSchemaFetcher.h">WBSOpenSearchSchemaFetcher.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSOpenSearchURLTemplate.h">WBSOpenSearchURLTemplate.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSOpenSearchURLTemplateParameter.h">WBSOpenSearchURLTemplateParameter.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecActionButton.h">WBSParsecActionButton.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecAuxiliaryInfo.h">WBSParsecAuxiliaryInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecBuyButton.h">WBSParsecBuyButton.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecCardSection.h">WBSParsecCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecDFeedbackDispatcher.h">WBSParsecDFeedbackDispatcher.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecDSession.h">WBSParsecDSession.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecDescriptionCardSection.h">WBSParsecDescriptionCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecFormattedText.h">WBSParsecFormattedText.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecHiddenResultInfo.h">WBSParsecHiddenResultInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecImageRepresentation.h">WBSParsecImageRepresentation.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecKeyValueDataCardSection.h">WBSParsecKeyValueDataCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecModel.h">WBSParsecModel.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecMovieCardDetailSection.h">WBSParsecMovieCardDetailSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecMovieCardSection.h">WBSParsecMovieCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecPunchout.h">WBSParsecPunchout.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecResultSetPattern.h">WBSParsecResultSetPattern.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecRichText.h">WBSParsecRichText.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecRichTitleCardSection.h">WBSParsecRichTitleCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecRowCardSection.h">WBSParsecRowCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecSchema.h">WBSParsecSchema.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecSearchCompletionResultSet.h">WBSParsecSearchCompletionResultSet.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecSearchGenericResult.h">WBSParsecSearchGenericResult.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecSearchMapsResult.h">WBSParsecSearchMapsResult.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecSearchMapsResultExtraCompletionItem.h">WBSParsecSearchMapsResultExtraCompletionItem.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecSearchMapsResultFeedbackSender.h">WBSParsecSearchMapsResultFeedbackSender.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecSearchMescalSession.h">WBSParsecSearchMescalSession.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecSearchMoviesResult.h">WBSParsecSearchMoviesResult.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecSearchNewsResult.h">WBSParsecSearchNewsResult.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecSearchResponse.h">WBSParsecSearchResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecSearchResult.h">WBSParsecSearchResult.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecSearchResultCache.h">WBSParsecSearchResultCache.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecSearchSimpleResult.h">WBSParsecSearchSimpleResult.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecSearchSportsAttributionExtraCompletionItem.h">WBSParsecSearchSportsAttributionExtraCompletionItem.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecSearchSportsResult.h">WBSParsecSearchSportsResult.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecSearchTwitterResult.h">WBSParsecSearchTwitterResult.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecSearchUtilities.h">WBSParsecSearchUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecSportsImage.h">WBSParsecSportsImage.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecSportsScoreSummary.h">WBSParsecSportsScoreSummary.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecSportsScoreSummaryCardSection.h">WBSParsecSportsScoreSummaryCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecSubscriptionInfo.h">WBSParsecSubscriptionInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecSubscriptionManager.h">WBSParsecSubscriptionManager.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecTableAlignmentSchema.h">WBSParsecTableAlignmentSchema.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecTableRowCardSection.h">WBSParsecTableRowCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecTitleCardSection.h">WBSParsecTitleCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecTrailer.h">WBSParsecTrailer.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSParsecTrailersCardSection.h">WBSParsecTrailersCardSection.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSPasswordAutoFillUtilities.h">WBSPasswordAutoFillUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSPasswordGeneration.h">WBSPasswordGeneration.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSPeriodicActivityScheduler.h">WBSPeriodicActivityScheduler.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSQuickWebsiteSearchController.h">WBSQuickWebsiteSearchController.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSQuickWebsiteSearchProvider.h">WBSQuickWebsiteSearchProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSReaderFont.h">WBSReaderFont.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSReaderFontManager.h">WBSReaderFontManager.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSReaderLocalizedFonts.h">WBSReaderLocalizedFonts.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSRecentWebSearchEntry.h">WBSRecentWebSearchEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSRecentWebSearchesController.h">WBSRecentWebSearchesController.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSRemoteHistoryItem.h">WBSRemoteHistoryItem.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSRemoteHistorySession.h">WBSRemoteHistorySession.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSRemoteHistoryVisit.h">WBSRemoteHistoryVisit.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSSQLiteDatabase.h">WBSSQLiteDatabase.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSSQLiteRow.h">WBSSQLiteRow.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSSQLiteRowEnumerator.h">WBSSQLiteRowEnumerator.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSSQLiteStatement.h">WBSSQLiteStatement.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSSameDocumentNavigationToHistoryVisitCorrelator.h">WBSSameDocumentNavigationToHistoryVisitCorrelator.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSSavedPassword.h">WBSSavedPassword.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSSavedPasswordStore.h">WBSSavedPasswordStore.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSSearchHelperConnectionManager.h">WBSSearchHelperConnectionManager.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSSearchProvider.h">WBSSearchProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSSiteIconKeyColorExtractor.h">WBSSiteIconKeyColorExtractor.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSSiteMetadataFetchOperation.h">WBSSiteMetadataFetchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSSiteMetadataImageCache.h">WBSSiteMetadataImageCache.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSSiteMetadataImageCacheSettingsSQLiteStore.h">WBSSiteMetadataImageCacheSettingsSQLiteStore.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSSiteMetadataManager.h">WBSSiteMetadataManager.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSSiteMetadataRequest.h">WBSSiteMetadataRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSSiteMetadataResponse.h">WBSSiteMetadataResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSTabDialogCompletionHandler.h">WBSTabDialogCompletionHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSTabDialogInformation.h">WBSTabDialogInformation.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSTabDialogManager.h">WBSTabDialogManager.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSTemplateIconMonogramConfiguration.h">WBSTemplateIconMonogramConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSTemplateIconMonogramGenerator.h">WBSTemplateIconMonogramGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSTopHitCompletionMatch.h">WBSTopHitCompletionMatch.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSTouchIconCache.h">WBSTouchIconCache.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSTouchIconCacheSettingsEntry.h">WBSTouchIconCacheSettingsEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSTouchIconCacheSettingsSQLiteStore.h">WBSTouchIconCacheSettingsSQLiteStore.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSTouchIconFetchOperation.h">WBSTouchIconFetchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSTouchIconFetchOperationResult.h">WBSTouchIconFetchOperationResult.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSTouchIconRequest.h">WBSTouchIconRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSTouchIconResponse.h">WBSTouchIconResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSTouchIconWebProcessPlugInPageController.h">WBSTouchIconWebProcessPlugInPageController.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSURLCompletionDatabase.h">WBSURLCompletionDatabase.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSURLCompletionHistorySnapshot.h">WBSURLCompletionHistorySnapshot.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSURLCompletionMatch.h">WBSURLCompletionMatch.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSURLCompletionMatchSnapshot.h">WBSURLCompletionMatchSnapshot.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSURLCompletionSessionProxy.h">WBSURLCompletionSessionProxy.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSURLCompletionUserTypedString.h">WBSURLCompletionUserTypedString.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSURLSuffixChecker.h">WBSURLSuffixChecker.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSUserTypedFormString.h">WBSUserTypedFormString.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSWebProcessPlugIn.h">WBSWebProcessPlugIn.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSWebProcessPlugInPageController.h">WBSWebProcessPlugInPageController.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/WBSWebViewMetadataFetchOperation.h">WBSWebViewMetadataFetchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/_WBSFieldLabelPatternMatcherFactory.h">_WBSFieldLabelPatternMatcherFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/_WBSParsecArraySchema.h">_WBSParsecArraySchema.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/_WBSParsecDictionarySchema.h">_WBSParsecDictionarySchema.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/_WBSSearchFoundationFeedbackGenerator.h">_WBSSearchFoundationFeedbackGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/_WBSSiteMetadataRequestInfo.h">_WBSSiteMetadataRequestInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/SafariShared.framework/_WBSSiteMetadataToken.h">_WBSSiteMetadataToken.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

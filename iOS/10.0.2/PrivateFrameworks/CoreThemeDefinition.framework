@@ -1,0 +1,176 @@
+<HTML>
+<HEAD>
+<TITLE>CoreThemeDefinition.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/CoreThemeDefinition.framework
+118 classes
+
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/CTDPSDPreviewRef.h">CTDPSDPreviewRef.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/CoreThemeAlignmentMigrationPolicy.h">CoreThemeAlignmentMigrationPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/CoreThemeAssetMigrationPolicy.h">CoreThemeAssetMigrationPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/CoreThemeConstantEnumerator.h">CoreThemeConstantEnumerator.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/CoreThemeConstantHelper.h">CoreThemeConstantHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/CoreThemeConstantMigrationPolicy.h">CoreThemeConstantMigrationPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/CoreThemeDefinitionMigrator.h">CoreThemeDefinitionMigrator.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/CoreThemeDocument.h">CoreThemeDocument.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/CoreThemeRenditionKeyMigrationPolicy.h">CoreThemeRenditionKeyMigrationPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/CoreThemeSliceMigrationPolicy.h">CoreThemeSliceMigrationPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/CoreThemeTemplateMigrationPolicy.h">CoreThemeTemplateMigrationPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDAbstractLayerReference.h">TDAbstractLayerReference.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDAsset.h">TDAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDAssetPack.h">TDAssetPack.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDAssetPackDistiller.h">TDAssetPackDistiller.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDColorDefinition.h">TDColorDefinition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDColorName.h">TDColorName.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDCursorFacetDefinition.h">TDCursorFacetDefinition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDCursorPhotoshopProduction.h">TDCursorPhotoshopProduction.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDCustomArtworkProduction.h">TDCustomArtworkProduction.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDCustomArtworkRenditionSpec.h">TDCustomArtworkRenditionSpec.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDCustomAsset.h">TDCustomAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDCustomAssetImportInfo.h">TDCustomAssetImportInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDDeviceTraits.h">TDDeviceTraits.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDDistillRunner.h">TDDistillRunner.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDDistiller.h">TDDistiller.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDEffectComponent.h">TDEffectComponent.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDEffectParameterType.h">TDEffectParameterType.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDEffectParameterValue.h">TDEffectParameterValue.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDEffectRenditionSpec.h">TDEffectRenditionSpec.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDEffectStyleProduction.h">TDEffectStyleProduction.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDEffectType.h">TDEffectType.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDElementProduction.h">TDElementProduction.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDFacetDefinition.h">TDFacetDefinition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDFlattenedImageRenditionSpec.h">TDFlattenedImageRenditionSpec.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDFontDefinition.h">TDFontDefinition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDFontSizeDefinition.h">TDFontSizeDefinition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDHistorian.h">TDHistorian.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDImageStackAsset.h">TDImageStackAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDIterationType.h">TDIterationType.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDLayerMapping.h">TDLayerMapping.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDLayerReference.h">TDLayerReference.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDLayerStackProduction.h">TDLayerStackProduction.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDLayerStackRenditionSpec.h">TDLayerStackRenditionSpec.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDLogger.h">TDLogger.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDMetafontSelector.h">TDMetafontSelector.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDMetafontSizeSelector.h">TDMetafontSizeSelector.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDMicaAsset.h">TDMicaAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDMicaElementProduction.h">TDMicaElementProduction.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDMicaRenditionSpec.h">TDMicaRenditionSpec.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDNamedArtworkProduction.h">TDNamedArtworkProduction.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDNamedAssetImportInfo.h">TDNamedAssetImportInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDNamedEffectProduction.h">TDNamedEffectProduction.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDNamedElement.h">TDNamedElement.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDNamedTextureProduction.h">TDNamedTextureProduction.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDPNGAsset.h">TDPNGAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDPackedContentsRenditionSpec.h">TDPackedContentsRenditionSpec.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDPackedName.h">TDPackedName.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDPackedRenditionSpec.h">TDPackedRenditionSpec.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDPacker.h">TDPacker.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDPersistentDocument.h">TDPersistentDocument.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDPhotoshopAsset.h">TDPhotoshopAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDPhotoshopElementProduction.h">TDPhotoshopElementProduction.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDPhotoshopLayer.h">TDPhotoshopLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDPhotoshopRenditionSpec.h">TDPhotoshopRenditionSpec.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDProMergeableCommonAssetStorage.h">TDProMergeableCommonAssetStorage.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDRadiosityImageRenditionSpec.h">TDRadiosityImageRenditionSpec.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDRenditionEntry.h">TDRenditionEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDRenditionKeySpec.h">TDRenditionKeySpec.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDRenditionSpec.h">TDRenditionSpec.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDRenditionSubtype.h">TDRenditionSubtype.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDRenditionType.h">TDRenditionType.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDRenditionsDistiller.h">TDRenditionsDistiller.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDResolvedLayerReference.h">TDResolvedLayerReference.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDSchemaCategory.h">TDSchemaCategory.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDSchemaDefinition.h">TDSchemaDefinition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDSchemaEffectDefinition.h">TDSchemaEffectDefinition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDSchemaElementDefinition.h">TDSchemaElementDefinition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDSchemaElementProduction.h">TDSchemaElementProduction.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDSchemaMaterialDefinition.h">TDSchemaMaterialDefinition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDSchemaPartDefinition.h">TDSchemaPartDefinition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDSchemaRenditionSpec.h">TDSchemaRenditionSpec.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDSimpleArtworkElementProduction.h">TDSimpleArtworkElementProduction.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDSimpleArtworkRenditionSpec.h">TDSimpleArtworkRenditionSpec.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDSlice.h">TDSlice.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDTag.h">TDTag.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDTemplateRenderingMode.h">TDTemplateRenderingMode.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDTextureAsset.h">TDTextureAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDTextureAssetInfo.h">TDTextureAssetInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDTextureFace.h">TDTextureFace.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDTextureImageRenditionSpec.h">TDTextureImageRenditionSpec.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDTextureInterpretation.h">TDTextureInterpretation.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDTextureMipLevel.h">TDTextureMipLevel.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDTexturePixelFormat.h">TDTexturePixelFormat.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDTextureRenditionSpec.h">TDTextureRenditionSpec.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDThemeBitSource.h">TDThemeBitSource.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDThemeCompressionType.h">TDThemeCompressionType.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDThemeConstant.h">TDThemeConstant.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDThemeDeploymentTarget.h">TDThemeDeploymentTarget.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDThemeDirection.h">TDThemeDirection.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDThemeDisplayGamut.h">TDThemeDisplayGamut.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDThemeDrawingLayer.h">TDThemeDrawingLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDThemeElement.h">TDThemeElement.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDThemeGraphicsFeatureSetClass.h">TDThemeGraphicsFeatureSetClass.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDThemeIdiom.h">TDThemeIdiom.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDThemeLook.h">TDThemeLook.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDThemePart.h">TDThemePart.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDThemePresentationState.h">TDThemePresentationState.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDThemePreviousState.h">TDThemePreviousState.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDThemePreviousValue.h">TDThemePreviousValue.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDThemeSchema.h">TDThemeSchema.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDThemeSize.h">TDThemeSize.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDThemeState.h">TDThemeState.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDThemeUISizeClass.h">TDThemeUISizeClass.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDThemeValue.h">TDThemeValue.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/TDThreadMOCOrganizer.h">TDThreadMOCOrganizer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/_TDLayerStackFilterHelper.h">_TDLayerStackFilterHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreThemeDefinition.framework/_TDPackerNode.h">_TDPackerNode.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

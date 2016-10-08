@@ -1,0 +1,131 @@
+<HTML>
+<HEAD>
+<TITLE>DuetExpertCenter.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/DuetExpertCenter.framework
+73 classes
+
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECABHelper.h">_DECABHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECAggregateKeys.h">_DECAggregateKeys.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECAggregateLogger.h">_DECAggregateLogger.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECAppItem.h">_DECAppItem.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECAppPredictionFeedback.h">_DECAppPredictionFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECAppPredictionFeedbackItem.h">_DECAppPredictionFeedbackItem.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECAppWidgetFeedback.h">_DECAppWidgetFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECAsset.h">_DECAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECBackupHelper.h">_DECBackupHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECCachedConsumer.h">_DECCachedConsumer.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECConcurrentLIFOQueue.h">_DECConcurrentLIFOQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECConsumer.h">_DECConsumer.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECContextHelper.h">_DECContextHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECDaemon.h">_DECDaemon.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECDailyQPLoggingScheduler.h">_DECDailyQPLoggingScheduler.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECDailyTrainingScheduler.h">_DECDailyTrainingScheduler.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECDataProtectionMonitor.h">_DECDataProtectionMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECDeviceInfo.h">_DECDeviceInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECDeviceState.h">_DECDeviceState.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECDuetHelper.h">_DECDuetHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECEventItem.h">_DECEventItem.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECExpert.h">_DECExpert.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECExpertManager.h">_DECExpertManager.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECFeedback.h">_DECFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECFeedbackBuilder.h">_DECFeedbackBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECFeedbackLoggerManager.h">_DECFeedbackLoggerManager.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECFeedbackProvider.h">_DECFeedbackProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECFilterManager.h">_DECFilterManager.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECInternalConsumer.h">_DECInternalConsumer.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECInternalConsumerManager.h">_DECInternalConsumerManager.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECItem.h">_DECItem.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECLaunchInfo.h">_DECLaunchInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECLocationAppItem.h">_DECLocationAppItem.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECLocationItem.h">_DECLocationItem.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECMusicContainer.h">_DECMusicContainer.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECMusicStateProcessor.h">_DECMusicStateProcessor.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECNameItem.h">_DECNameItem.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECNowPlayingConsumer.h">_DECNowPlayingConsumer.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECNowPlayingFeedbackProvider.h">_DECNowPlayingFeedbackProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECOperationForWithDbLock.h">_DECOperationForWithDbLock.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECPaths.h">_DECPaths.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECPersonItem.h">_DECPersonItem.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECPersonPropertyItem.h">_DECPersonPropertyItem.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECPrediction.h">_DECPrediction.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECPredictionCache.h">_DECPredictionCache.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECPredictionCacheResult.h">_DECPredictionCacheResult.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECPredictionExpiry.h">_DECPredictionExpiry.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECPredictionItem.h">_DECPredictionItem.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECPredictionSet.h">_DECPredictionSet.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECPredictionStore.h">_DECPredictionStore.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECPredictionStoreQueuedResult.h">_DECPredictionStoreQueuedResult.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECPredictionStoreReader.h">_DECPredictionStoreReader.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECPreparedStatement.h">_DECPreparedStatement.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECQueryItem.h">_DECQueryItem.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECRankBuilder.h">_DECRankBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECRecentShareableItem.h">_DECRecentShareableItem.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECResult.h">_DECResult.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECRules.h">_DECRules.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECScheduler.h">_DECScheduler.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECSearchFeedbackListener.h">_DECSearchFeedbackListener.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECSearchResult.h">_DECSearchResult.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECServer.h">_DECServer.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECServerResponder.h">_DECServerResponder.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECSpotlightItem.h">_DECSpotlightItem.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECSpotlightReceiver.h">_DECSpotlightReceiver.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECSqliteDatabase.h">_DECSqliteDatabase.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECTypes.h">_DECTypes.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECUpdatePredictionsNotification.h">_DECUpdatePredictionsNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECUserAction.h">_DECUserAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECXPCObjectFactory.h">_DECXPCObjectFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DECZkwSpotlightFeedback.h">_DECZkwSpotlightFeedback.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DKExpertConsumerCategory.h">_DKExpertConsumerCategory.h</A>
+<A HREF="/tree/PrivateFrameworks/DuetExpertCenter.framework/_DKExpertFeedbackMetadataKey.h">_DKExpertFeedbackMetadataKey.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

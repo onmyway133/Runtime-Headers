@@ -1,0 +1,358 @@
+<HTML>
+<HEAD>
+<TITLE>PhotoLibraryServices.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/PhotoLibraryServices.framework
+300 classes
+
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/AssetCollectionInfo.h">AssetCollectionInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PFAdjustment.h">PFAdjustment.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PFAdjustmentSerialization.h">PFAdjustmentSerialization.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PFAdjustmentStack.h">PFAdjustmentStack.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PFCoalescer.h">PFCoalescer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PFCoalescerActivityToken.h">PFCoalescerActivityToken.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PFCoalescerContext.h">PFCoalescerContext.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PFZlibDataCompression.h">PFZlibDataCompression.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PFZlibDataCompressionOptions.h">PFZlibDataCompressionOptions.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PFZlibDataDecompressionOptions.h">PFZlibDataDecompressionOptions.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLAccountStore.h">PLAccountStore.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLAdditionalAssetAttributes.h">PLAdditionalAssetAttributes.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLAggdLogging.h">PLAggdLogging.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLAggregateAlbumList.h">PLAggregateAlbumList.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLAggregateAlbumListChangeNotification.h">PLAggregateAlbumListChangeNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLAssetAnalysisState.h">PLAssetAnalysisState.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLAssetChangeNotification.h">PLAssetChangeNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLAssetContainerChangeNotification.h">PLAssetContainerChangeNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLAssetContainerListChangeNotification.h">PLAssetContainerListChangeNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLAssetDescription.h">PLAssetDescription.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLAssetFormats.h">PLAssetFormats.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLAssetSharingUtilities.h">PLAssetSharingUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLAssetTransactionReason.h">PLAssetTransactionReason.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLAssetsSaver.h">PLAssetsSaver.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLAvalanche.h">PLAvalanche.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLBBBulletin.h">PLBBBulletin.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLBBBulletinsManager.h">PLBBBulletinsManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLBBPendingBulletinsBatch.h">PLBBPendingBulletinsBatch.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLBatterySaverWatcher.h">PLBatterySaverWatcher.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLBuildVersion.h">PLBuildVersion.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLBulletinsTestDaemonJob.h">PLBulletinsTestDaemonJob.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCPLFacePullSupport.h">PLCPLFacePullSupport.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCPLFacePushSupport.h">PLCPLFacePushSupport.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCPLPlistHandler.h">PLCPLPlistHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCPLStatus.h">PLCPLStatus.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCachedImage.h">PLCachedImage.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCameraPreviewImageWellChangeNotification.h">PLCameraPreviewImageWellChangeNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLChangeNode.h">PLChangeNode.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLChangeNotification.h">PLChangeNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLChangeNotificationCenter.h">PLChangeNotificationCenter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLChoosableItem.h">PLChoosableItem.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLClientServerTransaction.h">PLClientServerTransaction.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudBatchDownloader.h">PLCloudBatchDownloader.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudBatchUploader.h">PLCloudBatchUploader.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudCommentsChangeNotification.h">PLCloudCommentsChangeNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudDownloadBatchDetails.h">PLCloudDownloadBatchDetails.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudFeedAssetsEntry.h">PLCloudFeedAssetsEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudFeedCommentsEntry.h">PLCloudFeedCommentsEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudFeedEntriesChangeNotification.h">PLCloudFeedEntriesChangeNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudFeedEntriesManager.h">PLCloudFeedEntriesManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudFeedEntry.h">PLCloudFeedEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudInMemoryDownloadTask.h">PLCloudInMemoryDownloadTask.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudInMemoryTaskManager.h">PLCloudInMemoryTaskManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudInflightTask.h">PLCloudInflightTask.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudMaster.h">PLCloudMaster.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudMasterMediaMetadata.h">PLCloudMasterMediaMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudPendingResourceTask.h">PLCloudPendingResourceTask.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudPhotoLibraryBatchContainer.h">PLCloudPhotoLibraryBatchContainer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudPhotoLibraryBatchManager.h">PLCloudPhotoLibraryBatchManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudPhotoLibraryError.h">PLCloudPhotoLibraryError.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudPhotoLibraryHelper.h">PLCloudPhotoLibraryHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudPhotoLibraryManager.h">PLCloudPhotoLibraryManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudPhotoLibraryUserSwitchHandler.h">PLCloudPhotoLibraryUserSwitchHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudRecordOrganizer.h">PLCloudRecordOrganizer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudResource.h">PLCloudResource.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudResourceManager.h">PLCloudResourceManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudResourcePrefetchManager.h">PLCloudResourcePrefetchManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudResourcePruneManager.h">PLCloudResourcePruneManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudSharedAlbum.h">PLCloudSharedAlbum.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudSharedAlbumInvitationRecord.h">PLCloudSharedAlbumInvitationRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudSharedAssetSaveJob.h">PLCloudSharedAssetSaveJob.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudSharedComment.h">PLCloudSharedComment.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudSharedCommentsJob.h">PLCloudSharedCommentsJob.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudSharedDeleteAlbumsJob.h">PLCloudSharedDeleteAlbumsJob.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudSharedUpdateAlbumMetadataJob.h">PLCloudSharedUpdateAlbumMetadataJob.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudSharingEnablingJob.h">PLCloudSharingEnablingJob.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudSharingInvitationChangeJob.h">PLCloudSharingInvitationChangeJob.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudSharingJob.h">PLCloudSharingJob.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudSharingResetJob.h">PLCloudSharingResetJob.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudSharingViewedStateChangeJob.h">PLCloudSharingViewedStateChangeJob.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudStorageInfo.h">PLCloudStorageInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudStreamShareJob.h">PLCloudStreamShareJob.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudTaskManager.h">PLCloudTaskManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLCloudUploadChanges.h">PLCloudUploadChanges.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLConstraintsDirector.h">PLConstraintsDirector.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLContainerChangeNotification.h">PLContainerChangeNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLDaemonJob.h">PLDaemonJob.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLDateRangeFormatter.h">PLDateRangeFormatter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLDelayedFiledSystemDeletions.h">PLDelayedFiledSystemDeletions.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLDelayedSaveActions.h">PLDelayedSaveActions.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLDescriptionBuilder.h">PLDescriptionBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLDetectedFace.h">PLDetectedFace.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLDetectedFaceGroup.h">PLDetectedFaceGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLDetectedFaceprint.h">PLDetectedFaceprint.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLDeviceConfiguration.h">PLDeviceConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLDiagnosticsUtilities.h">PLDiagnosticsUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLDisconnectedDatabaseCreatorManagedObjectContext.h">PLDisconnectedDatabaseCreatorManagedObjectContext.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLDiskSpaceManagement.h">PLDiskSpaceManagement.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLDupeManager.h">PLDupeManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLEmailAddressManager.h">PLEmailAddressManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLFaceDetectingImageSource.h">PLFaceDetectingImageSource.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLFetchingAlbum.h">PLFetchingAlbum.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLFileSystemAssetImporter.h">PLFileSystemAssetImporter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLFileSystemImportAsset.h">PLFileSystemImportAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLFileUtilities.h">PLFileUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLFilesystemDeletionInfo.h">PLFilesystemDeletionInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLFilteredAlbum.h">PLFilteredAlbum.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLFilteredAlbumChangeNotification.h">PLFilteredAlbumChangeNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLFilteredAlbumList.h">PLFilteredAlbumList.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLFilteredAlbumListChangeNotification.h">PLFilteredAlbumListChangeNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLFilteredShuffledAlbum.h">PLFilteredShuffledAlbum.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLForegroundMonitor.h">PLForegroundMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLFormatChooser.h">PLFormatChooser.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLGenericAlbum.h">PLGenericAlbum.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLGeoLocationShiftResult.h">PLGeoLocationShiftResult.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLGeoLocationShifter.h">PLGeoLocationShifter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLImageCache.h">PLImageCache.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLImageCacheList.h">PLImageCacheList.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLImageFormat.h">PLImageFormat.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLImageGeometry.h">PLImageGeometry.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLImageLoadRequest.h">PLImageLoadRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLImageLoadingQueue.h">PLImageLoadingQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLImageLoadingThread.h">PLImageLoadingThread.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLImageLoadingUtilities.h">PLImageLoadingUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLImageSource.h">PLImageSource.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLImageTable.h">PLImageTable.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLImageTableSegment.h">PLImageTableSegment.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLImageWriter.h">PLImageWriter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLImportFileManager.h">PLImportFileManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLIndexMapper.h">PLIndexMapper.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLInstrumentedBlockOperation.h">PLInstrumentedBlockOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLInstrumentedOperationQueue.h">PLInstrumentedOperationQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLInvitationRecordsChangeNotification.h">PLInvitationRecordsChangeNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLJPEGDataImage.h">PLJPEGDataImage.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLJPEGPreheatItem.h">PLJPEGPreheatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLKeyFaceManager.h">PLKeyFaceManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLKeyFaceOperation.h">PLKeyFaceOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLKeyFacePicker.h">PLKeyFacePicker.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLKeywordManager.h">PLKeywordManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLLargeImageLoader.h">PLLargeImageLoader.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLLibrarySyncContext.h">PLLibrarySyncContext.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLLoadRequestKey.h">PLLoadRequestKey.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLLocationController.h">PLLocationController.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLLocationUtils.h">PLLocationUtils.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLManagedAdjustment.h">PLManagedAdjustment.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLManagedAlbum.h">PLManagedAlbum.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLManagedAlbumList.h">PLManagedAlbumList.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLManagedAsset.h">PLManagedAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLManagedFolder.h">PLManagedFolder.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLManagedKeyword.h">PLManagedKeyword.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLManagedLegacyFace.h">PLManagedLegacyFace.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLManagedLegacyFaceAlbum.h">PLManagedLegacyFaceAlbum.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLManagedObject.h">PLManagedObject.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLManagedObjectContext.h">PLManagedObjectContext.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLMappedImageData.h">PLMappedImageData.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLMemory.h">PLMemory.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLMergePolicy.h">PLMergePolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLModelMigrator.h">PLModelMigrator.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLMoment.h">PLMoment.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLMomentAnalyzer.h">PLMomentAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLMomentAnalyzerGeoRequestInfo.h">PLMomentAnalyzerGeoRequestInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLMomentAnalyzerQueue.h">PLMomentAnalyzerQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLMomentAnalyzerWorkThread.h">PLMomentAnalyzerWorkThread.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLMomentCluster.h">PLMomentCluster.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLMomentClustering.h">PLMomentClustering.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLMomentGeneration.h">PLMomentGeneration.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLMomentGenerationDataManager.h">PLMomentGenerationDataManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLMomentLibrary.h">PLMomentLibrary.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLMomentList.h">PLMomentList.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLMomentListCluster.h">PLMomentListCluster.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLMomentListClustering.h">PLMomentListClustering.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLMomentNameInfo.h">PLMomentNameInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLMomentNode.h">PLMomentNode.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLMomentNodeCache.h">PLMomentNodeCache.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLMomentTemporalSnapshot.h">PLMomentTemporalSnapshot.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLObjectSnapshot.h">PLObjectSnapshot.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPTPdAssetEnumerator.h">PLPTPdAssetEnumerator.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPTPdAssetManager.h">PLPTPdAssetManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPersistedAlbumMetadata.h">PLPersistedAlbumMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPersistedHiddenFacesMetadata.h">PLPersistedHiddenFacesMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPersistedMemoryMetadata.h">PLPersistedMemoryMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPersistedPersonFaceMetadata.h">PLPersistedPersonFaceMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPersistedPersonMetadata.h">PLPersistedPersonMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPerson.h">PLPerson.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPersonInfoManager.h">PLPersonInfoManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPersonReference.h">PLPersonReference.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoAnalysisFaceDescription.h">PLPhotoAnalysisFaceDescription.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoAnalysisFaceSuggestion.h">PLPhotoAnalysisFaceSuggestion.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoAnalysisServiceClient.h">PLPhotoAnalysisServiceClient.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoBakedThumbnails.h">PLPhotoBakedThumbnails.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoDCFDirectory.h">PLPhotoDCFDirectory.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoDCFFileGroup.h">PLPhotoDCFFileGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoDCFObject.h">PLPhotoDCFObject.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoDCIMDirectory.h">PLPhotoDCIMDirectory.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoDerivativeUtilities.h">PLPhotoDerivativeUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoEditAdjustmentsVersion.h">PLPhotoEditAdjustmentsVersion.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoEditAggregateSession.h">PLPhotoEditAggregateSession.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoEditExportProperties.h">PLPhotoEditExportProperties.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoEditImportProperties.h">PLPhotoEditImportProperties.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoEditModel.h">PLPhotoEditModel.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoEditMutableModel.h">PLPhotoEditMutableModel.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoEditPFDataConverter.h">PLPhotoEditPFDataConverter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoEditPersistenceManager.h">PLPhotoEditPersistenceManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoEditRenderer.h">PLPhotoEditRenderer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoEditTempDataConverter.h">PLPhotoEditTempDataConverter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoEffect.h">PLPhotoEffect.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoLibrary.h">PLPhotoLibrary.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoLibraryImageSource.h">PLPhotoLibraryImageSource.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoLibraryShouldReloadNotification.h">PLPhotoLibraryShouldReloadNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoSharingHelper.h">PLPhotoSharingHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoStreamAlbum.h">PLPhotoStreamAlbum.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotoStreamsHelper.h">PLPhotoStreamsHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPhotosStateLog.h">PLPhotosStateLog.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPlaceholderThumbnailManager.h">PLPlaceholderThumbnailManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPreheatItem.h">PLPreheatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLProgressStack.h">PLProgressStack.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPropertyListFilter.h">PLPropertyListFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPropertyListFromDataTransformer.h">PLPropertyListFromDataTransformer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLPublishCloudSharedAssetsJob.h">PLPublishCloudSharedAssetsJob.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLQuickActionManager.h">PLQuickActionManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLQuotaRequest.h">PLQuotaRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLRectValueFromDataTransformer.h">PLRectValueFromDataTransformer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLRelationshipOrderKeyManager.h">PLRelationshipOrderKeyManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLRelationshipOrderingState.h">PLRelationshipOrderingState.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLRemoteDiagnosticsClient.h">PLRemoteDiagnosticsClient.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLReplaceAssetsWithCameraRollCopiesJob.h">PLReplaceAssetsWithCameraRollCopiesJob.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLResourceChooser.h">PLResourceChooser.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLRevGeoCompoundNameInfo.h">PLRevGeoCompoundNameInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLRevGeoLocationInfo.h">PLRevGeoLocationInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLRevGeoPlace.h">PLRevGeoPlace.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLRevGeoPlaceAnnotation.h">PLRevGeoPlaceAnnotation.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLRevGeoPlaceInfo.h">PLRevGeoPlaceInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLRevGeoRepresentativeNameInfo.h">PLRevGeoRepresentativeNameInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLRotatedImage.h">PLRotatedImage.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLSMetadataUtilities.h">PLSMetadataUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLSceneClassification.h">PLSceneClassification.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLSearchData.h">PLSearchData.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLSearchIndexDateFormatter.h">PLSearchIndexDateFormatter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLSearchIndexManager.h">PLSearchIndexManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLSharedManagedObjectContext.h">PLSharedManagedObjectContext.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLSharedPhotoLibrary.h">PLSharedPhotoLibrary.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLShuffledAlbum.h">PLShuffledAlbum.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLShuffledAlbumChangeNotification.h">PLShuffledAlbumChangeNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLSidecarFile.h">PLSidecarFile.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLSimpleAlbum.h">PLSimpleAlbum.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLSimpleAlbumList.h">PLSimpleAlbumList.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLSimpleDCIMDirectory.h">PLSimpleDCIMDirectory.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLSlalomRangeMapper.h">PLSlalomRangeMapper.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLSlalomRangeMapperScaledRegion.h">PLSlalomRangeMapperScaledRegion.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLSlalomUtilities.h">PLSlalomUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLSortedAlbumList.h">PLSortedAlbumList.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLSortedAlbumListChangeNotification.h">PLSortedAlbumListChangeNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLStreamShareSource.h">PLStreamShareSource.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLSyncSaveJob.h">PLSyncSaveJob.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLTemporaryImageTable.h">PLTemporaryImageTable.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLThrottleTimer.h">PLThrottleTimer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLThumbFileManager.h">PLThumbFileManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLThumbnailIndexes.h">PLThumbnailIndexes.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLThumbnailManager.h">PLThumbnailManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLTransientManagedObjectContext.h">PLTransientManagedObjectContext.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLTransientOrderKey.h">PLTransientOrderKey.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLUUIDStringFromUUIDDataTransformer.h">PLUUIDStringFromUUIDDataTransformer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLUnmanagedAdjustment.h">PLUnmanagedAdjustment.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLUserActivityDaemonJob.h">PLUserActivityDaemonJob.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLVideoTranscoder.h">PLVideoTranscoder.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLWallpaperAlbum.h">PLWallpaperAlbum.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLWallpaperAsset.h">PLWallpaperAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLWallpaperImporter.h">PLWallpaperImporter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLWarningHelper.h">PLWarningHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLWeakRef.h">PLWeakRef.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLXPCPhotoLibraryStoreEndpointFactory.h">PLXPCPhotoLibraryStoreEndpointFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PLXPCPhotoLibraryStoreServerRequestHandlingPolicy.h">PLXPCPhotoLibraryStoreServerRequestHandlingPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PSIAsset.h">PSIAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PSIDatabase.h">PSIDatabase.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PSIGroup.h">PSIGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PSIGroupAggregate.h">PSIGroupAggregate.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PSIGroupResult.h">PSIGroupResult.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PSIQuery.h">PSIQuery.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PSIReusableObject.h">PSIReusableObject.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PSISynonymRecord.h">PSISynonymRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/PSITokenizer.h">PSITokenizer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/_PLClientTransaction.h">_PLClientTransaction.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/_PLDataPreheatItem.h">_PLDataPreheatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/_PLDescriptionStyle.h">_PLDescriptionStyle.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/_PLExpirableSet.h">_PLExpirableSet.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/_PLFetchingAlbum.h">_PLFetchingAlbum.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/_PLGenericAlbum.h">_PLGenericAlbum.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/_PLJPEGThumbnailPreheatItem.h">_PLJPEGThumbnailPreheatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/_PLKnownAdjustment.h">_PLKnownAdjustment.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/_PLLargeJPEGPreheatItem.h">_PLLargeJPEGPreheatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/_PLLazyPreheatData.h">_PLLazyPreheatData.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/_PLManagedAdjustment.h">_PLManagedAdjustment.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/_PLManagedAlbum.h">_PLManagedAlbum.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/_PLManagedAlbumList.h">_PLManagedAlbumList.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/_PLManagedKeyword.h">_PLManagedKeyword.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/_PLPhotoLibraryFileReservation.h">_PLPhotoLibraryFileReservation.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/_PLPlaceholderThumbnailCachedData.h">_PLPlaceholderThumbnailCachedData.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/_PLServerTransaction.h">_PLServerTransaction.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/_PLSettingsExtractionPayload.h">_PLSettingsExtractionPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoLibraryServices.framework/_PLSidecarFile.h">_PLSidecarFile.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

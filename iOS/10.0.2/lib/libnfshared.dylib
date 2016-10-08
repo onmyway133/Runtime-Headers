@@ -1,0 +1,129 @@
+<HTML>
+<HEAD>
+<TITLE>libnfshared.dylib</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/lib/libnfshared.dylib
+71 dylibs
+
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCCRSAuthExceptionEvent.h">AWDNFCCRSAuthExceptionEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCCRSAuthInitExceptionEvent.h">AWDNFCCRSAuthInitExceptionEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCDeviceExceptionStatistic.h">AWDNFCDeviceExceptionStatistic.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCFieldOffEvent.h">AWDNFCFieldOffEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCFieldOnEvent.h">AWDNFCFieldOnEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCGeneralStatistic.h">AWDNFCGeneralStatistic.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCHCEVASGetData.h">AWDNFCHCEVASGetData.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCHCEVASSelectEvent.h">AWDNFCHCEVASSelectEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCHCIEndOfTransactionEvent.h">AWDNFCHCIEndOfTransactionEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCHCIEndOfTransactionExceptionEvent.h">AWDNFCHCIEndOfTransactionExceptionEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCHCIStartOfTransactionEvent.h">AWDNFCHCIStartOfTransactionEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCHCIStartOfTransactionExceptionEvent.h">AWDNFCHCIStartOfTransactionExceptionEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCHardwareExceptionEvent.h">AWDNFCHardwareExceptionEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCIncompleteTransactionExceptionEvent.h">AWDNFCIncompleteTransactionExceptionEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCJCOPRestrictedModeEvent.h">AWDNFCJCOPRestrictedModeEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCMiddlewareExceptionEvent.h">AWDNFCMiddlewareExceptionEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCSEAIDSelectEvent.h">AWDNFCSEAIDSelectEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCSECRSAuthInit.h">AWDNFCSECRSAuthInit.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCSECRSAuthorize.h">AWDNFCSECRSAuthorize.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCSECRSAuthorizeECommerce.h">AWDNFCSECRSAuthorizeECommerce.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCSERemovedEvent.h">AWDNFCSERemovedEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCTSMAPNReceivedEvent.h">AWDNFCTSMAPNReceivedEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCTSMConnectEvent.h">AWDNFCTSMConnectEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCTSMConnectivityExceptionEvent.h">AWDNFCTSMConnectivityExceptionEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCTSMEndEvent.h">AWDNFCTSMEndEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCTSMStartEvent.h">AWDNFCTSMStartEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCTransactionEndOfOperationEvent.h">AWDNFCTransactionEndOfOperationEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCTransactionLastAPDUSentEvent.h">AWDNFCTransactionLastAPDUSentEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCVASTransactionExceptionEvent.h">AWDNFCVASTransactionExceptionEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/AWDNFCVersions.h">AWDNFCVersions.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDAPNReceived.h">NFAWDAPNReceived.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDCRSActivationTimerExpired.h">NFAWDCRSActivationTimerExpired.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDCRSAuthException.h">NFAWDCRSAuthException.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDCRSAuthInit.h">NFAWDCRSAuthInit.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDCRSAuthInitException.h">NFAWDCRSAuthInitException.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDCRSAuthorize.h">NFAWDCRSAuthorize.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDCRSAuthorizeECommerce.h">NFAWDCRSAuthorizeECommerce.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDCRSDeAuthorize.h">NFAWDCRSDeAuthorize.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDEndOfTransaction.h">NFAWDEndOfTransaction.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDEndOfTransactionException.h">NFAWDEndOfTransactionException.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDFieldOff.h">NFAWDFieldOff.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDFieldOn.h">NFAWDFieldOn.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDHardwareException.h">NFAWDHardwareException.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDLogger.h">NFAWDLogger.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDMiddlewareException.h">NFAWDMiddlewareException.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDRestrictedModeEnter.h">NFAWDRestrictedModeEnter.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDSERemoved.h">NFAWDSERemoved.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDSelect.h">NFAWDSelect.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDStartOfTransaction.h">NFAWDStartOfTransaction.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDStartOfTransactionException.h">NFAWDStartOfTransactionException.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDTSMConnectivityException.h">NFAWDTSMConnectivityException.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDTSMEnd.h">NFAWDTSMEnd.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDTSMStart.h">NFAWDTSMStart.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDTransactionEndOfOperation.h">NFAWDTransactionEndOfOperation.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDTransactionLastRADPU.h">NFAWDTransactionLastRADPU.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDVASGetData.h">NFAWDVASGetData.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDVASSelect.h">NFAWDVASSelect.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDVASTransactionException.h">NFAWDVASTransactionException.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFAWDVersionInfo.h">NFAWDVersionInfo.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFClientAppStateObserver.h">NFClientAppStateObserver.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFCurrency.h">NFCurrency.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFFelicaStateEvent.h">NFFelicaStateEvent.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFJSONEncoder.h">NFJSONEncoder.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFMemoryObserver.h">NFMemoryObserver.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFPowerAssertion.h">NFPowerAssertion.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFPowerObserver.h">NFPowerObserver.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFPreferenceObserver.h">NFPreferenceObserver.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFPropertyCoder.h">NFPropertyCoder.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFTLV.h">NFTLV.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFTimer.h">NFTimer.h</A>
+<A HREF="/tree/lib/libnfshared.dylib/NFWeakReference.h">NFWeakReference.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

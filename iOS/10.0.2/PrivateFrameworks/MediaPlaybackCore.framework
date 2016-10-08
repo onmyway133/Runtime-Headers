@@ -1,0 +1,122 @@
+<HTML>
+<HEAD>
+<TITLE>MediaPlaybackCore.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/MediaPlaybackCore.framework
+64 classes
+
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCAppleMusicPlaybackIntentDataSource.h">MPCAppleMusicPlaybackIntentDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCAppleMusicPlaybackIntentTracklistToken.h">MPCAppleMusicPlaybackIntentTracklistToken.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCContentItemIdentifierCollection.h">MPCContentItemIdentifierCollection.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCJinglePlayActivityReportingController.h">MPCJinglePlayActivityReportingController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaLibraryPlaybackIntentDataSource.h">MPCMediaLibraryPlaybackIntentDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaPlayerLegacyAVController.h">MPCMediaPlayerLegacyAVController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaPlayerLegacyItem.h">MPCMediaPlayerLegacyItem.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaPlayerLegacyItemContainer.h">MPCMediaPlayerLegacyItemContainer.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaPlayerLegacyNowPlayingObserver.h">MPCMediaPlayerLegacyNowPlayingObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaPlayerLegacyPlayer.h">MPCMediaPlayerLegacyPlayer.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaPlayerLegacyPlayerQueueLazySectionedCollectionDataSource.h">MPCMediaPlayerLegacyPlayerQueueLazySectionedCollectionDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaPlayerLegacyPlayerQueueResponse.h">MPCMediaPlayerLegacyPlayerQueueResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaPlayerLegacyPlaylistManager.h">MPCMediaPlayerLegacyPlaylistManager.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaPlayerLegacyQueueRequestOperation.h">MPCMediaPlayerLegacyQueueRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMediaPlayerLegacyReportingController.h">MPCMediaPlayerLegacyReportingController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelPlaybackIntentDataSource.h">MPCModelPlaybackIntentDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCModelPlaybackIntentTracklistToken.h">MPCModelPlaybackIntentTracklistToken.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMutableContentItemIdentifierCollection.h">MPCMutableContentItemIdentifierCollection.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCMutableRadioStationPlaybackMetadata.h">MPCMutableRadioStationPlaybackMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlayableContentDelegate.h">MPCPlayableContentDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlaybackHistoryObserver.h">MPCPlaybackHistoryObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlaybackHistoryRecordChangeRequest.h">MPCPlaybackHistoryRecordChangeRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlaybackHistoryRecordChangeRequestOperation.h">MPCPlaybackHistoryRecordChangeRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlaybackIntent.h">MPCPlaybackIntent.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlaybackTimeoutInfoController.h">MPCPlaybackTimeoutInfoController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlayer.h">MPCPlayer.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlayerEntity.h">MPCPlayerEntity.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlayerItem.h">MPCPlayerItem.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlayerItemContainer.h">MPCPlayerItemContainer.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlayerQueueRequest.h">MPCPlayerQueueRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPlayerQueueResponse.h">MPCPlayerQueueResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCPrepareRadioPlaybackOperation.h">MPCPrepareRadioPlaybackOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCQuickPlayPlaybackIntentDataSource.h">MPCQuickPlayPlaybackIntentDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRTCReportingController.h">MPCRTCReportingController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRadioAVItem.h">MPCRadioAVItem.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRadioArtworkDataSource.h">MPCRadioArtworkDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRadioAudioClipAVItem.h">MPCRadioAudioClipAVItem.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRadioGetTracksController.h">MPCRadioGetTracksController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRadioGetTracksOperation.h">MPCRadioGetTracksOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRadioNetworkingController.h">MPCRadioNetworkingController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRadioOperationQueue.h">MPCRadioOperationQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRadioPlaybackContext.h">MPCRadioPlaybackContext.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRadioPlaybackCoordinator.h">MPCRadioPlaybackCoordinator.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRadioPlaybackIntentDataSource.h">MPCRadioPlaybackIntentDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRadioPlaybackIntentTracklistToken.h">MPCRadioPlaybackIntentTracklistToken.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRadioQueueFeeder.h">MPCRadioQueueFeeder.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRadioStationPlaybackMetadata.h">MPCRadioStationPlaybackMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRadioStationPreparationContext.h">MPCRadioStationPreparationContext.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRadioStreamPing.h">MPCRadioStreamPing.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRadioStreamTrackAVItem.h">MPCRadioStreamTrackAVItem.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRadioTrackAVItem.h">MPCRadioTrackAVItem.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCRadioTrackPreviewAVItem.h">MPCRadioTrackPreviewAVItem.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCReportingController.h">MPCReportingController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCReportingLyricsViewEvent.h">MPCReportingLyricsViewEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCReportingMescalSetupCompletionEvent.h">MPCReportingMescalSetupCompletionEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCReportingPlaybackActivityEvent.h">MPCReportingPlaybackActivityEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCReportingPlaybackEventSource.h">MPCReportingPlaybackEventSource.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCReportingPlaybackObserver.h">MPCReportingPlaybackObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCReportingPlaybackSessionIDChangeEvent.h">MPCReportingPlaybackSessionIDChangeEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCStoreContentMetadataOperation.h">MPCStoreContentMetadataOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/MPCStoreContentMetadataResponse.h">MPCStoreContentMetadataResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCAVItemSourceContext.h">_MPCAVItemSourceContext.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCAVPlaylistIteration.h">_MPCAVPlaylistIteration.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaPlaybackCore.framework/_MPCRadioStreamMetadata.h">_MPCRadioStreamMetadata.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

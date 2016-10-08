@@ -1,0 +1,115 @@
+<HTML>
+<HEAD>
+<TITLE>HomeSharing.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/HomeSharing.framework
+57 classes
+
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSAccountStore.h">HSAccountStore.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSActivityRequest.h">HSActivityRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSArtworkRequest.h">HSArtworkRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSAuthorizedDSIDsUpdateRequest.h">HSAuthorizedDSIDsUpdateRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSAuthorizedDSIDsUpdateResponse.h">HSAuthorizedDSIDsUpdateResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSAuthorizedDSIDsUpdatesRequest.h">HSAuthorizedDSIDsUpdatesRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSAuthorizedDSIDsUpdatesResponse.h">HSAuthorizedDSIDsUpdatesResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSBook.h">HSBook.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSBrowseRequest.h">HSBrowseRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSBrowseResponse.h">HSBrowseResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSBrowser.h">HSBrowser.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSCheckInRentalAssetRequest.h">HSCheckInRentalAssetRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSCheckOutRentalAssetRequest.h">HSCheckOutRentalAssetRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSCloudAvailabilityController.h">HSCloudAvailabilityController.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSCloudClient.h">HSCloudClient.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSCloudItemIDList.h">HSCloudItemIDList.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSConnection.h">HSConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSConnectionConfiguration.h">HSConnectionConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSContainersRequest.h">HSContainersRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSContainersResponse.h">HSContainersResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSControlConnection.h">HSControlConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSControlInterfaceRequest.h">HSControlInterfaceRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSControlInterfaceResponse.h">HSControlInterfaceResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSControlPrompt.h">HSControlPrompt.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSControlPromptEntryRequest.h">HSControlPromptEntryRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSControlPromptUpdateRequest.h">HSControlPromptUpdateRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSControlPromptUpdateResponse.h">HSControlPromptUpdateResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSDatabasesRequest.h">HSDatabasesRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSDatabasesResponse.h">HSDatabasesResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSFairPlayInfo.h">HSFairPlayInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSFairPlaySetupRequest.h">HSFairPlaySetupRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSGetAuthorizedAccountsInfoRequest.h">HSGetAuthorizedAccountsInfoRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSGetAuthorizedAccountsTokenRequest.h">HSGetAuthorizedAccountsTokenRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSGetAuthorizedAccountsTokenResponse.h">HSGetAuthorizedAccountsTokenResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSHomeSharingLibrary.h">HSHomeSharingLibrary.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSHomeSharingVerifyRequest.h">HSHomeSharingVerifyRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSIncrementRequest.h">HSIncrementRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSItemDataRequest.h">HSItemDataRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSItemsRequest.h">HSItemsRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSItemsResponse.h">HSItemsResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSLoginRequest.h">HSLoginRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSLoginResponse.h">HSLoginResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSLogoutRequest.h">HSLogoutRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSNowPlayingArtworkRequest.h">HSNowPlayingArtworkRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSNowPlayingArtworkResponse.h">HSNowPlayingArtworkResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSPlayStatusUpdateRequest.h">HSPlayStatusUpdateRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSPlayStatusUpdateResponse.h">HSPlayStatusUpdateResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSPlaybackControlRequest.h">HSPlaybackControlRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSRequest.h">HSRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSResponse.h">HSResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSResponseDataParser.h">HSResponseDataParser.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSServerInfoRequest.h">HSServerInfoRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSSetPropertyRequest.h">HSSetPropertyRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSSetRentalPlaybackStartDateRequest.h">HSSetRentalPlaybackStartDateRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSUpdateRequest.h">HSUpdateRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSUpdateResponse.h">HSUpdateResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeSharing.framework/HSWiFiManager.h">HSWiFiManager.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

@@ -1,0 +1,101 @@
+<HTML>
+<HEAD>
+<TITLE>IMSharedUtilities.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/IMSharedUtilities.framework
+43 classes
+
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/FZMessage.h">FZMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/HTMLToSuper_A_Frame.h">HTMLToSuper_A_Frame.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/HTMLToSuper_BODY_Frame.h">HTMLToSuper_BODY_Frame.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/HTMLToSuper_BR_Frame.h">HTMLToSuper_BR_Frame.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/HTMLToSuper_B_Frame.h">HTMLToSuper_B_Frame.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/HTMLToSuper_Default_Frame.h">HTMLToSuper_Default_Frame.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/HTMLToSuper_EM_Frame.h">HTMLToSuper_EM_Frame.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/HTMLToSuper_FONT_Frame.h">HTMLToSuper_FONT_Frame.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/HTMLToSuper_I_Frame.h">HTMLToSuper_I_Frame.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/HTMLToSuper_OBJECT_Frame.h">HTMLToSuper_OBJECT_Frame.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/HTMLToSuper_SPAN_Frame.h">HTMLToSuper_SPAN_Frame.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/HTMLToSuper_STRIKE_Frame.h">HTMLToSuper_STRIKE_Frame.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/HTMLToSuper_STRONG_Frame.h">HTMLToSuper_STRONG_Frame.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/HTMLToSuper_S_Frame.h">HTMLToSuper_S_Frame.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/HTMLToSuper_U_Frame.h">HTMLToSuper_U_Frame.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMAssociatedMessageItem.h">IMAssociatedMessageItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMAttributedStringParser.h">IMAttributedStringParser.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMAttributedStringParserContext.h">IMAttributedStringParserContext.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMBatteryStatus.h">IMBatteryStatus.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMFileTransfer.h">IMFileTransfer.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMFromSuperParserContext.h">IMFromSuperParserContext.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMGroupActionItem.h">IMGroupActionItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMGroupTitleChangeItem.h">IMGroupTitleChangeItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMHTMLToSuperParserContext.h">IMHTMLToSuperParserContext.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMItem.h">IMItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMLocationShareStatusChangeItem.h">IMLocationShareStatusChangeItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMMessageActionItem.h">IMMessageActionItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMMessageItem.h">IMMessageItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMMetricsCollector.h">IMMetricsCollector.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMParticipantChangeItem.h">IMParticipantChangeItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMRecentItem.h">IMRecentItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMRecentItemsList.h">IMRecentItemsList.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMSticker.h">IMSticker.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMStickerPack.h">IMStickerPack.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMSuperToPlainParserContext.h">IMSuperToPlainParserContext.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMSuperToSuperSanitizerContext.h">IMSuperToSuperSanitizerContext.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMToSuperParserContext.h">IMToSuperParserContext.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMToSuperParserFrame.h">IMToSuperParserFrame.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMXMLParser.h">IMXMLParser.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMXMLParserContext.h">IMXMLParserContext.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMXMLParserFrame.h">IMXMLParserFrame.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMXMLReparser.h">IMXMLReparser.h</A>
+<A HREF="/tree/PrivateFrameworks/IMSharedUtilities.framework/IMXMLReparserContext.h">IMXMLReparserContext.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

@@ -1,0 +1,92 @@
+<HTML>
+<HEAD>
+<TITLE>NanoRegistry.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/NanoRegistry.framework
+34 classes
+
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRActiveDeviceAssertion.h">NRActiveDeviceAssertion.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRActiveDeviceAssertionMonitor.h">NRActiveDeviceAssertionMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRBlockQueueWrapper.h">NRBlockQueueWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRClientInfo.h">NRClientInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRConnectivitySubscriber.h">NRConnectivitySubscriber.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRDevice.h">NRDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRDeviceCollectionDiff.h">NRDeviceCollectionDiff.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRDeviceCollectionHistory.h">NRDeviceCollectionHistory.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRDeviceCollectionHistoryEntry.h">NRDeviceCollectionHistoryEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRDeviceCollectionHistoryObserverWrapper.h">NRDeviceCollectionHistoryObserverWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRDeviceCollectionUpdateBlock.h">NRDeviceCollectionUpdateBlock.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRDeviceDiff.h">NRDeviceDiff.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRDeviceDiffType.h">NRDeviceDiffType.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRDeviceDiscoveryController.h">NRDeviceDiscoveryController.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRDevicePropertyDiff.h">NRDevicePropertyDiff.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRDevicePropertyDiffType.h">NRDevicePropertyDiffType.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRDiffBase.h">NRDiffBase.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRFrameworkDevice.h">NRFrameworkDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRKeyedArchiver.h">NRKeyedArchiver.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRKeyedUnarchiver.h">NRKeyedUnarchiver.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRMagicSwitchHelper.h">NRMagicSwitchHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRMutableDevice.h">NRMutableDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRMutableDeviceCollection.h">NRMutableDeviceCollection.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRMutableDeviceProperty.h">NRMutableDeviceProperty.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRMutableStateBase.h">NRMutableStateBase.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRMutableStateBaseObserverWrapper.h">NRMutableStateBaseObserverWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRObjectUniquenessFactory.h">NRObjectUniquenessFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRPairedDeviceRegistry.h">NRPairedDeviceRegistry.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRPairingCompatibilityVersionInfo.h">NRPairingCompatibilityVersionInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRSecureDevicePropertyID.h">NRSecureDevicePropertyID.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRSecureDevicePropertyStore.h">NRSecureDevicePropertyStore.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRServerRequestReporter.h">NRServerRequestReporter.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRTextFormattingUtilities.h">NRTextFormattingUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoRegistry.framework/NRUnarchivedObjectVerifier.h">NRUnarchivedObjectVerifier.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

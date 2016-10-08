@@ -1,0 +1,127 @@
+<HTML>
+<HEAD>
+<TITLE>PhotosPlayer.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/PhotosPlayer.framework
+69 classes
+
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISAVPlayer.h">ISAVPlayer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISAVPlayerLayer.h">ISAVPlayerLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISAVPlayerUIView.h">ISAVPlayerUIView.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISAsset.h">ISAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISBasePlayer.h">ISBasePlayer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISBasePlayerUIView.h">ISBasePlayerUIView.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISBehavior.h">ISBehavior.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISCrossfadeChef.h">ISCrossfadeChef.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISCrossfadeChefA2Operation.h">ISCrossfadeChefA2Operation.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISCrossfadeChefOperation.h">ISCrossfadeChefOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISCrossfadeItem.h">ISCrossfadeItem.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISCrossfadeLayer.h">ISCrossfadeLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISCrossfadeUIView.h">ISCrossfadeUIView.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISDefaultBehavior.h">ISDefaultBehavior.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISDeferredDealloc.h">ISDeferredDealloc.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISDisplayLink.h">ISDisplayLink.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISDynamicValueFilter.h">ISDynamicValueFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISEditSession.h">ISEditSession.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISExportDestination.h">ISExportDestination.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISForcePressLivePhotoPlaybackFilter.h">ISForcePressLivePhotoPlaybackFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISFrameProcessingRequest.h">ISFrameProcessingRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISLayerPlayer.h">ISLayerPlayer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISLivePhotoAutoplayVitalityFilter.h">ISLivePhotoAutoplayVitalityFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISLivePhotoHintBehavior.h">ISLivePhotoHintBehavior.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISLivePhotoPlaybackBehavior.h">ISLivePhotoPlaybackBehavior.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISLivePhotoPlaybackFilter.h">ISLivePhotoPlaybackFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISLivePhotoPlayer.h">ISLivePhotoPlayer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISLivePhotoSettleBehavior.h">ISLivePhotoSettleBehavior.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISLivePhotoUIView.h">ISLivePhotoUIView.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISLivePhotoVitalityBehavior.h">ISLivePhotoVitalityBehavior.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISLivePhotoVitalityFilter.h">ISLivePhotoVitalityFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISLiveWallpaperPlayer.h">ISLiveWallpaperPlayer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISLiveWallpaperUIView.h">ISLiveWallpaperUIView.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISLongPressForceGestureRecognizer.h">ISLongPressForceGestureRecognizer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISObservable.h">ISObservable.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISPerformanceDiagnosticsSettings.h">ISPerformanceDiagnosticsSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISPlaybackSettings.h">ISPlaybackSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISPlaybackSpec.h">ISPlaybackSpec.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISPlayerContent.h">ISPlayerContent.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISPlayerItem.h">ISPlayerItem.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISPlayerItemChef.h">ISPlayerItemChef.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISPlayerOutputContent.h">ISPlayerOutputContent.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISPlayerOutputTransitionOptions.h">ISPlayerOutputTransitionOptions.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISPlayerSettings.h">ISPlayerSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISPlayerState.h">ISPlayerState.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISPlayerView.h">ISPlayerView.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISReuseQueue.h">ISReuseQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISRootSettings.h">ISRootSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISScrollViewVitalityController.h">ISScrollViewVitalityController.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISSettings.h">ISSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISTouchLivePhotoPlaybackFilter.h">ISTouchLivePhotoPlaybackFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISTouchingGestureRecognizer.h">ISTouchingGestureRecognizer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISTransitionApplier.h">ISTransitionApplier.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISUIScrollViewVitalityController.h">ISUIScrollViewVitalityController.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISUIVisibilityOffsetHelper.h">ISUIVisibilityOffsetHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISVideoAnalyzer.h">ISVideoAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISVideoAnalyzerFrameTimesOperation.h">ISVideoAnalyzerFrameTimesOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISVideoPlayerUIView.h">ISVideoPlayerUIView.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISVisibilityOffsetHelper.h">ISVisibilityOffsetHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISVitalityAdaptiveFilter.h">ISVitalityAdaptiveFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISVitalityAutoplayFilter.h">ISVitalityAutoplayFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISVitalityConstantFilter.h">ISVitalityConstantFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISVitalityFilter.h">ISVitalityFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISVitalitySettings.h">ISVitalitySettings.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISVitalitySimpleFilter.h">ISVitalitySimpleFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISVitalitySpecificSettings.h">ISVitalitySpecificSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/ISWrappedAVPlayer.h">ISWrappedAVPlayer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/_ISCrossfadeFrameLayer.h">_ISCrossfadeFrameLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotosPlayer.framework/_ISPlayerItemChefOperation.h">_ISPlayerItemChefOperation.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

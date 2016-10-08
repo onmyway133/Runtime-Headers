@@ -1,0 +1,121 @@
+<HTML>
+<HEAD>
+<TITLE>IMFoundation.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/IMFoundation.framework
+63 classes
+
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/Broadcaster.h">Broadcaster.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMAllocTracking.h">IMAllocTracking.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMCallMonitor.h">IMCallMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMCapturedInvocationTrampoline.h">IMCapturedInvocationTrampoline.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMConnectionMonitor.h">IMConnectionMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMDelayedInvocationTrampoline.h">IMDelayedInvocationTrampoline.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMDesktopNetworkManager.h">IMDesktopNetworkManager.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMDeviceSupport.h">IMDeviceSupport.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMDoubleLinkedList.h">IMDoubleLinkedList.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMDoubleLinkedListNode.h">IMDoubleLinkedListNode.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMFileCopier.h">IMFileCopier.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMFileManager.h">IMFileManager.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMInvocationQueue.h">IMInvocationQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMInvocationTrampoline.h">IMInvocationTrampoline.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMLocalObject.h">IMLocalObject.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMLocalObjectInternal.h">IMLocalObjectInternal.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMLockdownManager.h">IMLockdownManager.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMLogging.h">IMLogging.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMManualUpdater.h">IMManualUpdater.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMMessageContext.h">IMMessageContext.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMMobileNetworkManager.h">IMMobileNetworkManager.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMMockURLResponse.h">IMMockURLResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMMultiDict.h">IMMultiDict.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMMultiQueue.h">IMMultiQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMNetworkAvailability.h">IMNetworkAvailability.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMNetworkConnectionMonitor.h">IMNetworkConnectionMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMNetworkManager.h">IMNetworkManager.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMNetworkReachability.h">IMNetworkReachability.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMOrderedMutableDictionary.h">IMOrderedMutableDictionary.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMPair.h">IMPair.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMPerfNSLogProfilerSink.h">IMPerfNSLogProfilerSink.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMPerfProfiler.h">IMPerfProfiler.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMPerfProfilerDefaultBehavior.h">IMPerfProfilerDefaultBehavior.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMPerfSinkPair.h">IMPerfSinkPair.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMPingStatistics.h">IMPingStatistics.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMPingTest.h">IMPingTest.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMPowerAssertion.h">IMPowerAssertion.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMPurgableObject.h">IMPurgableObject.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMReachability.h">IMReachability.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMRemoteObject.h">IMRemoteObject.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMRemoteObjectBroadcaster.h">IMRemoteObjectBroadcaster.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMRemoteObjectInternal.h">IMRemoteObjectInternal.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMRemoteURLConnection.h">IMRemoteURLConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMRemoteURLConnectionMockScheduler.h">IMRemoteURLConnectionMockScheduler.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMScheduledUpdater.h">IMScheduledUpdater.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMSystemMonitor.h">IMSystemMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMSystemProxySettingsFetcher.h">IMSystemProxySettingsFetcher.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMThreadedInvocationTrampoline.h">IMThreadedInvocationTrampoline.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMTimer.h">IMTimer.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMTimingCollection.h">IMTimingCollection.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMURLResponseToPlist.h">IMURLResponseToPlist.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMUserNotification.h">IMUserNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMUserNotificationCenter.h">IMUserNotificationCenter.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMWeakArray.h">IMWeakArray.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMWeakObjectCache.h">IMWeakObjectCache.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/IMWeakReference.h">IMWeakReference.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/NetworkChangeNotifier.h">NetworkChangeNotifier.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/OSLogHandleManager.h">OSLogHandleManager.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/_IMLogFileCompressor.h">_IMLogFileCompressor.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/_IMNotificationObservationHelper.h">_IMNotificationObservationHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/_IMPingPacketData.h">_IMPingPacketData.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/_IMPingStatisticsCollector.h">_IMPingStatisticsCollector.h</A>
+<A HREF="/tree/PrivateFrameworks/IMFoundation.framework/_IMTimingInstance.h">_IMTimingInstance.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

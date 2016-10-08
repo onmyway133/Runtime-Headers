@@ -1,0 +1,130 @@
+<HTML>
+<HEAD>
+<TITLE>DifferentialPrivacy.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/DifferentialPrivacy.framework
+72 classes
+
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPAlgorithmParameters.h">_DPAlgorithmParameters.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPBiasedCoin.h">_DPBiasedCoin.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPBlacklist.h">_DPBlacklist.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPCMSRandomizer.h">_DPCMSRandomizer.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPCMSRecord.h">_DPCMSRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPCMSRecordMO.h">_DPCMSRecordMO.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPCMSRecordMOConverter.h">_DPCMSRecordMOConverter.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPCMSSample.h">_DPCMSSample.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPCMSSequenceMO.h">_DPCMSSequenceMO.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPCMSSequenceRecord.h">_DPCMSSequenceRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPCMSWordMO.h">_DPCMSWordMO.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPCMSWordRecord.h">_DPCMSWordRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPCoreDataStorage.h">_DPCoreDataStorage.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPDaemonConnection.h">_DPDaemonConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPDataProtectionMaster.h">_DPDataProtectionMaster.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPDataProtectionStateMonitor.h">_DPDataProtectionStateMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPDataRecorder.h">_DPDataRecorder.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPDatabaseRecorder.h">_DPDatabaseRecorder.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPDeviceInfo.h">_DPDeviceInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPDiagnosticDataReporter.h">_DPDiagnosticDataReporter.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPErrorUtilities.h">_DPErrorUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPInputHelper.h">_DPInputHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPJSONOutputHelper.h">_DPJSONOutputHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPJSONSegment.h">_DPJSONSegment.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPKeyNames.h">_DPKeyNames.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPKeyProperties.h">_DPKeyProperties.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPLaplaceNoiseGenerator.h">_DPLaplaceNoiseGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPLog.h">_DPLog.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPModelInfoRecord.h">_DPModelInfoRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPModelInfoRecordMO.h">_DPModelInfoRecordMO.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPModelInfoRecordMOConverter.h">_DPModelInfoRecordMOConverter.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPNumberRandomizer.h">_DPNumberRandomizer.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPNumericDataRecord.h">_DPNumericDataRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPNumericDataRecordMO.h">_DPNumericDataRecordMO.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPNumericDataRecordMOConverter.h">_DPNumericDataRecordMOConverter.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPNumericDataRecorder.h">_DPNumericDataRecorder.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPOBHFragmentMO.h">_DPOBHFragmentMO.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPOBHFragmentRecord.h">_DPOBHFragmentRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPOBHRandomizer.h">_DPOBHRandomizer.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPOBHRecord.h">_DPOBHRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPOBHRecordMO.h">_DPOBHRecordMO.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPOBHRecordMOConverter.h">_DPOBHRecordMOConverter.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPOBHSequenceMO.h">_DPOBHSequenceMO.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPOBHSequenceRecord.h">_DPOBHSequenceRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPParsecUploadHelper.h">_DPParsecUploadHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPPeriodicTask.h">_DPPeriodicTask.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPPeriodicTaskManager.h">_DPPeriodicTaskManager.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPPrivacyBudget.h">_DPPrivacyBudget.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPPrivacyBudgetManager.h">_DPPrivacyBudgetManager.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPPrivacyBudgetProperties.h">_DPPrivacyBudgetProperties.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPPrivacyBudgetRecord.h">_DPPrivacyBudgetRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPPrivacyBudgetRecordMO.h">_DPPrivacyBudgetRecordMO.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPPrivacyBudgetRecordMOConverter.h">_DPPrivacyBudgetRecordMOConverter.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPPuzzleBox.h">_DPPuzzleBox.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPRandomBitPositionGenerator.h">_DPRandomBitPositionGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPRandomizedBit.h">_DPRandomizedBit.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPRecordQueryPredicates.h">_DPRecordQueryPredicates.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPReportFileManager.h">_DPReportFileManager.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPReportGenerator.h">_DPReportGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPServer.h">_DPServer.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPStorage.h">_DPStorage.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPStringRandomizer.h">_DPStringRandomizer.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPStringRecorder.h">_DPStringRecorder.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPStrings.h">_DPStrings.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPToolArguments.h">_DPToolArguments.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPToolCommand.h">_DPToolCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPUniformNoiseGenerator.h">_DPUniformNoiseGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPUploadHelper.h">_DPUploadHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPValueRange.h">_DPValueRange.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPWordRecord.h">_DPWordRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPWordRecorder.h">_DPWordRecorder.h</A>
+<A HREF="/tree/PrivateFrameworks/DifferentialPrivacy.framework/_DPXPCRecorder.h">_DPXPCRecorder.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

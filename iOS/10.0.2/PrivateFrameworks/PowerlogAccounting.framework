@@ -1,0 +1,97 @@
+<HTML>
+<HEAD>
+<TITLE>PowerlogAccounting.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/PowerlogAccounting.framework
+39 classes
+
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingCorrectionDependency.h">PLAccountingCorrectionDependency.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingCorrectionManager.h">PLAccountingCorrectionManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingCorrectionOwner.h">PLAccountingCorrectionOwner.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingDependency.h">PLAccountingDependency.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingDistributionDependency.h">PLAccountingDistributionDependency.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingDistributionEventBackwardEntry.h">PLAccountingDistributionEventBackwardEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingDistributionEventEntry.h">PLAccountingDistributionEventEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingDistributionEventForwardEntry.h">PLAccountingDistributionEventForwardEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingDistributionEventIntervalEntry.h">PLAccountingDistributionEventIntervalEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingDistributionEventPointEntry.h">PLAccountingDistributionEventPointEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingDistributionManager.h">PLAccountingDistributionManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingDistributionOwner.h">PLAccountingDistributionOwner.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingDistributionRuleEntry.h">PLAccountingDistributionRuleEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingDistributionRuleManager.h">PLAccountingDistributionRuleManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingEnergyEstimateEventEntry.h">PLAccountingEnergyEstimateEventEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingEnergyEventEntry.h">PLAccountingEnergyEventEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingEngine.h">PLAccountingEngine.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingEventEntry.h">PLAccountingEventEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingNodeEntry.h">PLAccountingNodeEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingNodeManager.h">PLAccountingNodeManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingOwner.h">PLAccountingOwner.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingOwnerDependencyManager.h">PLAccountingOwnerDependencyManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingPowerEventBackwardEntry.h">PLAccountingPowerEventBackwardEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingPowerEventEntry.h">PLAccountingPowerEventEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingPowerEventForwardEntry.h">PLAccountingPowerEventForwardEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingPowerEventIntervalEntry.h">PLAccountingPowerEventIntervalEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingQualificationDependency.h">PLAccountingQualificationDependency.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingQualificationEventBackwardEntry.h">PLAccountingQualificationEventBackwardEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingQualificationEventEntry.h">PLAccountingQualificationEventEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingQualificationEventForwardEntry.h">PLAccountingQualificationEventForwardEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingQualificationEventIntervalEntry.h">PLAccountingQualificationEventIntervalEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingQualificationEventPointEntry.h">PLAccountingQualificationEventPointEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingQualificationManager.h">PLAccountingQualificationManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingQualificationOwner.h">PLAccountingQualificationOwner.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingQualificationRuleEntry.h">PLAccountingQualificationRuleEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingQualificationRuleManager.h">PLAccountingQualificationRuleManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingRange.h">PLAccountingRange.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingRuleEntry.h">PLAccountingRuleEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/PowerlogAccounting.framework/PLAccountingRuleManager.h">PLAccountingRuleManager.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

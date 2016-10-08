@@ -1,0 +1,147 @@
+<HTML>
+<HEAD>
+<TITLE>NanoPassKit.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/NanoPassKit.framework
+89 classes
+
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPDPassLibrary.h">NPDPassLibrary.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKBitmapImage.h">NPKBitmapImage.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKCompanionAgentConnection.h">NPKCompanionAgentConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKCompanionAgentConnectionDeferredActionHandler.h">NPKCompanionAgentConnectionDeferredActionHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKContinuityCoordinator.h">NPKContinuityCoordinator.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKFakePaymentSession.h">NPKFakePaymentSession.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKGizmoDatabase.h">NPKGizmoDatabase.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKLibrary.h">NPKLibrary.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKLoyaltyEngine.h">NPKLoyaltyEngine.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKOneShotLocationFetcher.h">NPKOneShotLocationFetcher.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKPMUButtonListener.h">NPKPMUButtonListener.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKPassDescription.h">NPKPassDescription.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKPassLibraryFilter.h">NPKPassLibraryFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKPaymentOptionsSerialization.h">NPKPaymentOptionsSerialization.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKPaymentPreflighter.h">NPKPaymentPreflighter.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKPaymentWebServiceCompanionTargetDevice.h">NPKPaymentWebServiceCompanionTargetDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKPaymentWebServiceCompanionTargetDeviceOutstandingRequest.h">NPKPaymentWebServiceCompanionTargetDeviceOutstandingRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKPaymentWebServiceTargetDevice.h">NPKPaymentWebServiceTargetDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKPaymentWebServiceWatchTargetDevice.h">NPKPaymentWebServiceWatchTargetDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoAddPassRequest.h">NPKProtoAddPassRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoBitmap.h">NPKProtoBitmap.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoCatalog.h">NPKProtoCatalog.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoCatalogChangedRequest.h">NPKProtoCatalogChangedRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoConfigurationDataRequest.h">NPKProtoConfigurationDataRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoConfigurationDataResponse.h">NPKProtoConfigurationDataResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoDeviceDidRegisterRequest.h">NPKProtoDeviceDidRegisterRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoDeviceDidRegisterResponse.h">NPKProtoDeviceDidRegisterResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoDumpLogsRequest.h">NPKProtoDumpLogsRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoDumpLogsResponse.h">NPKProtoDumpLogsResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoGizmoInitiatedAddPassRequest.h">NPKProtoGizmoInitiatedAddPassRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoGizmoInitiatedDeletePassRequest.h">NPKProtoGizmoInitiatedDeletePassRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoHandleAppletStateChangeRequest.h">NPKProtoHandleAppletStateChangeRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoHandlePaymentTransactionsRequest.h">NPKProtoHandlePaymentTransactionsRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoHandleValueAddedServiceTransactionsRequest.h">NPKProtoHandleValueAddedServiceTransactionsRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoHash.h">NPKProtoHash.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoMarkPaymentPassForDeleteRequest.h">NPKProtoMarkPaymentPassForDeleteRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoMarkPaymentPassForDeleteResponse.h">NPKProtoMarkPaymentPassForDeleteResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoNewLibraryHashReceivedRequest.h">NPKProtoNewLibraryHashReceivedRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoNewLibraryHashRequest.h">NPKProtoNewLibraryHashRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoPass.h">NPKProtoPass.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoPaymentPreconditionsNotMetRequest.h">NPKProtoPaymentPreconditionsNotMetRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoProvisioningDataRequest.h">NPKProtoProvisioningDataRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoProvisioningDataResponse.h">NPKProtoProvisioningDataResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoQueueTSMConnectionRequest.h">NPKProtoQueueTSMConnectionRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoQueueTSMConnectionResponse.h">NPKProtoQueueTSMConnectionResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoRegistrationDataRequest.h">NPKProtoRegistrationDataRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoRegistrationDataResponse.h">NPKProtoRegistrationDataResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoRelevantPassTuple.h">NPKProtoRelevantPassTuple.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoRelevantPassesPendingRequest.h">NPKProtoRelevantPassesPendingRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoRelevantPassesRequest.h">NPKProtoRelevantPassesRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoRemoteAdminAvailabilityChangeRequest.h">NPKProtoRemoteAdminAvailabilityChangeRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoRemoteAdminAvailabilityRequest.h">NPKProtoRemoteAdminAvailabilityRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoRemoteAdminAvailabilityResponse.h">NPKProtoRemoteAdminAvailabilityResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoRemoteAdminPerformRequest.h">NPKProtoRemoteAdminPerformRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoRemoteAdminPerformResponse.h">NPKProtoRemoteAdminPerformResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoRemovePassRequest.h">NPKProtoRemovePassRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoResyncNeededRequest.h">NPKProtoResyncNeededRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoRetrievePaymentTransactionsRequest.h">NPKProtoRetrievePaymentTransactionsRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoRetrievePaymentTransactionsResponse.h">NPKProtoRetrievePaymentTransactionsResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoSecureElementGetAppletsRequest.h">NPKProtoSecureElementGetAppletsRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoSecureElementGetAppletsResponse.h">NPKProtoSecureElementGetAppletsResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoSecureElementGetPairingInfoRequest.h">NPKProtoSecureElementGetPairingInfoRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoSecureElementGetPairingInfoResponse.h">NPKProtoSecureElementGetPairingInfoResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoSecureElementRemoveAppletsRequest.h">NPKProtoSecureElementRemoveAppletsRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoSecureElementRemoveAppletsResponse.h">NPKProtoSecureElementRemoveAppletsResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoSecureElementSetNewAuthRandomRequest.h">NPKProtoSecureElementSetNewAuthRandomRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoSecureElementSetNewAuthRandomResponse.h">NPKProtoSecureElementSetNewAuthRandomResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoSetIEFTPPUniqueIDRequest.h">NPKProtoSetIEFTPPUniqueIDRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoSetIEFTPPUniqueIDResponse.h">NPKProtoSetIEFTPPUniqueIDResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoSetPreferredPaymentApplicationRequest.h">NPKProtoSetPreferredPaymentApplicationRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoSetPreferredPaymentApplicationResponse.h">NPKProtoSetPreferredPaymentApplicationResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoSetTransactionDefaultsRequest.h">NPKProtoSetTransactionDefaultsRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoShowPaymentSetupRequest.h">NPKProtoShowPaymentSetupRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoSignDataRequest.h">NPKProtoSignDataRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoSignDataResponse.h">NPKProtoSignDataResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoUpdatePassRequest.h">NPKProtoUpdatePassRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoUpdatePaymentPassRequest.h">NPKProtoUpdatePaymentPassRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoUpdatePushTokenRequest.h">NPKProtoUpdatePushTokenRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoWebServiceContextDidChangeRequest.h">NPKProtoWebServiceContextDidChangeRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKProtoWebServiceContextNeededRequest.h">NPKProtoWebServiceContextNeededRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKQuickPaymentSession.h">NPKQuickPaymentSession.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKQuickPaymentSessionSource.h">NPKQuickPaymentSessionSource.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKRemoteInterfacePresenter.h">NPKRemoteInterfacePresenter.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKSharedWebServiceProvider.h">NPKSharedWebServiceProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKTransientPassAssertion.h">NPKTransientPassAssertion.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKTransientPassAssertionConnection.h">NPKTransientPassAssertionConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKTransientPassAssertionServer.h">NPKTransientPassAssertionServer.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKTransientPassRequest.h">NPKTransientPassRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NanoPassKit.framework/NPKWorkQueue.h">NPKWorkQueue.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

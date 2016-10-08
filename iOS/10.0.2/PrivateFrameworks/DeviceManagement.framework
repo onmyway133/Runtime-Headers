@@ -1,0 +1,88 @@
+<HTML>
+<HEAD>
+<TITLE>DeviceManagement.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/DeviceManagement.framework
+30 classes
+
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFAssignUserRequest.h">DMFAssignUserRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFConnection.h">DMFConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFControlGroupIdentifier.h">DMFControlGroupIdentifier.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFControlSessionIdentifier.h">DMFControlSessionIdentifier.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFDevicePropertiesResultObject.h">DMFDevicePropertiesResultObject.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFDevicePropertyNotificationSubscriptionRequest.h">DMFDevicePropertyNotificationSubscriptionRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchControlGroupIdentifiersRequest.h">DMFFetchControlGroupIdentifiersRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchControlGroupIdentifiersResultObject.h">DMFFetchControlGroupIdentifiersResultObject.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchDevicePropertiesRequest.h">DMFFetchDevicePropertiesRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchInstalledApplicationsRequest.h">DMFFetchInstalledApplicationsRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchInstalledApplicationsResultObject.h">DMFFetchInstalledApplicationsResultObject.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchLastLoginDateRequest.h">DMFFetchLastLoginDateRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchLastLoginDateResultObject.h">DMFFetchLastLoginDateResultObject.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchScreenshotRequest.h">DMFFetchScreenshotRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFFetchScreenshotResultObject.h">DMFFetchScreenshotResultObject.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFInstalledApplication.h">DMFInstalledApplication.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFJoinControlGroupRequest.h">DMFJoinControlGroupRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFLeaveControlGroupRequest.h">DMFLeaveControlGroupRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFLogoutUserRequest.h">DMFLogoutUserRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFManagementLockRequest.h">DMFManagementLockRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFManagementUnlockRequest.h">DMFManagementUnlockRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFOpenAppRequest.h">DMFOpenAppRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFOpenURLRequest.h">DMFOpenURLRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFSetAirPlayRouteRequest.h">DMFSetAirPlayRouteRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFSetInterfaceOrientationRequest.h">DMFSetInterfaceOrientationRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFSetVolumeRequest.h">DMFSetVolumeRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFStartAppLockRequest.h">DMFStartAppLockRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFStopAppLockRequest.h">DMFStopAppLockRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/DMFUpdatePickableAirPlayRoutesRequest.h">DMFUpdatePickableAirPlayRoutesRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DeviceManagement.framework/_DMFErrorHelper.h">_DMFErrorHelper.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

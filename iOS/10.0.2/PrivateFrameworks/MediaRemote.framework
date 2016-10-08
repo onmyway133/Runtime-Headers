@@ -1,0 +1,224 @@
+<HTML>
+<HEAD>
+<TITLE>MediaRemote.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/MediaRemote.framework
+166 classes
+
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRAVRoutingClientController.h">MRAVRoutingClientController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRAnyAppIsPlayingDidChangeNotificationObserver.h">MRAnyAppIsPlayingDidChangeNotificationObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRApplicationActivity.h">MRApplicationActivity.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRAudioBuffer.h">MRAudioBuffer.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRAudioDataBlock.h">MRAudioDataBlock.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRBroadcastCommandResponse.h">MRBroadcastCommandResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRClientUpdatesConfigMessage.h">MRClientUpdatesConfigMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRCoreUtilsPairingSession.h">MRCoreUtilsPairingSession.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRCryptoPairingIdentity.h">MRCryptoPairingIdentity.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRCryptoPairingMessage.h">MRCryptoPairingMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRCryptoPairingSession.h">MRCryptoPairingSession.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRCryptoPairingSessionBlockDelegate.h">MRCryptoPairingSessionBlockDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRDeviceInfo.h">MRDeviceInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRDeviceInfoMessage.h">MRDeviceInfoMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRDeviceInfoObserver.h">MRDeviceInfoObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRDeviceInfoUpdateMessage.h">MRDeviceInfoUpdateMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MREmulatedGameController.h">MREmulatedGameController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRExternalScreenTypeDidChangeNotificationObserver.h">MRExternalScreenTypeDidChangeNotificationObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRGameControllerDaemonProxy.h">MRGameControllerDaemonProxy.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRGameControllerDelayedEvent.h">MRGameControllerDelayedEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRGameControllerDelayedEvents.h">MRGameControllerDelayedEvents.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRGameControllerMessage.h">MRGameControllerMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRGameControllerProperties.h">MRGameControllerProperties.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRGameControllerPropertiesMessage.h">MRGameControllerPropertiesMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRGetKeyboardSessionMessage.h">MRGetKeyboardSessionMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRGetPlaybackQueueMessage.h">MRGetPlaybackQueueMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRGetVoiceInputDevicesMessage.h">MRGetVoiceInputDevicesMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRGetVoiceInputDevicesResponseMessage.h">MRGetVoiceInputDevicesResponseMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRKeyboardMessage.h">MRKeyboardMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRLanguageOption.h">MRLanguageOption.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRLanguageOptionGroup.h">MRLanguageOptionGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRLegacySendHIDEventMessage.h">MRLegacySendHIDEventMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRMediaRemoteOriginClient.h">MRMediaRemoteOriginClient.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRMediaRemoteOriginClientManager.h">MRMediaRemoteOriginClientManager.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRMediaRemoteServiceClient.h">MRMediaRemoteServiceClient.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRMessageCallback.h">MRMessageCallback.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRMessageData.h">MRMessageData.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRMutableApplicationActivity.h">MRMutableApplicationActivity.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRMutableAudioDataBlock.h">MRMutableAudioDataBlock.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRMutableDeviceInfo.h">MRMutableDeviceInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRMutableTextEditingAttributes.h">MRMutableTextEditingAttributes.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRMutableTextEditingSession.h">MRMutableTextEditingSession.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRMutableVirtualTouchDeviceDescriptor.h">MRMutableVirtualTouchDeviceDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRMutableVirtualVoiceInputDeviceDescriptor.h">MRMutableVirtualVoiceInputDeviceDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRNotification.h">MRNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRNotificationMessage.h">MRNotificationMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRNowPlayingAppDidChangeNotificationObserver.h">MRNowPlayingAppDidChangeNotificationObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRNowPlayingAppIsPlayingDidChangeNotificationObserver.h">MRNowPlayingAppIsPlayingDidChangeNotificationObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRNowPlayingArtwork.h">MRNowPlayingArtwork.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRNowPlayingArtworkImage.h">MRNowPlayingArtworkImage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRPairedDevice.h">MRPairedDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRPasscodeCredentials.h">MRPasscodeCredentials.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRPendingMessageQueue.h">MRPendingMessageQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRPlaybackQueue.h">MRPlaybackQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRPlaybackQueueContext.h">MRPlaybackQueueContext.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRProtobufSerialization.h">MRProtobufSerialization.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRProtocolMessage.h">MRProtocolMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRProtocolMessageLogger.h">MRProtocolMessageLogger.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRRegisterForGameControllerEventsMessage.h">MRRegisterForGameControllerEventsMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRRegisterGameControllerMessage.h">MRRegisterGameControllerMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRRegisterGameControllerResponseMessage.h">MRRegisterGameControllerResponseMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRRegisterHIDDeviceMessage.h">MRRegisterHIDDeviceMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRRegisterHIDDeviceResultMessage.h">MRRegisterHIDDeviceResultMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRRegisterVoiceInputDeviceMessage.h">MRRegisterVoiceInputDeviceMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRRegisterVoiceInputDeviceResponseMessage.h">MRRegisterVoiceInputDeviceResponseMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRSendButtonEventMessage.h">MRSendButtonEventMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRSendCommandMessage.h">MRSendCommandMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRSendCommandResultMessage.h">MRSendCommandResultMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRSendVirtualTouchEventMessage.h">MRSendVirtualTouchEventMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRSendVoiceInputMessage.h">MRSendVoiceInputMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRSetArtworkMessage.h">MRSetArtworkMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRSetConnectionStateMessage.h">MRSetConnectionStateMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRSetHiliteModeMessage.h">MRSetHiliteModeMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRSetReadyStateMessage.h">MRSetReadyStateMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRSetRecordingStateMessage.h">MRSetRecordingStateMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRSetStateMessage.h">MRSetStateMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRTelevision.h">MRTelevision.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRTelevisionClientConnection.h">MRTelevisionClientConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRTelevisionController.h">MRTelevisionController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRTelevisionManager.h">MRTelevisionManager.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRTelevisionMessageMetrics.h">MRTelevisionMessageMetrics.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRTelevisionMessageMetricsEntry.h">MRTelevisionMessageMetricsEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRTelevisionMessageQueue.h">MRTelevisionMessageQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRTelevisionNowPlayingState.h">MRTelevisionNowPlayingState.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRTextEditingAttributes.h">MRTextEditingAttributes.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRTextEditingSession.h">MRTextEditingSession.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRTextInputMessage.h">MRTextInputMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRTransaction.h">MRTransaction.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRTransactionDestination.h">MRTransactionDestination.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRTransactionMessage.h">MRTransactionMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRTransactionPacket.h">MRTransactionPacket.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRTransactionPacketizer.h">MRTransactionPacketizer.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRTransactionSource.h">MRTransactionSource.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRTransactionSourceOrigin.h">MRTransactionSourceOrigin.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRUnregisterGameControllerMessage.h">MRUnregisterGameControllerMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRUserSettings.h">MRUserSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRVVIClient.h">MRVVIClient.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRVirtualTouchDeviceDescriptor.h">MRVirtualTouchDeviceDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRVirtualVoiceInputDevice.h">MRVirtualVoiceInputDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRVirtualVoiceInputDeviceDescriptor.h">MRVirtualVoiceInputDeviceDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRVolumeControlAvailabilityMessage.h">MRVolumeControlAvailabilityMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/MRWakeDeviceMessage.h">MRWakeDeviceMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRAudioBufferProtobuf.h">_MRAudioBufferProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRAudioDataBlockProtobuf.h">_MRAudioDataBlockProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRAudioFormatSettingsProtobuf.h">_MRAudioFormatSettingsProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRAudioStreamPacketDescriptionProtobuf.h">_MRAudioStreamPacketDescriptionProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRAudioTimeProtobuf.h">_MRAudioTimeProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRBlockSupportingTelevisionController.h">_MRBlockSupportingTelevisionController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRClientUpdatesConfigurationProtobuf.h">_MRClientUpdatesConfigurationProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRCommandInfoProtobuf.h">_MRCommandInfoProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRCommandOptionsProtobuf.h">_MRCommandOptionsProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRContentItemMetadataProtobuf.h">_MRContentItemMetadataProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRContentItemProtobuf.h">_MRContentItemProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRCryptoPairingMessageProtobuf.h">_MRCryptoPairingMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRDeviceInfoMessageProtobuf.h">_MRDeviceInfoMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRGameControllerAccelerationProtobuf.h">_MRGameControllerAccelerationProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRGameControllerButtonsProtobuf.h">_MRGameControllerButtonsProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRGameControllerMessageProtobuf.h">_MRGameControllerMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRGameControllerMotionProtobuf.h">_MRGameControllerMotionProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRGameControllerPropertiesMessageProtobuf.h">_MRGameControllerPropertiesMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRGameControllerPropertiesProtobuf.h">_MRGameControllerPropertiesProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRGetKeyboardSessionProtobuf.h">_MRGetKeyboardSessionProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRGetPlaybackQueueMessageProtobuf.h">_MRGetPlaybackQueueMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRGetStateMessageProtobuf.h">_MRGetStateMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRGetVoiceInputDevicesMessageProtobuf.h">_MRGetVoiceInputDevicesMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRGetVoiceInputDevicesResponseMessageProtobuf.h">_MRGetVoiceInputDevicesResponseMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRKeyboardMessageProtobuf.h">_MRKeyboardMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRMediaRemoteMessageProtobuf.h">_MRMediaRemoteMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRNotificationMessageProtobuf.h">_MRNotificationMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRNowPlayingInfoProtobuf.h">_MRNowPlayingInfoProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRPlaybackQueueContextProtobuf.h">_MRPlaybackQueueContextProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRPlaybackQueueProtobuf.h">_MRPlaybackQueueProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRRegisterForGameControllerEventsMessageProtobuf.h">_MRRegisterForGameControllerEventsMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRRegisterGameControllerMessageProtobuf.h">_MRRegisterGameControllerMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRRegisterGameControllerResponseMessageProtobuf.h">_MRRegisterGameControllerResponseMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRRegisterHIDDeviceMessageProtobuf.h">_MRRegisterHIDDeviceMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRRegisterHIDDeviceResultMessageProtobuf.h">_MRRegisterHIDDeviceResultMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRRegisterVoiceInputDeviceMessageProtobuf.h">_MRRegisterVoiceInputDeviceMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRRegisterVoiceInputDeviceResponseMessageProtobuf.h">_MRRegisterVoiceInputDeviceResponseMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRSendButtonEventMessageProtobuf.h">_MRSendButtonEventMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRSendCommandMessageProtobuf.h">_MRSendCommandMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRSendCommandResultMessageProtobuf.h">_MRSendCommandResultMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRSendHIDEventMessageProtobuf.h">_MRSendHIDEventMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRSendHIDReportMessageProtobuf.h">_MRSendHIDReportMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRSendVirtualTouchEventMessageProtobuf.h">_MRSendVirtualTouchEventMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRSendVoiceInputMessageProtobuf.h">_MRSendVoiceInputMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRSetArtworkMessageProtobuf.h">_MRSetArtworkMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRSetConnectionStateMessageProtobuf.h">_MRSetConnectionStateMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRSetHiliteModeMessageProtobuf.h">_MRSetHiliteModeMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRSetReadyStateMessageProtobuf.h">_MRSetReadyStateMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRSetRecordingStateMessageProtobuf.h">_MRSetRecordingStateMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRSetStateMessageProtobuf.h">_MRSetStateMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRSupportedCommandsProtobuf.h">_MRSupportedCommandsProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRTelevisionControllerBlockCallback.h">_MRTelevisionControllerBlockCallback.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRTextEditingAttributesProtobuf.h">_MRTextEditingAttributesProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRTextInputMessageProtobuf.h">_MRTextInputMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRTextInputTraitsProtobuf.h">_MRTextInputTraitsProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRTransactionMessageProtobuf.h">_MRTransactionMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRTransactionPacketProtobuf.h">_MRTransactionPacketProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRUnregisterGameControllerMessageProtobuf.h">_MRUnregisterGameControllerMessageProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRVirtualTouchDeviceDescriptorProtobuf.h">_MRVirtualTouchDeviceDescriptorProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRVirtualTouchEventProtobuf.h">_MRVirtualTouchEventProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRVoiceInputDevice.h">_MRVoiceInputDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRVoiceInputDeviceDescriptorProtobuf.h">_MRVoiceInputDeviceDescriptorProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRVolumeControlAvailabilityProtobuf.h">_MRVolumeControlAvailabilityProtobuf.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaRemote.framework/_MRWakeDeviceMessageProtobuf.h">_MRWakeDeviceMessageProtobuf.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

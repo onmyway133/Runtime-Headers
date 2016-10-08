@@ -1,0 +1,103 @@
+<HTML>
+<HEAD>
+<TITLE>DataAccess.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/DataAccess.framework
+45 classes
+
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/ASAccountActor.h">ASAccountActor.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/ASTrafficLogger.h">ASTrafficLogger.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/ContactFolderItemsSyncContext.h">ContactFolderItemsSyncContext.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAAccount.h">DAAccount.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAAccountClassNames.h">DAAccountClassNames.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAAccountLoader.h">DAAccountLoader.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAAccountMonitor.h">DAAccountMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAAction.h">DAAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DABabysitter.h">DABabysitter.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAConvertCRtoCRLFStream.h">DAConvertCRtoCRLFStream.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DADataHandler.h">DADataHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DADraftMessageRequest.h">DADraftMessageRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DADuetReporter.h">DADuetReporter.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAFolder.h">DAFolder.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAKeychain.h">DAKeychain.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DALocalDBGateKeeper.h">DALocalDBGateKeeper.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DALocalDBHelper.h">DALocalDBHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DALocalDBWatcher.h">DALocalDBWatcher.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAMailMessage.h">DAMailMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAMailboxDeleteMessageRequest.h">DAMailboxDeleteMessageRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAMailboxFetchMessageRequest.h">DAMailboxFetchMessageRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAMailboxFetchSearchResultRequest.h">DAMailboxFetchSearchResultRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAMailboxGetUpdatesRequest.h">DAMailboxGetUpdatesRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAMailboxRequest.h">DAMailboxRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAMailboxSetFlagsRequest.h">DAMailboxSetFlagsRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAMessageFetchAttachmentRequest.h">DAMessageFetchAttachmentRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAMessageMoveRequest.h">DAMessageMoveRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAMoveAction.h">DAMoveAction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAMoveResponse.h">DAMoveResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAPowerAssertionManager.h">DAPowerAssertionManager.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAPriorityManager.h">DAPriorityManager.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAPriorityRequest.h">DAPriorityRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAResolveRecipientsRequest.h">DAResolveRecipientsRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAResolvedRecipient.h">DAResolvedRecipient.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAResponse.h">DAResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DATaskManager.h">DATaskManager.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DATrafficLogger.h">DATrafficLogger.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DATransaction.h">DATransaction.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DATransactionMonitor.h">DATransactionMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DATrustHandler.h">DATrustHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAUserNotificationInfo.h">DAUserNotificationInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAUserNotificationUtilities.h">DAUserNotificationUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAWaiterWrapper.h">DAWaiterWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/DAiCalendarLogger.h">DAiCalendarLogger.h</A>
+<A HREF="/tree/PrivateFrameworks/DataAccess.framework/EventsFolderItemsSyncContext.h">EventsFolderItemsSyncContext.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

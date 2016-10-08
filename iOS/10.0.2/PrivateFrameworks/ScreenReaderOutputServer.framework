@@ -1,0 +1,85 @@
+<HTML>
+<HEAD>
+<TITLE>ScreenReaderOutputServer.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/ScreenReaderOutputServer.framework
+27 classes
+
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROBrailleChunk.h">SCROBrailleChunk.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROBrailleDisplay.h">SCROBrailleDisplay.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROBrailleDisplayAutoDetector.h">SCROBrailleDisplayAutoDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROBrailleDisplayHistory.h">SCROBrailleDisplayHistory.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROBrailleDisplayManagedQueue.h">SCROBrailleDisplayManagedQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROBrailleDisplayManager.h">SCROBrailleDisplayManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROBrailleEvent.h">SCROBrailleEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROBrailleEventDispatcher.h">SCROBrailleEventDispatcher.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROBrailleFormatter.h">SCROBrailleFormatter.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROBrailleHandler.h">SCROBrailleHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROBrailleKey.h">SCROBrailleKey.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROBrailleKeyboardKey.h">SCROBrailleKeyboardKey.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROBrailleLine.h">SCROBrailleLine.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROBrailleStealthDriver.h">SCROBrailleStealthDriver.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROBrailleTranslationManager.h">SCROBrailleTranslationManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROCallback.h">SCROCallback.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROClient.h">SCROClient.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROEvent.h">SCROEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROHandler.h">SCROHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROIOElement.h">SCROIOElement.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROIOHIDElement.h">SCROIOHIDElement.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROIOUSBElement.h">SCROIOUSBElement.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROIOUSBHIDElement.h">SCROIOUSBHIDElement.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROMobileBrailleDisplayInputManager.h">SCROMobileBrailleDisplayInputManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROMobileBrailleDisplayInputManagerCacheObject.h">SCROMobileBrailleDisplayInputManagerCacheObject.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROServer.h">SCROServer.h</A>
+<A HREF="/tree/PrivateFrameworks/ScreenReaderOutputServer.framework/SCROStealthBrailleDisplay.h">SCROStealthBrailleDisplay.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

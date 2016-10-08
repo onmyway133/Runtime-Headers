@@ -1,0 +1,103 @@
+<HTML>
+<HEAD>
+<TITLE>CoreRC.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/CoreRC.framework
+45 classes
+
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/AppleIRCommand.h">AppleIRCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/AppleIRDeviceClient.h">AppleIRDeviceClient.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/AppleIRDeviceProvider.h">AppleIRDeviceProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CECBusPollingOperation.h">CECBusPollingOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CECFakeInterface.h">CECFakeInterface.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CECFakeInterfaceListener.h">CECFakeInterfaceListener.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CECInterface.h">CECInterface.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CECMessage.h">CECMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CECRouter.h">CECRouter.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CECRouterInterface.h">CECRouterInterface.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreCECBus.h">CoreCECBus.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreCECBusClient.h">CoreCECBusClient.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreCECBusProvider.h">CoreCECBusProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreCECDevice.h">CoreCECDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreCECDeviceClient.h">CoreCECDeviceClient.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreCECDeviceProvider.h">CoreCECDeviceProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreCECOverride.h">CoreCECOverride.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreCECPhysicalDevice.h">CoreCECPhysicalDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreCECStandardOverride.h">CoreCECStandardOverride.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreCECTypesInternal.h">CoreCECTypesInternal.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreIRBus.h">CoreIRBus.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreIRBusClient.h">CoreIRBusClient.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreIRBusProvider.h">CoreIRBusProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreIRButton.h">CoreIRButton.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreIRDevice.h">CoreIRDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreIRDeviceClient.h">CoreIRDeviceClient.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreIRDeviceProvider.h">CoreIRDeviceProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreIRLearningSession.h">CoreIRLearningSession.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreIRLearningSessionClient.h">CoreIRLearningSessionClient.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreIRLearningSessionProvider.h">CoreIRLearningSessionProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreRCBus.h">CoreRCBus.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreRCDevice.h">CoreRCDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreRCHIDEvent.h">CoreRCHIDEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreRCInterface.h">CoreRCInterface.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreRCInterfaceController.h">CoreRCInterfaceController.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreRCInterfaceListener.h">CoreRCInterfaceListener.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreRCManager.h">CoreRCManager.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreRCManagerClient.h">CoreRCManagerClient.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreRCManagerProvider.h">CoreRCManagerProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreRCOverride.h">CoreRCOverride.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/CoreRCXPCService.h">CoreRCXPCService.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/IRCommand.h">IRCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/IRFrame.h">IRFrame.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/IRInterface.h">IRInterface.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRC.framework/IRProtocol.h">IRProtocol.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

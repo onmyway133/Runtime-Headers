@@ -1,0 +1,204 @@
+<HTML>
+<HEAD>
+<TITLE>GameCenterPrivateUI.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/GameCenterPrivateUI.framework
+146 classes
+
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKAccountRemoteUIController.h">GKAccountRemoteUIController.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKAggregateCollectionViewWrapper.h">GKAggregateCollectionViewWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKAggregateMapping.h">GKAggregateMapping.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKBaseBubbleWithTextControl.h">GKBaseBubbleWithTextControl.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKBaseComposeController.h">GKBaseComposeController.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKBaseComposeHeaderField.h">GKBaseComposeHeaderField.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKBaseGameCell.h">GKBaseGameCell.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKBasePlayerCell.h">GKBasePlayerCell.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKBasicCollectionViewController.h">GKBasicCollectionViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKBasicCollectionViewDataSource.h">GKBasicCollectionViewDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKBubbleControl.h">GKBubbleControl.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKBubbleDetailViewController.h">GKBubbleDetailViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKBubbleFlowAnimator.h">GKBubbleFlowAnimator.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKBubbleFlowBubbleControl.h">GKBubbleFlowBubbleControl.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKBubbleFlowContainerView.h">GKBubbleFlowContainerView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKBubbleFlowOverlayView.h">GKBubbleFlowOverlayView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKBubbleFlowRootViewController.h">GKBubbleFlowRootViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKBubbleLayout.h">GKBubbleLayout.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKBubbleMeshAnimator.h">GKBubbleMeshAnimator.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKBubblePathAnimator.h">GKBubblePathAnimator.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKBubbleSet.h">GKBubbleSet.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKBubbleShape.h">GKBubbleShape.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKBubbleView.h">GKBubbleView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKButtonView.h">GKButtonView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKCancelSwipeToEditGestureRecognizer.h">GKCancelSwipeToEditGestureRecognizer.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKCellSelectedBackgroundView.h">GKCellSelectedBackgroundView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKCenteredContentViewController.h">GKCenteredContentViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKCenteringScrollView.h">GKCenteringScrollView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKChallengesPickerDataSource.h">GKChallengesPickerDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKChallengesPickerViewController.h">GKChallengesPickerViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKCollectionViewAggregateDataSource.h">GKCollectionViewAggregateDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKCollectionViewCell.h">GKCollectionViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKCollectionViewController.h">GKCollectionViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKCollectionViewDataSource.h">GKCollectionViewDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKCollectionViewLayoutAttributes.h">GKCollectionViewLayoutAttributes.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKCollectionViewPlaceholderView.h">GKCollectionViewPlaceholderView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKColumnDividerView.h">GKColumnDividerView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKComposeHeaderField.h">GKComposeHeaderField.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKComposeHeaderFieldBackgroundView.h">GKComposeHeaderFieldBackgroundView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKComposeHeaderWithStaticRecipients.h">GKComposeHeaderWithStaticRecipients.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKDataSourceMetrics.h">GKDataSourceMetrics.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKDetachedContentView.h">GKDetachedContentView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKDynamicColumnSectionMetrics.h">GKDynamicColumnSectionMetrics.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKEditAction.h">GKEditAction.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKEditActionsView.h">GKEditActionsView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKExplodeFrontToBackAnimator.h">GKExplodeFrontToBackAnimator.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKFallbackAnimator.h">GKFallbackAnimator.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKFishhookAnimator.h">GKFishhookAnimator.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKFixedSizeImageView.h">GKFixedSizeImageView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKFloatInAnimator.h">GKFloatInAnimator.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKForceBubbleAnimator.h">GKForceBubbleAnimator.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKFriendOfPlayerCell.h">GKFriendOfPlayerCell.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKFriendPlayerCell.h">GKFriendPlayerCell.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKFriendPlayerCell2Line.h">GKFriendPlayerCell2Line.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKFriendPlayerCell3Line.h">GKFriendPlayerCell3Line.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKFriendPlayersDataSource.h">GKFriendPlayersDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKFriendRecommendationCell.h">GKFriendRecommendationCell.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKFriendRequestCell.h">GKFriendRequestCell.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKFriendRequestsSynopsisCell.h">GKFriendRequestsSynopsisCell.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKFriendsDataSource.h">GKFriendsDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKFriendsSplittingDataSource.h">GKFriendsSplittingDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKGameInviteComposeController.h">GKGameInviteComposeController.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKGameRecentPlayersDataSource.h">GKGameRecentPlayersDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKGridLayout.h">GKGridLayout.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKGridLayoutInvalidationContext.h">GKGridLayoutInvalidationContext.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKGridLayoutMetrics.h">GKGridLayoutMetrics.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKHairlineView.h">GKHairlineView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKHeaderWithUnderlineView.h">GKHeaderWithUnderlineView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKHorizontalBubbleControlsView.h">GKHorizontalBubbleControlsView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKInCommonGameCell.h">GKInCommonGameCell.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKInvitePickerDataSource.h">GKInvitePickerDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKInvitePickerViewController.h">GKInvitePickerViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKLeaderboardHeaderView.h">GKLeaderboardHeaderView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKLoadableContentStateMachine.h">GKLoadableContentStateMachine.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKLoadableContentViewController.h">GKLoadableContentViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKMappedIndexPath.h">GKMappedIndexPath.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKMasterDetailNavigationController.h">GKMasterDetailNavigationController.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKMasterDetailViewController.h">GKMasterDetailViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKMetricData.h">GKMetricData.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKMoreExistSectionFooterView.h">GKMoreExistSectionFooterView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKNavigationController.h">GKNavigationController.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKNavigationControllerDeferredTransitionInfo.h">GKNavigationControllerDeferredTransitionInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKNearbyPlayersDataSource.h">GKNearbyPlayersDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKPlaceholderContentStateMachine.h">GKPlaceholderContentStateMachine.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKPlaceholderView.h">GKPlaceholderView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKPlayerGameCell.h">GKPlayerGameCell.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKPlayerPickerCell.h">GKPlayerPickerCell.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKPlayerPickerCell2Line.h">GKPlayerPickerCell2Line.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKPlayerPickerCell3Line.h">GKPlayerPickerCell3Line.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKPlayerPickerInfo.h">GKPlayerPickerInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKPlayerPickerViewController.h">GKPlayerPickerViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKPlayerWithSpeechBalloonView.h">GKPlayerWithSpeechBalloonView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKPlayerWithSpeechBalloonViewAndEditablePhoto.h">GKPlayerWithSpeechBalloonViewAndEditablePhoto.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKPurchasableGameCell.h">GKPurchasableGameCell.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKRatingView.h">GKRatingView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKRemoteUIController.h">GKRemoteUIController.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKRemoteUIFooterView.h">GKRemoteUIFooterView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKRemoteUIHeaderView.h">GKRemoteUIHeaderView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKRemoteUINavigationController.h">GKRemoteUINavigationController.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKRemoteUITableFooterView.h">GKRemoteUITableFooterView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKRemoteUITableHeaderView.h">GKRemoteUITableHeaderView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKReportProblemRemoteUIController.h">GKReportProblemRemoteUIController.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKScatterAnimator.h">GKScatterAnimator.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKScatterBackToFrontAnimator.h">GKScatterBackToFrontAnimator.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKSearchBar.h">GKSearchBar.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKSearchBarView.h">GKSearchBarView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKSectionHeaderView.h">GKSectionHeaderView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKSectionInfo.h">GKSectionInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKSectionMetrics.h">GKSectionMetrics.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKSectionPresentationData.h">GKSectionPresentationData.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKSectionSeparatorView.h">GKSectionSeparatorView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKSegmentInfo.h">GKSegmentInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKSegmentedSectionDataSource.h">GKSegmentedSectionDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKSegmentedSectionHeaderView.h">GKSegmentedSectionHeaderView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKSegmentedSelectorView.h">GKSegmentedSelectorView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKShowMoreView.h">GKShowMoreView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKShowcaseCellView.h">GKShowcaseCellView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKSimpleComposeController.h">GKSimpleComposeController.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKSimpleSlideAnimator.h">GKSimpleSlideAnimator.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKSpeechBalloonBackgroundView.h">GKSpeechBalloonBackgroundView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKSplittingDataSource.h">GKSplittingDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKStandaloneWiggleRotateAnimator.h">GKStandaloneWiggleRotateAnimator.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKStaticRenderContentView.h">GKStaticRenderContentView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKStatusCell.h">GKStatusCell.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKSupplementaryViewFactory.h">GKSupplementaryViewFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKSupplementaryViewMetrics.h">GKSupplementaryViewMetrics.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKSwipeToEditStateMachine.h">GKSwipeToEditStateMachine.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKTabBarController.h">GKTabBarController.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKTabBarTransitionAnimator.h">GKTabBarTransitionAnimator.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKTextBubbleContentView.h">GKTextBubbleContentView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKTextBubbleControl.h">GKTextBubbleControl.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKTextView.h">GKTextView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKTopClipView.h">GKTopClipView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKTurnBasedMatchDetailHeaderView.h">GKTurnBasedMatchDetailHeaderView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKTurnGameCell.h">GKTurnGameCell.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKTurnParticipantCell.h">GKTurnParticipantCell.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKValueWithCaptionBubbleControl.h">GKValueWithCaptionBubbleControl.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKViewController.h">GKViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/GKWiggleRotateAnimator.h">GKWiggleRotateAnimator.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/_GKBubbleFlowOnDemandFormSheetViewController.h">_GKBubbleFlowOnDemandFormSheetViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/_GKBubbleFlowPathTransitionInfo.h">_GKBubbleFlowPathTransitionInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/_GKBubbleFlowPseudoModalViewController.h">_GKBubbleFlowPseudoModalViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/_GKBubbleFlowTransitionInfo.h">_GKBubbleFlowTransitionInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/_GKCustomDrawnSpeechBalloonBackgroundView.h">_GKCustomDrawnSpeechBalloonBackgroundView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/_GKImageSpeechBalloonBackgroundView.h">_GKImageSpeechBalloonBackgroundView.h</A>
+<A HREF="/tree/PrivateFrameworks/GameCenterPrivateUI.framework/_GKSplitViewDetailPlaceholderViewController.h">_GKSplitViewDetailPlaceholderViewController.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

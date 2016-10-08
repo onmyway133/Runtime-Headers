@@ -1,0 +1,104 @@
+<HTML>
+<HEAD>
+<TITLE>SAML.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/SAML.framework
+46 classes
+
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLAdvice.h">SAMLAdvice.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLAssertion.h">SAMLAssertion.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLAttribute.h">SAMLAttribute.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLAttributeQuery.h">SAMLAttributeQuery.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLAttributeQueryElement.h">SAMLAttributeQueryElement.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLAuthNRequest.h">SAMLAuthNRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLAuthNRequestElement.h">SAMLAuthNRequestElement.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLAuthNStatement.h">SAMLAuthNStatement.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLAuthZDecision.h">SAMLAuthZDecision.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLAuthZDecisionQuery.h">SAMLAuthZDecisionQuery.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLAuthZDecisionQueryElement.h">SAMLAuthZDecisionQueryElement.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLBaseElement.h">SAMLBaseElement.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLConditions.h">SAMLConditions.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLDSAKeyValue.h">SAMLDSAKeyValue.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLEvidence.h">SAMLEvidence.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLIDPEntry.h">SAMLIDPEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLKeyInfo.h">SAMLKeyInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLKeyRetrievalMethod.h">SAMLKeyRetrievalMethod.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLLogoutRequest.h">SAMLLogoutRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLLogoutRequestElement.h">SAMLLogoutRequestElement.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLLogoutResponseElement.h">SAMLLogoutResponseElement.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLNameId.h">SAMLNameId.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLNameIdPolicy.h">SAMLNameIdPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLPGPData.h">SAMLPGPData.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLParserController.h">SAMLParserController.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLRSAKeyValue.h">SAMLRSAKeyValue.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLRequestedAuthNContext.h">SAMLRequestedAuthNContext.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLResponse.h">SAMLResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLResponseElement.h">SAMLResponseElement.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLScoping.h">SAMLScoping.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLSignature.h">SAMLSignature.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLSignatureKeyValue.h">SAMLSignatureKeyValue.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLSignatureReference.h">SAMLSignatureReference.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLSignedInfo.h">SAMLSignedInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLStatus.h">SAMLStatus.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLStatusCode.h">SAMLStatusCode.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLSubject.h">SAMLSubject.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLSubjectConfirmation.h">SAMLSubjectConfirmation.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/SAMLX509Data.h">SAMLX509Data.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/XMLWrapperAttribute.h">XMLWrapperAttribute.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/XMLWrapperDoc.h">XMLWrapperDoc.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/XMLWrapperElement.h">XMLWrapperElement.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/XMLWrapperElementFactory.h">XMLWrapperElementFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/XMLWrapperNamespace.h">XMLWrapperNamespace.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/XMLWrapperQuery.h">XMLWrapperQuery.h</A>
+<A HREF="/tree/PrivateFrameworks/SAML.framework/XMLWrapperSchema.h">XMLWrapperSchema.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

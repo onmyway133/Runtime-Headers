@@ -1,0 +1,213 @@
+<HTML>
+<HEAD>
+<TITLE>NotesShared.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/NotesShared.framework
+155 classes
+
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/CKRecordSystemFieldsTransformer.h">CKRecordSystemFieldsTransformer.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/CKShareSystemFieldsTransformer.h">CKShareSystemFieldsTransformer.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAccessibility.h">ICAccessibility.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAccount.h">ICAccount.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAccountMigrationPolicy1_0b10To1_0b11.h">ICAccountMigrationPolicy1_0b10To1_0b11.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAccountMigrationPolicy1_0b12To1_0b13.h">ICAccountMigrationPolicy1_0b12To1_0b13.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAccountProxy.h">ICAccountProxy.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAlertController.h">ICAlertController.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAnalyticsReporterBase.h">ICAnalyticsReporterBase.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICArchiveReader.h">ICArchiveReader.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICArchiveWriter.h">ICArchiveWriter.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAtomicLRUCache.h">ICAtomicLRUCache.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachment.h">ICAttachment.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentActivityItemSource.h">ICAttachmentActivityItemSource.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentAudioModel.h">ICAttachmentAudioModel.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentDrawingActivityItemSource.h">ICAttachmentDrawingActivityItemSource.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentDrawingModel.h">ICAttachmentDrawingModel.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentImageActivityItemSource.h">ICAttachmentImageActivityItemSource.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentImageLoadingOperation.h">ICAttachmentImageLoadingOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentImageModel.h">ICAttachmentImageModel.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentLocation.h">ICAttachmentLocation.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentMapModel.h">ICAttachmentMapModel.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentMigrationPolicy1_0b19To1_0b21.h">ICAttachmentMigrationPolicy1_0b19To1_0b21.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentMigrationPolicy1_0b20To1_0b21.h">ICAttachmentMigrationPolicy1_0b20To1_0b21.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentMigrationPolicy1_0b25To1_1.h">ICAttachmentMigrationPolicy1_0b25To1_1.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentMigrationPolicy1_0b6To1_0b7.h">ICAttachmentMigrationPolicy1_0b6To1_0b7.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentModel.h">ICAttachmentModel.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentMovieModel.h">ICAttachmentMovieModel.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentPDFModel.h">ICAttachmentPDFModel.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentPreviewGenerator.h">ICAttachmentPreviewGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentPreviewGeneratorOperation.h">ICAttachmentPreviewGeneratorOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentPreviewImage.h">ICAttachmentPreviewImage.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentPreviewImageLoader.h">ICAttachmentPreviewImageLoader.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentPreviewImageMigrationPolicy_1_0b3To1_0b4.h">ICAttachmentPreviewImageMigrationPolicy_1_0b3To1_0b4.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentThumbnailOperation.h">ICAttachmentThumbnailOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentWebModel.h">ICAttachmentWebModel.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAttachmentWebModelIcon.h">ICAttachmentWebModelIcon.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICAudioTextAttachment.h">ICAudioTextAttachment.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICBaseAttachmentView.h">ICBaseAttachmentView.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICCache.h">ICCache.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICCloudConfiguration.h">ICCloudConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICCloudContext.h">ICCloudContext.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICCloudState.h">ICCloudState.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICCloudSyncingObject.h">ICCloudSyncingObject.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICCloudSyncingObjectMigrationPolicy1_0b24To1_0b25.h">ICCloudSyncingObjectMigrationPolicy1_0b24To1_0b25.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICCloudThrottlingLevel.h">ICCloudThrottlingLevel.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICCloudThrottlingPolicy.h">ICCloudThrottlingPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICCollapsibleActivityView.h">ICCollapsibleActivityView.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICCollapsibleBaseView.h">ICCollapsibleBaseView.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICCollapsibleImageView.h">ICCollapsibleImageView.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICCryptor.h">ICCryptor.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICDebugTimer.h">ICDebugTimer.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICDeviceIdentifier.h">ICDeviceIdentifier.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICDeviceMigrationState.h">ICDeviceMigrationState.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICDeviceMigrationStateMigrationPolicy1_0b17To1_0b18.h">ICDeviceMigrationStateMigrationPolicy1_0b17To1_0b18.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICDispatchAfterBlocks.h">ICDispatchAfterBlocks.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICDispatchAfterHandler.h">ICDispatchAfterHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICDrawing.h">ICDrawing.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICDrawingCommand.h">ICDrawingCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICDrawingCommandData.h">ICDrawingCommandData.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICDrawingInputController.h">ICDrawingInputController.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICDrawingTextAttachment.h">ICDrawingTextAttachment.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICDrawingUndoCheckPoint.h">ICDrawingUndoCheckPoint.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICDrawingUndoCommand.h">ICDrawingUndoCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICDrawingUndoStack.h">ICDrawingUndoStack.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICDrawingVersionedDocument.h">ICDrawingVersionedDocument.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICErrors.h">ICErrors.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICFolder.h">ICFolder.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICFolderMigrationPolicy1_0n22To1_0b23.h">ICFolderMigrationPolicy1_0n22To1_0b23.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICGeneratePDFSearchIndexStringsOperation.h">ICGeneratePDFSearchIndexStringsOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICGenericFileTextAttachment.h">ICGenericFileTextAttachment.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICHTMLConverterClient.h">ICHTMLConverterClient.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICHelpViewNavigationController.h">ICHelpViewNavigationController.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICImageLRUCache.h">ICImageLRUCache.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICImageTextAttachment.h">ICImageTextAttachment.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICKeyboardNotificationListener.h">ICKeyboardNotificationListener.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICKeychainUtilities.h">ICKeychainUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICLRUCache.h">ICLRUCache.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICLearnMoreTextView.h">ICLearnMoreTextView.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICLegacyAttachmentFileWrapper.h">ICLegacyAttachmentFileWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICLegacyTombstone.h">ICLegacyTombstone.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICLegacyTombstoneMigrationPolicy1_0b17To1_0b18.h">ICLegacyTombstoneMigrationPolicy1_0b17To1_0b18.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICLetterpressImageCache.h">ICLetterpressImageCache.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICLetterpressImageCacheKey.h">ICLetterpressImageCacheKey.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICLocalFileWrapper.h">ICLocalFileWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICLocalization.h">ICLocalization.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICLocation.h">ICLocation.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICLocationContext.h">ICLocationContext.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICLongRunningTaskController.h">ICLongRunningTaskController.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICMapTextAttachment.h">ICMapTextAttachment.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICMedia.h">ICMedia.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICMediaMigrationPolicy1_0b1To1_0b2.h">ICMediaMigrationPolicy1_0b1To1_0b2.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICMigrationUtilities.h">ICMigrationUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICModernSearchIndexerDataSource.h">ICModernSearchIndexerDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICMovieTextAttachment.h">ICMovieTextAttachment.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICNote.h">ICNote.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICNoteAllAccountVisibilityTesting.h">ICNoteAllAccountVisibilityTesting.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICNoteChange.h">ICNoteChange.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICNoteContainer.h">ICNoteContainer.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICNoteContext.h">ICNoteContext.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICNoteData.h">ICNoteData.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICNoteMergePolicy.h">ICNoteMergePolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICNoteMigrationPolicy1_0b17To1_0b18.h">ICNoteMigrationPolicy1_0b17To1_0b18.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICNotesCrossProcessChangeCoordinator.h">ICNotesCrossProcessChangeCoordinator.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICPDFTextAttachment.h">ICPDFTextAttachment.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICPasswordChangeView.h">ICPasswordChangeView.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICPasswordChangeViewController.h">ICPasswordChangeViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICPasswordLockTileView.h">ICPasswordLockTileView.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICPasswordUtilities.h">ICPasswordUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICPreviewDeviceContext.h">ICPreviewDeviceContext.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICPreviewDeviceInfo.h">ICPreviewDeviceInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICProgressViewController.h">ICProgressViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICRWLock.h">ICRWLock.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICReaderDelegateUtilities.h">ICReaderDelegateUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICRemoteFileAttachmentDownloader.h">ICRemoteFileAttachmentDownloader.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICRemoteFileWrapper.h">ICRemoteFileWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICScrollViewKeyboardResizer.h">ICScrollViewKeyboardResizer.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICSearchAttachmentOperation.h">ICSearchAttachmentOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICSearchNoteOperation.h">ICSearchNoteOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICSearchOperation.h">ICSearchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICSearchResult.h">ICSearchResult.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICSearchResultSection.h">ICSearchResultSection.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICSearchString.h">ICSearchString.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICSectionedSearchResults.h">ICSectionedSearchResults.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICServerChangeToken.h">ICServerChangeToken.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICSharedPasswordUtilities.h">ICSharedPasswordUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICSharedRecentlyDeletedSharedNoteUtilities.h">ICSharedRecentlyDeletedSharedNoteUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICStateHandler.h">ICStateHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICTextAttachment.h">ICTextAttachment.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICTextController.h">ICTextController.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICTextStyle.h">ICTextStyle.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICThumbnailData.h">ICThumbnailData.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICTrackedParagraph.h">ICTrackedParagraph.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICUsageAnalyticsReporter.h">ICUsageAnalyticsReporter.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICUserSpecificRecordID.h">ICUserSpecificRecordID.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/ICWebTextAttachment.h">ICWebTextAttachment.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/TTAttachment.h">TTAttachment.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/TTFont.h">TTFont.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/TTMergeableAttributedString.h">TTMergeableAttributedString.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/TTMergeableString.h">TTMergeableString.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/TTMergeableStringSelection.h">TTMergeableStringSelection.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/TTMergeableStringUndoAttributeCommand.h">TTMergeableStringUndoAttributeCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/TTMergeableStringUndoEditCommand.h">TTMergeableStringUndoEditCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/TTMergeableStringUndoGroup.h">TTMergeableStringUndoGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/TTMergeableStringVersionedDocument.h">TTMergeableStringVersionedDocument.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/TTMergeableUndoString.h">TTMergeableUndoString.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/TTMutableParagraphStyle.h">TTMutableParagraphStyle.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/TTParagraphStyle.h">TTParagraphStyle.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/TTTextController.h">TTTextController.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/TTTextStorage.h">TTTextStorage.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/TTTodo.h">TTTodo.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/TTVectorMultiTimestamp.h">TTVectorMultiTimestamp.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/TTVectorTimestamp.h">TTVectorTimestamp.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/TTVectorTimestampElement.h">TTVectorTimestampElement.h</A>
+<A HREF="/tree/PrivateFrameworks/NotesShared.framework/TTVersionedDocument.h">TTVersionedDocument.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

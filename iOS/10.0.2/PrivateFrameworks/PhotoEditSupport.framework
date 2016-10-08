@@ -1,0 +1,110 @@
+<HTML>
+<HEAD>
+<TITLE>PhotoEditSupport.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/PhotoEditSupport.framework
+52 classes
+
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/AutoEncodeDecodeObject.h">AutoEncodeDecodeObject.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLAdjustmentModel.h">BLAdjustmentModel.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLAuraFilter.h">BLAuraFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLBaseLayerStack.h">BLBaseLayerStack.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLBlackAndWhiteFilter.h">BLBlackAndWhiteFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLBrushStroke.h">BLBrushStroke.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLCGImage.h">BLCGImage.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLCGPixelImageBuffer.h">BLCGPixelImageBuffer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLCIImage.h">BLCIImage.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLCVPixelImageBuffer.h">BLCVPixelImageBuffer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLCannyEdgeAutoThres.h">BLCannyEdgeAutoThres.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLColorMatrix.h">BLColorMatrix.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLCropModel.h">BLCropModel.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLDramaFilter.h">BLDramaFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLDuotoneFilter.h">BLDuotoneFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLEdgeAwareMaskFilter.h">BLEdgeAwareMaskFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLEffectManager.h">BLEffectManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLHistogramAnalysis.h">BLHistogramAnalysis.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLHorizonDetection.h">BLHorizonDetection.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLImage.h">BLImage.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLImageBuffer.h">BLImageBuffer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLImagePatch.h">BLImagePatch.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLImagePatchList.h">BLImagePatchList.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLKey.h">BLKey.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLPEModel.h">BLPEModel.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLPerceptualBlendFilter.h">BLPerceptualBlendFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLPhotoEffectsModel.h">BLPhotoEffectsModel.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLPhotoFiltersFilter.h">BLPhotoFiltersFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLPixelImageBuffer.h">BLPixelImageBuffer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLProbabalisticHoughTransform.h">BLProbabalisticHoughTransform.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLPromiseImage.h">BLPromiseImage.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLRedEyeBrushTap.h">BLRedEyeBrushTap.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLRepairBrushStroke.h">BLRepairBrushStroke.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLRepairLayerStack.h">BLRepairLayerStack.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLRepairModel.h">BLRepairModel.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLRetouchBlurLayer.h">BLRetouchBlurLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLRetouchEffectLayer.h">BLRetouchEffectLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLRetouchExposureLayer.h">BLRetouchExposureLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLRetouchImageLayer.h">BLRetouchImageLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLRetouchLayer.h">BLRetouchLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLRetouchLayerStack.h">BLRetouchLayerStack.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLRetouchModel.h">BLRetouchModel.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLRetouchRedEyeLayer.h">BLRetouchRedEyeLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLRetouchReefBlurOperator.h">BLRetouchReefBlurOperator.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLRetouchReefRepairOperator.h">BLRetouchReefRepairOperator.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLRetouchRepairLayer.h">BLRetouchRepairLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLRetouchSaturationLayer.h">BLRetouchSaturationLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLSleepAssertionManager.h">BLSleepAssertionManager.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLTextureImageBuffer.h">BLTextureImageBuffer.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLUIImage.h">BLUIImage.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLUnderwaterBalanceFilter.h">BLUnderwaterBalanceFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/PhotoEditSupport.framework/BLVintageFilter.h">BLVintageFilter.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

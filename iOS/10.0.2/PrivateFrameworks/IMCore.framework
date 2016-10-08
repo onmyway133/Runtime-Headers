@@ -1,0 +1,144 @@
+<HTML>
+<HEAD>
+<TITLE>IMCore.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/IMCore.framework
+86 classes
+
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMAccount.h">IMAccount.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMAccountController.h">IMAccountController.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMAddressBook.h">IMAddressBook.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMAggregateAcknowledgmentChatItem.h">IMAggregateAcknowledgmentChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMAggregateMessagePartChatItem.h">IMAggregateMessagePartChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMAnimatedEmojiMessagePartChatItem.h">IMAnimatedEmojiMessagePartChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMAppExtensionContext.h">IMAppExtensionContext.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMAssociatedMessageChatItem.h">IMAssociatedMessageChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMAssociatedStickerChatItem.h">IMAssociatedStickerChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMAttachment.h">IMAttachment.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMAttachmentMessagePartChatItem.h">IMAttachmentMessagePartChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMAudioMessageChatItem.h">IMAudioMessageChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMBalloonAppExtension.h">IMBalloonAppExtension.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMBalloonBrowserPlugin.h">IMBalloonBrowserPlugin.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMBalloonPlugin.h">IMBalloonPlugin.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMBalloonPluginAttributionController.h">IMBalloonPluginAttributionController.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMBalloonPluginDataSource.h">IMBalloonPluginDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMBalloonPluginManager.h">IMBalloonPluginManager.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMChat.h">IMChat.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMChatHistoryController.h">IMChatHistoryController.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMChatItem.h">IMChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMChatRegistry.h">IMChatRegistry.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMDDController.h">IMDDController.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMDaemonController.h">IMDaemonController.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMDaemonListener.h">IMDaemonListener.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMDateChatItem.h">IMDateChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMEmoteMessageChatItem.h">IMEmoteMessageChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMErrorMessagePartChatItem.h">IMErrorMessagePartChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMExpirableMessageChatItem.h">IMExpirableMessageChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMExpressiveSendAsTextChatItem.h">IMExpressiveSendAsTextChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMFMFSession.h">IMFMFSession.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMFileTransferCenter.h">IMFileTransferCenter.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMGroupActionChatItem.h">IMGroupActionChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMGroupTitleChangeChatItem.h">IMGroupTitleChangeChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMHandle.h">IMHandle.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMHandleRegistrar.h">IMHandleRegistrar.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMHandleRegistrarInternal.h">IMHandleRegistrarInternal.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMHostAppExtensionContext.h">IMHostAppExtensionContext.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMIDStatusController.h">IMIDStatusController.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMItemChatContext.h">IMItemChatContext.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMItemsController.h">IMItemsController.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMLoadMoreChatItem.h">IMLoadMoreChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMLocatingChatItem.h">IMLocatingChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMLocationManager.h">IMLocationManager.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMLocationShareActionChatItem.h">IMLocationShareActionChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMLocationShareOfferChatItem.h">IMLocationShareOfferChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMMe.h">IMMe.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMMessage.h">IMMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMMessageAcknowledgmentChatItem.h">IMMessageAcknowledgmentChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMMessageAcknowledgmentStringHelper.h">IMMessageAcknowledgmentStringHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMMessageActionChatItem.h">IMMessageActionChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMMessageAttributionChatItem.h">IMMessageAttributionChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMMessageChatItem.h">IMMessageChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMMessageEditChatItem.h">IMMessageEditChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMMessageItemChatContext.h">IMMessageItemChatContext.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMMessagePartChatItem.h">IMMessagePartChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMMessageStatusChatItem.h">IMMessageStatusChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMParentalControls.h">IMParentalControls.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMParentalControlsService.h">IMParentalControlsService.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMParticipantChangeChatItem.h">IMParticipantChangeChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMPeople.h">IMPeople.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMPerson.h">IMPerson.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMPersonABRecordIDCache.h">IMPersonABRecordIDCache.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMPersonRegistrar.h">IMPersonRegistrar.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMPluginPayload.h">IMPluginPayload.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMRemoteAppExtensionContext.h">IMRemoteAppExtensionContext.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMReportSpamChatItem.h">IMReportSpamChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMSPIHandle.h">IMSPIHandle.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMSPIMessage.h">IMSPIMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMSendProgress.h">IMSendProgress.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMSenderChatItem.h">IMSenderChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMService.h">IMService.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMServiceAgent.h">IMServiceAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMServiceAgentImpl.h">IMServiceAgentImpl.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMServiceChatItem.h">IMServiceChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMServiceImpl.h">IMServiceImpl.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMStickerRegistry.h">IMStickerRegistry.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMSuggestionsService.h">IMSuggestionsService.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMTextMessagePartChatItem.h">IMTextMessagePartChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMTranscriptChatItem.h">IMTranscriptChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMTranscriptChatItemRules.h">IMTranscriptChatItemRules.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMTranscriptPluginBreadcrumbChatItem.h">IMTranscriptPluginBreadcrumbChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMTranscriptPluginChatItem.h">IMTranscriptPluginChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMTranscriptPluginStatusChatItem.h">IMTranscriptPluginStatusChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMTypingChatItem.h">IMTypingChatItem.h</A>
+<A HREF="/tree/PrivateFrameworks/IMCore.framework/IMTypingPluginChatItem.h">IMTypingPluginChatItem.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

@@ -1,0 +1,101 @@
+<HTML>
+<HEAD>
+<TITLE>IDS.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/IDS.framework
+43 classes
+
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSAccount.h">IDSAccount.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSAccountController.h">IDSAccountController.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSAppleCareDaemonResponseListener.h">IDSAppleCareDaemonResponseListener.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSAutoCleanup.h">IDSAutoCleanup.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSBatchIDQueryController.h">IDSBatchIDQueryController.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSConnection.h">IDSConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSContinuity.h">IDSContinuity.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSDaemonController.h">IDSDaemonController.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSDaemonListener.h">IDSDaemonListener.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSDaemonRequestContext.h">IDSDaemonRequestContext.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSDaemonRequestTimer.h">IDSDaemonRequestTimer.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSDaemonResponseHandler.h">IDSDaemonResponseHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSDataChannelLinkContext.h">IDSDataChannelLinkContext.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSDatagramChannel.h">IDSDatagramChannel.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSDevice.h">IDSDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSDeviceConnection.h">IDSDeviceConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSHomeKitManager.h">IDSHomeKitManager.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSIDQueryController.h">IDSIDQueryController.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSInternalQueueController.h">IDSInternalQueueController.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSLocalPairingDaemonResponseListener.h">IDSLocalPairingDaemonResponseListener.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSPairedDeviceManager.h">IDSPairedDeviceManager.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSQuickSwitchAcknowledgementTracker.h">IDSQuickSwitchAcknowledgementTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSRegistrationControlDaemonResponseListener.h">IDSRegistrationControlDaemonResponseListener.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSService.h">IDSService.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSServiceAvailabilityController.h">IDSServiceAvailabilityController.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSServiceContainer.h">IDSServiceContainer.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSServiceMonitor.h">IDSServiceMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/IDSSession.h">IDSSession.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/_IDSAccount.h">_IDSAccount.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/_IDSAccountController.h">_IDSAccountController.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/_IDSBatchIDQueryController.h">_IDSBatchIDQueryController.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/_IDSCompletionHandler.h">_IDSCompletionHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/_IDSConnection.h">_IDSConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/_IDSContinuity.h">_IDSContinuity.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/_IDSDataChannelLinkContext.h">_IDSDataChannelLinkContext.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/_IDSDatagramChannel.h">_IDSDatagramChannel.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/_IDSDevice.h">_IDSDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/_IDSDeviceConnection.h">_IDSDeviceConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/_IDSDeviceConnectionActiveMap.h">_IDSDeviceConnectionActiveMap.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/_IDSGenericCompletionHandler.h">_IDSGenericCompletionHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/_IDSIDQueryController.h">_IDSIDQueryController.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/_IDSService.h">_IDSService.h</A>
+<A HREF="/tree/PrivateFrameworks/IDS.framework/_IDSSession.h">_IDSSession.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

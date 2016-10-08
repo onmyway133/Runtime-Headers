@@ -1,0 +1,101 @@
+<HTML>
+<HEAD>
+<TITLE>ServerDocsProtocol.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/ServerDocsProtocol.framework
+43 classes
+
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCActivityInfo.h">DCActivityInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCBackgroundSessionManager.h">DCBackgroundSessionManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCCachedDirectory.h">DCCachedDirectory.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCCachedFile.h">DCCachedFile.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCCachedItem.h">DCCachedItem.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCCachedItemManager.h">DCCachedItemManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCCachedThumbnail.h">DCCachedThumbnail.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCConfiguration.h">DCConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCConnectivityTracker.h">DCConnectivityTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCDatabase.h">DCDatabase.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCDelegateState.h">DCDelegateState.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCDocumentManager.h">DCDocumentManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCDownloadManager.h">DCDownloadManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCError.h">DCError.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCFullPath.h">DCFullPath.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCManagedOtherMetadata.h">DCManagedOtherMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCManagedPath.h">DCManagedPath.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCManagedStoredLocalMetadata.h">DCManagedStoredLocalMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCManagedUpload.h">DCManagedUpload.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCPreferences.h">DCPreferences.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCRelativePath.h">DCRelativePath.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCRemoteDocumentManager.h">DCRemoteDocumentManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCServerRequest.h">DCServerRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCService.h">DCService.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/DCUploadManager.h">DCUploadManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/HTTPSASLClientSession.h">HTTPSASLClientSession.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/HTTPSASLClientSessionManager.h">HTTPSASLClientSessionManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/PinnedHTTPSSessionDelegate.h">PinnedHTTPSSessionDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/SDFActivityInfo.h">SDFActivityInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/SDFDictionaryUtils.h">SDFDictionaryUtils.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/SDFDispatchQueue.h">SDFDispatchQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/SDFFreshObjectCache.h">SDFFreshObjectCache.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/SDFFreshObjectQueue.h">SDFFreshObjectQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/SDFGenerationIdentifierUtils.h">SDFGenerationIdentifierUtils.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/SDFMetadataUtils.h">SDFMetadataUtils.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/SDFPathUtils.h">SDFPathUtils.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/SDFQueueManager.h">SDFQueueManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/SDFRequestUtils.h">SDFRequestUtils.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/SDFResponseContainer.h">SDFResponseContainer.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/SDFSignatureManager.h">SDFSignatureManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/SDFTimeUtils.h">SDFTimeUtils.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/SDFURLUtils.h">SDFURLUtils.h</A>
+<A HREF="/tree/PrivateFrameworks/ServerDocsProtocol.framework/UnauthHTTPSSessionDelegate.h">UnauthHTTPSSessionDelegate.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

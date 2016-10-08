@@ -1,0 +1,172 @@
+<HTML>
+<HEAD>
+<TITLE>CorePDF.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/CorePDF.framework
+114 classes
+
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPArchive.h">CPArchive.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPBody.h">CPBody.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPBuilder.h">CPBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPCharSequence.h">CPCharSequence.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPChunk.h">CPChunk.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPCluster.h">CPCluster.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPColumn.h">CPColumn.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPColumnMaker.h">CPColumnMaker.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPCompoundGraphic.h">CPCompoundGraphic.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPCompoundGraphicMaker.h">CPCompoundGraphicMaker.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPDocument.h">CPDocument.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPDocumentAndData.h">CPDocumentAndData.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPFont.h">CPFont.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPFontInfo.h">CPFontInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPFontKerning.h">CPFontKerning.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPGenericVisitor.h">CPGenericVisitor.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPGraphicMaker.h">CPGraphicMaker.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPGraphicObject.h">CPGraphicObject.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPGraphicRegion.h">CPGraphicRegion.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPGuideFinder.h">CPGuideFinder.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPHeadingFinder.h">CPHeadingFinder.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPHighlighter.h">CPHighlighter.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPHitTest.h">CPHitTest.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPImage.h">CPImage.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPImageObjectData.h">CPImageObjectData.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPImageRegion.h">CPImageRegion.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPInterval.h">CPInterval.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPIsland.h">CPIsland.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPLayoutArea.h">CPLayoutArea.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPLayoutMaker.h">CPLayoutMaker.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPLineBreaker.h">CPLineBreaker.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPList.h">CPList.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPListItem.h">CPListItem.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPListMaker.h">CPListMaker.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPMemoryOwner.h">CPMemoryOwner.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPObject.h">CPObject.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPObjectUtility.h">CPObjectUtility.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPPDFAnnotationParserDelegate.h">CPPDFAnnotationParserDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPPage.h">CPPage.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPParagraph.h">CPParagraph.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPParagraphFlow.h">CPParagraphFlow.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPParagraphMaker.h">CPParagraphMaker.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPPreformatter.h">CPPreformatter.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPReadingModel.h">CPReadingModel.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPRegion.h">CPRegion.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPRotatedText.h">CPRotatedText.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPRotation.h">CPRotation.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPShape.h">CPShape.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPShapeRegion.h">CPShapeRegion.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPSpacerFinder.h">CPSpacerFinder.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPTable.h">CPTable.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPTableCell.h">CPTableCell.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPTableMaker.h">CPTableMaker.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPTextBox.h">CPTextBox.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPTextBoxMaker.h">CPTextBoxMaker.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPTextLine.h">CPTextLine.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPTextLineMaker.h">CPTextLineMaker.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPTextLineMerge.h">CPTextLineMerge.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPTextLineSplitter.h">CPTextLineSplitter.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPTextObject.h">CPTextObject.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPZone.h">CPZone.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPZoneBorder.h">CPZoneBorder.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPZoneBorderIntersection.h">CPZoneBorderIntersection.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPZoneBorderNeighbor.h">CPZoneBorderNeighbor.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPZoneFilter.h">CPZoneFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/CPZoneMaker.h">CPZoneMaker.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/RMHeading.h">RMHeading.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/RMList.h">RMList.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/RMListItem.h">RMListItem.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/RMTable.h">RMTable.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/RMTableCell.h">RMTableCell.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/SurfaceLayer.h">SurfaceLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFAnnotation.h">UIPDFAnnotation.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFAnnotationController.h">UIPDFAnnotationController.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFAnnotationParserDelegate.h">UIPDFAnnotationParserDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFAnnotationView.h">UIPDFAnnotationView.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFCircleAnnotation.h">UIPDFCircleAnnotation.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFDocument.h">UIPDFDocument.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFFreeTextAnnotation.h">UIPDFFreeTextAnnotation.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFHighlightAnnotation.h">UIPDFHighlightAnnotation.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFHighlightAnnotationView.h">UIPDFHighlightAnnotationView.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFHighlightLayer.h">UIPDFHighlightLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFHighlighter.h">UIPDFHighlighter.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFLineAnnotation.h">UIPDFLineAnnotation.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFLinkAnnotation.h">UIPDFLinkAnnotation.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFMagnifierController.h">UIPDFMagnifierController.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFMarkupAnnotation.h">UIPDFMarkupAnnotation.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFPage.h">UIPDFPage.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFPageContentDelegate.h">UIPDFPageContentDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFPageContentLayer.h">UIPDFPageContentLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFPageContentTiledLayer.h">UIPDFPageContentTiledLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFPageImageCache.h">UIPDFPageImageCache.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFPageRenderJob.h">UIPDFPageRenderJob.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFPageRenderOperation.h">UIPDFPageRenderOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFPageView.h">UIPDFPageView.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFParagraphWidget.h">UIPDFParagraphWidget.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFParserDelegate.h">UIPDFParserDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFPlacementController.h">UIPDFPlacementController.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFPopupAnnotation.h">UIPDFPopupAnnotation.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFPopupAnnotationView.h">UIPDFPopupAnnotationView.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFSearchHighlightsController.h">UIPDFSearchHighlightsController.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFSelection.h">UIPDFSelection.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFSelectionController.h">UIPDFSelectionController.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFSquareAnnotation.h">UIPDFSquareAnnotation.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFSquareOrCircleAnnotation.h">UIPDFSquareOrCircleAnnotation.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFStampAnnotation.h">UIPDFStampAnnotation.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFStrikeOutAnnotation.h">UIPDFStrikeOutAnnotation.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFTextAnnotation.h">UIPDFTextAnnotation.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFTextRangeWidget.h">UIPDFTextRangeWidget.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFUnderlineAnnotation.h">UIPDFUnderlineAnnotation.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFUnderlineAnnotationView.h">UIPDFUnderlineAnnotationView.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFViewManager.h">UIPDFViewManager.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFViewTouchHandler.h">UIPDFViewTouchHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/CorePDF.framework/UIPDFWidget.h">UIPDFWidget.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

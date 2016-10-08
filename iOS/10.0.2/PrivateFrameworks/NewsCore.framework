@@ -1,0 +1,469 @@
+<HTML>
+<HEAD>
+<TITLE>NewsCore.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/NewsCore.framework
+411 classes
+
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCAnalyticsEndpointConnection.h">FCAnalyticsEndpointConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCAppConfiguration.h">FCAppConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCAppleAccount.h">FCAppleAccount.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCArrayStream.h">FCArrayStream.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCArticle.h">FCArticle.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCArticleClassification.h">FCArticleClassification.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCArticleClassificationFetchOperation.h">FCArticleClassificationFetchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCArticleContentFetchOperation.h">FCArticleContentFetchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCArticleContentManifest.h">FCArticleContentManifest.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCArticleController.h">FCArticleController.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCArticleHeadline.h">FCArticleHeadline.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCArticleHeadlinesFetchOperation.h">FCArticleHeadlinesFetchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCArticleIDFeedDescriptor.h">FCArticleIDFeedDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCArticleList.h">FCArticleList.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCArticleListGroupEmittingOperation.h">FCArticleListGroupEmittingOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCArticleListHeadlinesOperation.h">FCArticleListHeadlinesOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCArticleListRecordSource.h">FCArticleListRecordSource.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCArticleRecordSource.h">FCArticleRecordSource.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCArticlesFeedDescriptor.h">FCArticlesFeedDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCAssetHandle.h">FCAssetHandle.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCAssetHandleDownloadRequest.h">FCAssetHandleDownloadRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCAssetManager.h">FCAssetManager.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCAssetStore.h">FCAssetStore.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCAssetTransformer.h">FCAssetTransformer.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCAssetsFetchOperation.h">FCAssetsFetchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCAsyncBlockOperation.h">FCAsyncBlockOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCAsyncOnceOperation.h">FCAsyncOnceOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCAsyncSerialQueue.h">FCAsyncSerialQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCAsyncSetupStream.h">FCAsyncSetupStream.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCBlobFileCache.h">FCBlobFileCache.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCBlobFileCacheItem.h">FCBlobFileCacheItem.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCBundleLookupClass.h">FCBundleLookupClass.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKDatabase.h">FCCKDatabase.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKDatabaseAnonymityMiddleware.h">FCCKDatabaseAnonymityMiddleware.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKDatabaseGatekeeperMiddleware.h">FCCKDatabaseGatekeeperMiddleware.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKDatabaseLoggingMiddleware.h">FCCKDatabaseLoggingMiddleware.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKDatabaseOfflineMiddleware.h">FCCKDatabaseOfflineMiddleware.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKDatabaseQualityOfServiceUpgradingMiddleware.h">FCCKDatabaseQualityOfServiceUpgradingMiddleware.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKDatabaseRecordVersionMiddleware.h">FCCKDatabaseRecordVersionMiddleware.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKDatabaseUserAuthenticationMiddleware.h">FCCKDatabaseUserAuthenticationMiddleware.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKDirectRequestOperation.h">FCCKDirectRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKFeedQueryOperation.h">FCCKFeedQueryOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKFeedRequest.h">FCCKFeedRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKFeedResponse.h">FCCKFeedResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKFetchOperation.h">FCCKFetchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKFetchRecordChangesOperation.h">FCCKFetchRecordChangesOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKFetchRecordZoneChangesOperation.h">FCCKFetchRecordZoneChangesOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKFetchRecordZoneChangesResult.h">FCCKFetchRecordZoneChangesResult.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKFetchRecordsOperation.h">FCCKFetchRecordsOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKMultiFetchQueryOperation.h">FCCKMultiFetchQueryOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKMultiFetchRecordSpec.h">FCCKMultiFetchRecordSpec.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKOrderFeedQueryOperation.h">FCCKOrderFeedQueryOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKOrderFeedRequest.h">FCCKOrderFeedRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKOrderFeedResponse.h">FCCKOrderFeedResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPConfiguration.h">FCCKPConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPConfigurationField.h">FCCKPConfigurationField.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPConfigurationFieldValue.h">FCCKPConfigurationFieldValue.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPDate.h">FCCKPDate.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPDateStatistics.h">FCCKPDateStatistics.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPIdentifier.h">FCCKPIdentifier.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPLocale.h">FCCKPLocale.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPOperation.h">FCCKPOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPOplockFailure.h">FCCKPOplockFailure.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPQuery.h">FCCKPQuery.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPQueryFilter.h">FCCKPQueryFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPQueryRetrieveRequest.h">FCCKPQueryRetrieveRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPQueryRetrieveResponse.h">FCCKPQueryRetrieveResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPQueryRetrieveResponseQueryResult.h">FCCKPQueryRetrieveResponseQueryResult.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPQuerySort.h">FCCKPQuerySort.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPRecord.h">FCCKPRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPRecordField.h">FCCKPRecordField.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPRecordFieldIdentifier.h">FCCKPRecordFieldIdentifier.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPRecordFieldValue.h">FCCKPRecordFieldValue.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPRecordIdentifier.h">FCCKPRecordIdentifier.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPRecordReference.h">FCCKPRecordReference.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPRecordRetrieveRequest.h">FCCKPRecordRetrieveRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPRecordRetrieveResponse.h">FCCKPRecordRetrieveResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPRecordType.h">FCCKPRecordType.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPRecordZoneIdentifier.h">FCCKPRecordZoneIdentifier.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPRequestOperation.h">FCCKPRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPRequestOperationHeader.h">FCCKPRequestOperationHeader.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPRequestedFields.h">FCCKPRequestedFields.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPResponseOperation.h">FCCKPResponseOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPResponseOperationResult.h">FCCKPResponseOperationResult.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPResponseOperationResultError.h">FCCKPResponseOperationResultError.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPResponseOperationResultErrorClient.h">FCCKPResponseOperationResultErrorClient.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPResponseOperationResultErrorExtension.h">FCCKPResponseOperationResultErrorExtension.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPResponseOperationResultErrorServer.h">FCCKPResponseOperationResultErrorServer.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKPUniqueFieldFailure.h">FCCKPUniqueFieldFailure.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKProtocolTranslator.h">FCCKProtocolTranslator.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKQueryOperation.h">FCCKQueryOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKRecordZone.h">FCCKRecordZone.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKRecordZoneManager.h">FCCKRecordZoneManager.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKRefreshRecordsOperation.h">FCCKRefreshRecordsOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKTagSearchQueryOperation.h">FCCKTagSearchQueryOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKTestDatabase.h">FCCKTestDatabase.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKTestDatabaseFeedCursor.h">FCCKTestDatabaseFeedCursor.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKTestFeedQueryEndpoint.h">FCCKTestFeedQueryEndpoint.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCKTestOrderFeedQueryEndpoint.h">FCCKTestOrderFeedQueryEndpoint.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCacheCoordinator.h">FCCacheCoordinator.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCacheCoordinatorFlushPolicy.h">FCCacheCoordinatorFlushPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCancelHandler.h">FCCancelHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCChannelMembership.h">FCChannelMembership.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCChannelMembershipController.h">FCChannelMembershipController.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCChannelMembershipRecordSource.h">FCChannelMembershipRecordSource.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCheckArticleStatusOperation.h">FCCheckArticleStatusOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCClientEndpointConnection.h">FCClientEndpointConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCloudContext.h">FCCloudContext.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCClusteredHeadlines.h">FCClusteredHeadlines.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCommand.h">FCCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCommandQueue.h">FCCommandQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCContentContext.h">FCContentContext.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCContentContextInternal.h">FCContentContextInternal.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCContextConfiguration.h">FCContextConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCoverArt.h">FCCoverArt.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCoverArtImage.h">FCCoverArtImage.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCoverArtImageP3.h">FCCoverArtImageP3.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCoverArticlesCatchUpOperation.h">FCCoverArticlesCatchUpOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCoverArticlesConfiguration.h">FCCoverArticlesConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCoverArticlesFeedGroupCursor.h">FCCoverArticlesFeedGroupCursor.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCoverArticlesFeedGroupEmitter.h">FCCoverArticlesFeedGroupEmitter.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCCoverArticlesFeedGroupEmittingOperation.h">FCCoverArticlesFeedGroupEmittingOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCDateRange.h">FCDateRange.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCDeflatedFeedGroup.h">FCDeflatedFeedGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCDeflatedHeadline.h">FCDeflatedHeadline.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCDerivedPersonalizationData.h">FCDerivedPersonalizationData.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCDescription.h">FCDescription.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCDraftCoverStoriesGroupEmitter.h">FCDraftCoverStoriesGroupEmitter.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCDraftFeedDescriptor.h">FCDraftFeedDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCDraftFeedItem.h">FCDraftFeedItem.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCDraftsFeedGroupEmitter.h">FCDraftsFeedGroupEmitter.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCEditorialCatchUpOperation.h">FCEditorialCatchUpOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCEditorialFeedGroupEmitter.h">FCEditorialFeedGroupEmitter.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCEditorialFeedGroupEmittingOperation.h">FCEditorialFeedGroupEmittingOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCEmptyStream.h">FCEmptyStream.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCEndOfArticleData.h">FCEndOfArticleData.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCEndOfArticleFetchOperation.h">FCEndOfArticleFetchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCEndpointConfiguration.h">FCEndpointConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCEndpointConnection.h">FCEndpointConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCExcerptURLProtocol.h">FCExcerptURLProtocol.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFDBFeed.h">FCFDBFeed.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFDBFeedItem.h">FCFDBFeedItem.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFDBFeedItemIndex.h">FCFDBFeedItemIndex.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFDBFeedSegment.h">FCFDBFeedSegment.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFaultableRecord.h">FCFaultableRecord.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedContext.h">FCFeedContext.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedCursor.h">FCFeedCursor.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedDatabase.h">FCFeedDatabase.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedDatabaseLookup.h">FCFeedDatabaseLookup.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedDatabaseLookupResult.h">FCFeedDatabaseLookupResult.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedDescriptor.h">FCFeedDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedEdition.h">FCFeedEdition.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedGroup.h">FCFeedGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedGroupDiff.h">FCFeedGroupDiff.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedGroupEmittingContext.h">FCFeedGroupEmittingContext.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedGroupEmittingOperation.h">FCFeedGroupEmittingOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedInsertionToken.h">FCFeedInsertionToken.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedItemFeature.h">FCFeedItemFeature.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedItemHeadlinesOperation.h">FCFeedItemHeadlinesOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedItemValueTransformer.h">FCFeedItemValueTransformer.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedItemsValueTransformer.h">FCFeedItemsValueTransformer.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedManager.h">FCFeedManager.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedPersonalizedArticles.h">FCFeedPersonalizedArticles.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedPersonalizingSession.h">FCFeedPersonalizingSession.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedRange.h">FCFeedRange.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedRefreshSession.h">FCFeedRefreshSession.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedRequest.h">FCFeedRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedRequestOperation.h">FCFeedRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedResponse.h">FCFeedResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedStreamingRequestOperation.h">FCFeedStreamingRequestOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedTransformationBlockFilter.h">FCFeedTransformationBlockFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedTransformationClamp.h">FCFeedTransformationClamp.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedTransformationComposite.h">FCFeedTransformationComposite.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedTransformationEndOfArticle.h">FCFeedTransformationEndOfArticle.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedTransformationFilter.h">FCFeedTransformationFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedTransformationFlintOnly.h">FCFeedTransformationFlintOnly.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedTransformationIdentity.h">FCFeedTransformationIdentity.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedTransformationLimit.h">FCFeedTransformationLimit.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedTransformationLowQualityContentFilter.h">FCFeedTransformationLowQualityContentFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedTransformationNoneSurfacedBy.h">FCFeedTransformationNoneSurfacedBy.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedTransformationOnlySurfacedBy.h">FCFeedTransformationOnlySurfacedBy.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedTransformationPaywallFilter.h">FCFeedTransformationPaywallFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedTransformationPersonalizedLimit.h">FCFeedTransformationPersonalizedLimit.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedTransformationPersonalizedSort.h">FCFeedTransformationPersonalizedSort.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedTransformationReadVersionFilter.h">FCFeedTransformationReadVersionFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedTransformationSort.h">FCFeedTransformationSort.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedTransformationSortByGlobalScore.h">FCFeedTransformationSortByGlobalScore.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedTransformationSortByNone.h">FCFeedTransformationSortByNone.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedTransformationSortByOrder.h">FCFeedTransformationSortByOrder.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedTransformationSortByPublishDate.h">FCFeedTransformationSortByPublishDate.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedTransformationUnreadOnly.h">FCFeedTransformationUnreadOnly.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedViewport.h">FCFeedViewport.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedViewportBookmark.h">FCFeedViewportBookmark.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedViewportDiff.h">FCFeedViewportDiff.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedViewportExpandGapOperation.h">FCFeedViewportExpandGapOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedViewportExpandGroupGapOperation.h">FCFeedViewportExpandGroupGapOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedViewportExpandPersistenceGapOperation.h">FCFeedViewportExpandPersistenceGapOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedViewportGap.h">FCFeedViewportGap.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedViewportPersistenceGap.h">FCFeedViewportPersistenceGap.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedViewportRefreshOperation.h">FCFeedViewportRefreshOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedViewportUpdateHeadlinesOperation.h">FCFeedViewportUpdateHeadlinesOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFeedViewportUtilities.h">FCFeedViewportUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFetchCoordinator.h">FCFetchCoordinator.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFetchGroup.h">FCFetchGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFetchOperation.h">FCFetchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFetchOperationResult.h">FCFetchOperationResult.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFileCoordinatedAccountActionQueue.h">FCFileCoordinatedAccountActionQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFileCoordinatedDictionary.h">FCFileCoordinatedDictionary.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFileCoordinatedNotificationDropbox.h">FCFileCoordinatedNotificationDropbox.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFileCoordinatedTodayWidgetDropbox.h">FCFileCoordinatedTodayWidgetDropbox.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFlintManifest.h">FCFlintManifest.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCFlintResourceManager.h">FCFlintResourceManager.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCForYouCatchUpCondition.h">FCForYouCatchUpCondition.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCForYouCatchUpConditionWaiter.h">FCForYouCatchUpConditionWaiter.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCForYouCatchUpOperation.h">FCForYouCatchUpOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCForYouConfig.h">FCForYouConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCForYouConfigFetchOperation.h">FCForYouConfigFetchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCForYouConfigRecordSource.h">FCForYouConfigRecordSource.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCForYouFeedDescriptor.h">FCForYouFeedDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCForYouGroupsConfiguration.h">FCForYouGroupsConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCForYouQueryUtilities.h">FCForYouQueryUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCGroupCancelHandler.h">FCGroupCancelHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCGroupConfig.h">FCGroupConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCGzipAssetTransformer.h">FCGzipAssetTransformer.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCHandlePushNotificationResult.h">FCHandlePushNotificationResult.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCHeadline.h">FCHeadline.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCHeadlineClusterOrderingPersonalized.h">FCHeadlineClusterOrderingPersonalized.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCHeadlineClusterOrderingPersonalizedTopical.h">FCHeadlineClusterOrderingPersonalizedTopical.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCHeadlineClusteringBruteForce.h">FCHeadlineClusteringBruteForce.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCHeadlineClusteringIESandbox.h">FCHeadlineClusteringIESandbox.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCHeadlineClusteringMMSandbox.h">FCHeadlineClusteringMMSandbox.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCHeadlineClusteringRules.h">FCHeadlineClusteringRules.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCHeadlineClusteringSol.h">FCHeadlineClusteringSol.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCHeadlineTemplate.h">FCHeadlineTemplate.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCHeadlineThumbnail.h">FCHeadlineThumbnail.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCHeldRecords.h">FCHeldRecords.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCIAdConfiguration.h">FCIAdConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCImageOnTopPremiumHeadlineTemplate.h">FCImageOnTopPremiumHeadlineTemplate.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCInflateFeedGroupOperation.h">FCInflateFeedGroupOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCInterestToken.h">FCInterestToken.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCKeyValueStore.h">FCKeyValueStore.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCKeyValueStoreClassRegistry.h">FCKeyValueStoreClassRegistry.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCKeyedOperation.h">FCKeyedOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCKeyedOperationQueue.h">FCKeyedOperationQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCLatestFeedGroupEmitter.h">FCLatestFeedGroupEmitter.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCLatestFeedGroupEmittingOperation.h">FCLatestFeedGroupEmittingOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCLoadableFont.h">FCLoadableFont.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCLocalArticleHeadline.h">FCLocalArticleHeadline.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCLocalFeedDescriptor.h">FCLocalFeedDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCLocalFetchOperation.h">FCLocalFetchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCMescalSession.h">FCMescalSession.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCModifyHistoryCommand.h">FCModifyHistoryCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCModifyNotificationsForChannelsCommand.h">FCModifyNotificationsForChannelsCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCModifyPersonalizationOperation.h">FCModifyPersonalizationOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCModifyReadingListCommand.h">FCModifyReadingListCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCModifyRecordsCommand.h">FCModifyRecordsCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCModifySubscriptionsCommand.h">FCModifySubscriptionsCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCModifyTagSettingsCommand.h">FCModifyTagSettingsCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCModifyUserInfoCommand.h">FCModifyUserInfoCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCMultiStepFetchOperation.h">FCMultiStepFetchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCMultiStepFetchOperationStep.h">FCMultiStepFetchOperationStep.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCMultiTagFeedDescriptor.h">FCMultiTagFeedDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCMutableNotificationData.h">FCMutableNotificationData.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCMutablePair.h">FCMutablePair.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCMutableShallowCopyPair.h">FCMutableShallowCopyPair.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCMutableTodayWidgetData.h">FCMutableTodayWidgetData.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCMutexLock.h">FCMutexLock.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCMyArticlesCatchUpOperation.h">FCMyArticlesCatchUpOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCMyArticlesFeedGroupEmitter.h">FCMyArticlesFeedGroupEmitter.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCMyArticlesFeedGroupEmitterCursor.h">FCMyArticlesFeedGroupEmitterCursor.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCMyArticlesFeedGroupEmittingOperation.h">FCMyArticlesFeedGroupEmittingOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCMyArticlesSearchOperation.h">FCMyArticlesSearchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCNetworkBehaviorMonitor.h">FCNetworkBehaviorMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCNetworkEvent.h">FCNetworkEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCNetworkEventGroupKey.h">FCNetworkEventGroupKey.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCNetworkEventStats.h">FCNetworkEventStats.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCNetworkOperation.h">FCNetworkOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCNetworkReachability.h">FCNetworkReachability.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCNetworkSession.h">FCNetworkSession.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCNewFavoriteFeedGroupEmitter.h">FCNewFavoriteFeedGroupEmitter.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCNewFavoriteFeedGroupEmitterCursor.h">FCNewFavoriteFeedGroupEmitterCursor.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCNewFavoriteFeedGroupEmittingOperation.h">FCNewFavoriteFeedGroupEmittingOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCNonDestructivePrivateDataMigrationHandler.h">FCNonDestructivePrivateDataMigrationHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCNotificationArticleHeadline.h">FCNotificationArticleHeadline.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCNotificationChannel.h">FCNotificationChannel.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCNotificationController.h">FCNotificationController.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCNotificationDropboxData.h">FCNotificationDropboxData.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCNotificationsConfiguration.h">FCNotificationsConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCNotificationsEndpointConnection.h">FCNotificationsEndpointConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCOfflineArticleFetchOperation.h">FCOfflineArticleFetchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCOnceOperation.h">FCOnceOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCOngoingPurchaseEntry.h">FCOngoingPurchaseEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCOperation.h">FCOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCOperationThrottler.h">FCOperationThrottler.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCOperationTime.h">FCOperationTime.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCPPTContext.h">FCPPTContext.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCPair.h">FCPair.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCPairNonRetainedSecond.h">FCPairNonRetainedSecond.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCPersonalizationData.h">FCPersonalizationData.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCPersonalizationDataMigrator.h">FCPersonalizationDataMigrator.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCPersonalizationTreatment.h">FCPersonalizationTreatment.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCPrefetchConfiguration.h">FCPrefetchConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCPrivateChannelMembershipController.h">FCPrivateChannelMembershipController.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCPrivateDataContext.h">FCPrivateDataContext.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCPrivateDataContextInternal.h">FCPrivateDataContextInternal.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCPrivateZoneController.h">FCPrivateZoneController.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCPrivateZoneFeedDescriptor.h">FCPrivateZoneFeedDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCProxyOperation.h">FCProxyOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCPurchase.h">FCPurchase.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCPurchaseController.h">FCPurchaseController.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCPurchaseLookUpEntry.h">FCPurchaseLookUpEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCPurchaseLookupFetchOperation.h">FCPurchaseLookupFetchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCPurchaseLookupRecordSource.h">FCPurchaseLookupRecordSource.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCPurchaseOfferableConfiguration.h">FCPurchaseOfferableConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCPushNotificationCenter.h">FCPushNotificationCenter.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCReadWriteLock.h">FCReadWriteLock.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCReadingHistory.h">FCReadingHistory.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCReadingHistoryFeedDescriptor.h">FCReadingHistoryFeedDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCReadingHistoryMigrator.h">FCReadingHistoryMigrator.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCReadingList.h">FCReadingList.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCReadingListContentController.h">FCReadingListContentController.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCReadingListEntry.h">FCReadingListEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCReadingListFeedDescriptor.h">FCReadingListFeedDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCRecommendedCategory.h">FCRecommendedCategory.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCRecordSource.h">FCRecordSource.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCRecordSourceFetchContext.h">FCRecordSourceFetchContext.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCRecordsFetchOperation.h">FCRecordsFetchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCReferenceToMembership.h">FCReferenceToMembership.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCRefreshNotificationsForChannelsCommand.h">FCRefreshNotificationsForChannelsCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCRegisterDeviceTokenCommand.h">FCRegisterDeviceTokenCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCRemoteDefaults.h">FCRemoteDefaults.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCRemoveFromReadingListCommand.h">FCRemoveFromReadingListCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCRemoveHistoryCommand.h">FCRemoveHistoryCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCRemoveRecordsCommand.h">FCRemoveRecordsCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCRemoveReferenceToChannelMembershipCommand.h">FCRemoveReferenceToChannelMembershipCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCRemoveSubscriptionCommand.h">FCRemoveSubscriptionCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCReplacePendingSubscriptionCommand.h">FCReplacePendingSubscriptionCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCResource.h">FCResource.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCResourceRecordSource.h">FCResourceRecordSource.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCResourcesFetchOperation.h">FCResourcesFetchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCRestrictions.h">FCRestrictions.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSavedStoriesCatchUpOperation.h">FCSavedStoriesCatchUpOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSavedStoriesGroupEmitter.h">FCSavedStoriesGroupEmitter.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSavedStoriesGroupEmitterOperation.h">FCSavedStoriesGroupEmitterOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSetValueDictionary.h">FCSetValueDictionary.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSetValueMapTable.h">FCSetValueMapTable.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCShallowCopyPair.h">FCShallowCopyPair.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSharedStringIndex.h">FCSharedStringIndex.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSingleTagFeedDescriptor.h">FCSingleTagFeedDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSingleTagFeedGroupEmitter.h">FCSingleTagFeedGroupEmitter.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSingleTagFeedGroupEmittingOperation.h">FCSingleTagFeedGroupEmittingOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSingleTopicFeedGroupEmitter.h">FCSingleTopicFeedGroupEmitter.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSingleTopicFeedGroupEmittingOperation.h">FCSingleTopicFeedGroupEmittingOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSolArticleID.h">FCSolArticleID.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSolConfiguration.h">FCSolConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSolHeuristic.h">FCSolHeuristic.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSolMergeableArticle.h">FCSolMergeableArticle.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSolMove.h">FCSolMove.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSolScoredArticle.h">FCSolScoredArticle.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSolTag.h">FCSolTag.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSolTagID.h">FCSolTagID.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSolUtilities.h">FCSolUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCStreamingResults.h">FCStreamingResults.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCStreamingTagSearchResults.h">FCStreamingTagSearchResults.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSubscribeToEmailCommand.h">FCSubscribeToEmailCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSubscription.h">FCSubscription.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSubscriptionController.h">FCSubscriptionController.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSubscriptionList.h">FCSubscriptionList.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCSupportedCountryNetworkReachabilityRequirement.h">FCSupportedCountryNetworkReachabilityRequirement.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTableViewDataSource.h">FCTableViewDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTableViewDataSourceDiffGenerator.h">FCTableViewDataSourceDiffGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTableViewDataSourceSection.h">FCTableViewDataSourceSection.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTableViewDiff.h">FCTableViewDiff.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTag.h">FCTag.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTagBanner.h">FCTagBanner.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTagController.h">FCTagController.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTagFilterUtilities.h">FCTagFilterUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTagRecordSource.h">FCTagRecordSource.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTagSearchRecordStream.h">FCTagSearchRecordStream.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTagSettings.h">FCTagSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTagSettingsEntry.h">FCTagSettingsEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTagsFetchOperation.h">FCTagsFetchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTagsSearchOperation.h">FCTagsSearchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTextInfo.h">FCTextInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCThreadSafeMutableArray.h">FCThreadSafeMutableArray.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCThreadSafeMutableDictionary.h">FCThreadSafeMutableDictionary.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCThreadSafeMutableSet.h">FCThreadSafeMutableSet.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTimedOperationThrottler.h">FCTimedOperationThrottler.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTodayWidgetDropboxData.h">FCTodayWidgetDropboxData.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTopStoriesCatchUpOperation.h">FCTopStoriesCatchUpOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTopStoriesConfiguration.h">FCTopStoriesConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTopStoriesFeedGroupEmitter.h">FCTopStoriesFeedGroupEmitter.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTopStoriesFeedGroupEmittingOperation.h">FCTopStoriesFeedGroupEmittingOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTopStoriesStyleConfiguration.h">FCTopStoriesStyleConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTopicalEdge.h">FCTopicalEdge.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTopicalNode.h">FCTopicalNode.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTopicalNodeElement.h">FCTopicalNodeElement.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTransformedResultsStream.h">FCTransformedResultsStream.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTrendingCatchUpOperation.h">FCTrendingCatchUpOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTrendingStoriesFeedGroupEmitter.h">FCTrendingStoriesFeedGroupEmitter.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCTrendingStoriesFeedGroupEmittingOperation.h">FCTrendingStoriesFeedGroupEmittingOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCURLDownloadOperation.h">FCURLDownloadOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCUserInfo.h">FCUserInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCVersionHelpers.h">FCVersionHelpers.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCVideoManifest.h">FCVideoManifest.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCWebAccessEntry.h">FCWebAccessEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCWebArchiveDownloadOperation.h">FCWebArchiveDownloadOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCWebArchiveFetchOperation.h">FCWebArchiveFetchOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCWebArchiveSource.h">FCWebArchiveSource.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCWebArchiveStore.h">FCWebArchiveStore.h</A>
+<A HREF="/tree/PrivateFrameworks/NewsCore.framework/FCWebManifest.h">FCWebManifest.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

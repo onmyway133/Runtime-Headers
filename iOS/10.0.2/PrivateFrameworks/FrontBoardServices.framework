@@ -1,0 +1,163 @@
+<HTML>
+<HEAD>
+<TITLE>FrontBoardServices.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/FrontBoardServices.framework
+105 classes
+
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSApplicationDataStore.h">FBSApplicationDataStore.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSApplicationDataStoreClientFactory.h">FBSApplicationDataStoreClientFactory.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSApplicationDataStoreMonitor.h">FBSApplicationDataStoreMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSApplicationDataStoreRepositoryClient.h">FBSApplicationDataStoreRepositoryClient.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSApplicationTerminationAssertion.h">FBSApplicationTerminationAssertion.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSApplicationTerminationAssertionClient.h">FBSApplicationTerminationAssertionClient.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSBasicSceneAgent.h">FBSBasicSceneAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSBasicSceneClientAgent.h">FBSBasicSceneClientAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSBasicSceneHostAgent.h">FBSBasicSceneHostAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSCAContextSceneLayer.h">FBSCAContextSceneLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSDataResetRequest.h">FBSDataResetRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSDisplay.h">FBSDisplay.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSDisplayLayout.h">FBSDisplayLayout.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSDisplayLayoutElement.h">FBSDisplayLayoutElement.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSDisplayLayoutMonitor.h">FBSDisplayLayoutMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSDisplayLayoutMonitorClient.h">FBSDisplayLayoutMonitorClient.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSDisplayLayoutTransitionContext.h">FBSDisplayLayoutTransitionContext.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSExternalSceneLayer.h">FBSExternalSceneLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSMutableProcessExecutionStrategy.h">FBSMutableProcessExecutionStrategy.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSMutableSceneClientSettings.h">FBSMutableSceneClientSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSMutableSceneDefinition.h">FBSMutableSceneDefinition.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSMutableSceneIdentity.h">FBSMutableSceneIdentity.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSMutableSceneParameters.h">FBSMutableSceneParameters.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSMutableSceneSettings.h">FBSMutableSceneSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSOpenApplicationOptions.h">FBSOpenApplicationOptions.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSOpenApplicationService.h">FBSOpenApplicationService.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSOrientationObserver.h">FBSOrientationObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSOrientationObserverClient.h">FBSOrientationObserverClient.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSOrientationUpdate.h">FBSOrientationUpdate.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSProcess.h">FBSProcess.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSProcessAssertion.h">FBSProcessAssertion.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSProcessExecutionPolicy.h">FBSProcessExecutionPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSProcessExecutionProvision.h">FBSProcessExecutionProvision.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSProcessExecutionStrategy.h">FBSProcessExecutionStrategy.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSProcessHandle.h">FBSProcessHandle.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSProcessResourceProvision.h">FBSProcessResourceProvision.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSProcessTerminationRequest.h">FBSProcessTerminationRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSProcessWatchdog.h">FBSProcessWatchdog.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSProcessWatchdogPolicy.h">FBSProcessWatchdogPolicy.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSScene.h">FBSScene.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneAction.h">FBSSceneAction.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneActivitySession.h">FBSSceneActivitySession.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneClientIdentity.h">FBSSceneClientIdentity.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneClientSettings.h">FBSSceneClientSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneClientSettingsDiff.h">FBSSceneClientSettingsDiff.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneClientSettingsDiffInspector.h">FBSSceneClientSettingsDiffInspector.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneDefinition.h">FBSSceneDefinition.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneEvent.h">FBSSceneEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneIdentity.h">FBSSceneIdentity.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneImpl.h">FBSSceneImpl.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneLayer.h">FBSSceneLayer.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneMessage.h">FBSSceneMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneOcclusion.h">FBSSceneOcclusion.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneParameters.h">FBSSceneParameters.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneSettings.h">FBSSceneSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneSettingsDiff.h">FBSSceneSettingsDiff.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneSettingsDiffInspector.h">FBSSceneSettingsDiffInspector.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneSnapshotAction.h">FBSSceneSnapshotAction.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneSnapshotContext.h">FBSSceneSnapshotContext.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneSnapshotRequest.h">FBSSceneSnapshotRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneSnapshotRequestAction.h">FBSSceneSnapshotRequestAction.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneSnapshotRequestHandle.h">FBSSceneSnapshotRequestHandle.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneSpecification.h">FBSSceneSpecification.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSceneTransitionContext.h">FBSSceneTransitionContext.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSerialQueue.h">FBSSerialQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSServiceNames.h">FBSServiceNames.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSettingsDiff.h">FBSSettingsDiff.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSettingsDiffInspector.h">FBSSettingsDiffInspector.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSystemAppProxy.h">FBSSystemAppProxy.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSystemService.h">FBSSystemService.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSystemServiceClient.h">FBSSystemServiceClient.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSystemServiceFacilityClient.h">FBSSystemServiceFacilityClient.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSSystemServiceUtility.h">FBSSystemServiceUtility.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSUIApplicationExitEvent.h">FBSUIApplicationExitEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSUIApplicationLaunchEvent.h">FBSUIApplicationLaunchEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSUIApplicationLaunchResponse.h">FBSUIApplicationLaunchResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSUIApplicationLaunchResponseEvent.h">FBSUIApplicationLaunchResponseEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSUIApplicationSystemService.h">FBSUIApplicationSystemService.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSUIApplicationWorkspace.h">FBSUIApplicationWorkspace.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSUIApplicationWorkspaceClient.h">FBSUIApplicationWorkspaceClient.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspace.h">FBSWorkspace.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspaceActionsEvent.h">FBSWorkspaceActionsEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspaceClient.h">FBSWorkspaceClient.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspaceConnectEvent.h">FBSWorkspaceConnectEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspaceCreateSceneEvent.h">FBSWorkspaceCreateSceneEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspaceCreateSceneRequestEvent.h">FBSWorkspaceCreateSceneRequestEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspaceCreateSceneRequestResponseEvent.h">FBSWorkspaceCreateSceneRequestResponseEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspaceCreateSceneResponse.h">FBSWorkspaceCreateSceneResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspaceCreateSceneResponseEvent.h">FBSWorkspaceCreateSceneResponseEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspaceDestroySceneEvent.h">FBSWorkspaceDestroySceneEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspaceDestroySceneRequestEvent.h">FBSWorkspaceDestroySceneRequestEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspaceDestroySceneRequestResponseEvent.h">FBSWorkspaceDestroySceneRequestResponseEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspaceDestroySceneResponse.h">FBSWorkspaceDestroySceneResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspaceDestroySceneResponseEvent.h">FBSWorkspaceDestroySceneResponseEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspaceEvent.h">FBSWorkspaceEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspaceResponse.h">FBSWorkspaceResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspaceSceneActionsEvent.h">FBSWorkspaceSceneActionsEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspaceSceneClientSettingsChangedEvent.h">FBSWorkspaceSceneClientSettingsChangedEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspaceSceneEvent.h">FBSWorkspaceSceneEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspaceSceneLayerEvent.h">FBSWorkspaceSceneLayerEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspaceSceneMessageEvent.h">FBSWorkspaceSceneMessageEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspaceSceneUpdateEvent.h">FBSWorkspaceSceneUpdateEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspaceSceneUpdateResponse.h">FBSWorkspaceSceneUpdateResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSWorkspaceSceneUpdateResponseEvent.h">FBSWorkspaceSceneUpdateResponseEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/FrontBoardServices.framework/FBSXPCMessage.h">FBSXPCMessage.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

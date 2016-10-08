@@ -1,0 +1,216 @@
+<HTML>
+<HEAD>
+<TITLE>MusicLibrary.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/MusicLibrary.framework
+158 classes
+
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MIPAlbum.h">MIPAlbum.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MIPArtist.h">MIPArtist.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MIPGenre.h">MIPGenre.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MIPLibraryIdentifier.h">MIPLibraryIdentifier.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MIPMediaItem.h">MIPMediaItem.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MIPMovie.h">MIPMovie.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MIPMultiverseIdentifier.h">MIPMultiverseIdentifier.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MIPPlaybackInfo.h">MIPPlaybackInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MIPPlaylist.h">MIPPlaylist.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MIPPodcast.h">MIPPodcast.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MIPSeries.h">MIPSeries.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MIPSmartPlaylistInfo.h">MIPSmartPlaylistInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MIPSong.h">MIPSong.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MIPTVShow.h">MIPTVShow.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3AccountCacheDatabase.h">ML3AccountCacheDatabase.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3AggregateQuery.h">ML3AggregateQuery.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3Album.h">ML3Album.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3AlbumArtist.h">ML3AlbumArtist.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3AlbumArtistTable.h">ML3AlbumArtistTable.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3AlbumGroupingIdentifier.h">ML3AlbumGroupingIdentifier.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3AlbumTable.h">ML3AlbumTable.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3AllCompoundPredicate.h">ML3AllCompoundPredicate.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3AnyCompoundPredicate.h">ML3AnyCompoundPredicate.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3Artist.h">ML3Artist.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ArtistTable.h">ML3ArtistTable.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3Artwork.h">ML3Artwork.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ArtworkConfiguration.h">ML3ArtworkConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ArtworkTokenSet.h">ML3ArtworkTokenSet.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3BaseLocation.h">ML3BaseLocation.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3BitMaskPredicate.h">ML3BitMaskPredicate.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ChapterTOC.h">ML3ChapterTOC.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ChapterTable.h">ML3ChapterTable.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3Collection.h">ML3Collection.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ComparisonPredicate.h">ML3ComparisonPredicate.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3Composer.h">ML3Composer.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ComposerTable.h">ML3ComposerTable.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3CompoundPredicate.h">ML3CompoundPredicate.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ConditionalPredicate.h">ML3ConditionalPredicate.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3Container.h">ML3Container.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ContainerItem.h">ML3ContainerItem.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ContainerItemDiffMetadata.h">ML3ContainerItemDiffMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ContainerItemDiffOperation.h">ML3ContainerItemDiffOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ContainerItemTable.h">ML3ContainerItemTable.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ContainerQuery.h">ML3ContainerQuery.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ContainerQueryResultSet.h">ML3ContainerQueryResultSet.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ContainerSeedTable.h">ML3ContainerSeedTable.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ContainerTable.h">ML3ContainerTable.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ContainmentPredicate.h">ML3ContainmentPredicate.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ContainsPredicate.h">ML3ContainsPredicate.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DAAPExportItem.h">ML3DAAPExportItem.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DAAPExportSession.h">ML3DAAPExportSession.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DatabaseBlob.h">ML3DatabaseBlob.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DatabaseCachedRow.h">ML3DatabaseCachedRow.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DatabaseColumn.h">ML3DatabaseColumn.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DatabaseConnection.h">ML3DatabaseConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DatabaseConnectionPool.h">ML3DatabaseConnectionPool.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DatabaseDistantConnection.h">ML3DatabaseDistantConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DatabaseDistantResult.h">ML3DatabaseDistantResult.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DatabaseException.h">ML3DatabaseException.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DatabaseForeignKeyConstraint.h">ML3DatabaseForeignKeyConstraint.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DatabaseFunction.h">ML3DatabaseFunction.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DatabaseFunctionBlock.h">ML3DatabaseFunctionBlock.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DatabaseFunctionPointer.h">ML3DatabaseFunctionPointer.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DatabaseImport.h">ML3DatabaseImport.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DatabaseMetadata.h">ML3DatabaseMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DatabaseModule.h">ML3DatabaseModule.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DatabaseNaturalStatement.h">ML3DatabaseNaturalStatement.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DatabaseResult.h">ML3DatabaseResult.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DatabaseRow.h">ML3DatabaseRow.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DatabaseStatement.h">ML3DatabaseStatement.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DatabaseStatementCache.h">ML3DatabaseStatementCache.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DatabaseStatementRenderer.h">ML3DatabaseStatementRenderer.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DatabaseTable.h">ML3DatabaseTable.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3DatabaseValidationClient.h">ML3DatabaseValidationClient.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3Entity.h">ML3Entity.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3EntityReplacer.h">ML3EntityReplacer.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ExportItem.h">ML3ExportItem.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ExportSession.h">ML3ExportSession.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3Genre.h">ML3Genre.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3GenreTable.h">ML3GenreTable.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ImportPersistentIDGenerator.h">ML3ImportPersistentIDGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ItemExtraTable.h">ML3ItemExtraTable.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ItemPlaybackTable.h">ML3ItemPlaybackTable.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ItemSearchTable.h">ML3ItemSearchTable.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ItemStatsTable.h">ML3ItemStatsTable.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ItemStoreTable.h">ML3ItemStoreTable.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ItemTable.h">ML3ItemTable.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ItemVideoTable.h">ML3ItemVideoTable.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3LanguageResourceManager.h">ML3LanguageResourceManager.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3LanguageResources.h">ML3LanguageResources.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3LibraryManager.h">ML3LibraryManager.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3LibraryNotificationManager.h">ML3LibraryNotificationManager.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3LyricsTable.h">ML3LyricsTable.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3MatcherAuxData.h">ML3MatcherAuxData.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3MigrationAddedColumn.h">ML3MigrationAddedColumn.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3MigrationDirectives.h">ML3MigrationDirectives.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3MigrationMisgroupedAlbum.h">ML3MigrationMisgroupedAlbum.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3MigrationMisgroupedTrack.h">ML3MigrationMisgroupedTrack.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3MusicLibrary.h">ML3MusicLibrary.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3MusicLibrary_SortMapEntry.h">ML3MusicLibrary_SortMapEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3MutableDatabaseImport.h">ML3MutableDatabaseImport.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3MutableDatabaseTable.h">ML3MutableDatabaseTable.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3NegationPredicate.h">ML3NegationPredicate.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3OrderingTerm.h">ML3OrderingTerm.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3PersistentIDGenerator.h">ML3PersistentIDGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3PersistentIDsPredicate.h">ML3PersistentIDsPredicate.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3Predicate.h">ML3Predicate.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3PropertyPredicate.h">ML3PropertyPredicate.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ProtoSyncExportItem.h">ML3ProtoSyncExportItem.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3ProtoSyncExportSession.h">ML3ProtoSyncExportSession.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3Query.h">ML3Query.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3QueryResultSet.h">ML3QueryResultSet.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3QueryResultSet_BackingStore.h">ML3QueryResultSet_BackingStore.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3QueryResultSet_MutableBackingStore.h">ML3QueryResultSet_MutableBackingStore.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3QuerySection.h">ML3QuerySection.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3SearchStringPredicate.h">ML3SearchStringPredicate.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3SortMap.h">ML3SortMap.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3SortMapFaultingEntryArray.h">ML3SortMapFaultingEntryArray.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3SortMapFaultingNameOrderDictionary.h">ML3SortMapFaultingNameOrderDictionary.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3SpotlightMatchPredicate.h">ML3SpotlightMatchPredicate.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3SpotlightMatchingNameCache.h">ML3SpotlightMatchingNameCache.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3SpotlightNameCache.h">ML3SpotlightNameCache.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3StatementAccumulator.h">ML3StatementAccumulator.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3StatementCacheList.h">ML3StatementCacheList.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3StatementCacheNode.h">ML3StatementCacheNode.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3StoreItemPlaylistData.h">ML3StoreItemPlaylistData.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3StoreItemTrackData.h">ML3StoreItemTrackData.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3StoreLink.h">ML3StoreLink.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3SuicidePact.h">ML3SuicidePact.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3Track.h">ML3Track.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3TruthPredicate.h">ML3TruthPredicate.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3UnaryPredicate.h">ML3UnaryPredicate.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3VirtualTable.h">ML3VirtualTable.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/ML3WeakReference.h">ML3WeakReference.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MLChapterTOC.h">MLChapterTOC.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MLContentRating.h">MLContentRating.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MLEQPreset.h">MLEQPreset.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MLException.h">MLException.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MLGeniusPlaylistController.h">MLGeniusPlaylistController.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MLITChapterTOC.h">MLITChapterTOC.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MLITDBGeniusDatabase.h">MLITDBGeniusDatabase.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MLMediaLibraryService.h">MLMediaLibraryService.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MLMediaLibraryServiceInterface.h">MLMediaLibraryServiceInterface.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MLMediaTypeCountedSet.h">MLMediaTypeCountedSet.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MLMovieArtist.h">MLMovieArtist.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MLMovieProperties.h">MLMovieProperties.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MLTrackImport.h">MLTrackImport.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MLTrackImportChapter.h">MLTrackImportChapter.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MSPMediaSyncError.h">MSPMediaSyncError.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MSPMediaSyncHeader.h">MSPMediaSyncHeader.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MSPMediaSyncOperation.h">MSPMediaSyncOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/MSPMediaSyncPackage.h">MSPMediaSyncPackage.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/_ML3ArtworkConfigurationMediaArtworkTypeKey.h">_ML3ArtworkConfigurationMediaArtworkTypeKey.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/_ML3DatabaseConnectionSubPool.h">_ML3DatabaseConnectionSubPool.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/_ML3DatabaseConnectionWrapper.h">_ML3DatabaseConnectionWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/_ML3DatabaseNaturalStatement.h">_ML3DatabaseNaturalStatement.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/_ML3SortMapFaultingNameOrderDictionaryEnumerator.h">_ML3SortMapFaultingNameOrderDictionaryEnumerator.h</A>
+<A HREF="/tree/PrivateFrameworks/MusicLibrary.framework/_ML3ValidatableDatabase.h">_ML3ValidatableDatabase.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

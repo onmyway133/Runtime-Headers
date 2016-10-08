@@ -1,0 +1,88 @@
+<HTML>
+<HEAD>
+<TITLE>MediaServices.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/MediaServices.framework
+30 classes
+
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVArtworkService.h">MSVArtworkService.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVArtworkServiceConversionOperation.h">MSVArtworkServiceConversionOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVArtworkServiceConversionRequest.h">MSVArtworkServiceConversionRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVArtworkServiceOperation.h">MSVArtworkServiceOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVArtworkServiceRequest.h">MSVArtworkServiceRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVArtworkServiceResizeOperation.h">MSVArtworkServiceResizeOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVArtworkServiceResizeRequest.h">MSVArtworkServiceResizeRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVArtworkServiceResizeRequestDestination.h">MSVArtworkServiceResizeRequestDestination.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVCLIBlockHandler.h">MSVCLIBlockHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVCLICommand.h">MSVCLICommand.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVCLICommandInterpreter.h">MSVCLICommandInterpreter.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVCPLoggingController.h">MSVCPLoggingController.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVCallback.h">MSVCallback.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVDistributedNotificationObserver.h">MSVDistributedNotificationObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVFileBufferedPipe.h">MSVFileBufferedPipe.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVLoggingLevelPair.h">MSVLoggingLevelPair.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVMessageParser.h">MSVMessageParser.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVMultiCallback.h">MSVMultiCallback.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVPropertyListEncoder.h">MSVPropertyListEncoder.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVStreamReader.h">MSVStreamReader.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVStreamWriter.h">MSVStreamWriter.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVSystemDialog.h">MSVSystemDialog.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVSystemDialogManager.h">MSVSystemDialogManager.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVSystemDialogOptions.h">MSVSystemDialogOptions.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVSystemDialogResponse.h">MSVSystemDialogResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVSystemDialogTextField.h">MSVSystemDialogTextField.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVThreadSafeMultiCallback.h">MSVThreadSafeMultiCallback.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVWatchdog.h">MSVWatchdog.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVXPCTransaction.h">MSVXPCTransaction.h</A>
+<A HREF="/tree/PrivateFrameworks/MediaServices.framework/MSVXPCTransactionController.h">MSVXPCTransactionController.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

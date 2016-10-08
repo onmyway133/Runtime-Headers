@@ -1,0 +1,199 @@
+<HTML>
+<HEAD>
+<TITLE>ProVideo.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/ProVideo.framework
+141 classes
+
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/BHBehaviorsBundle.h">BHBehaviorsBundle.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/BlockedPlugin.h">BlockedPlugin.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/CVPixelBufferCacheItem.h">CVPixelBufferCacheItem.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/CachedBitmapObject.h">CachedBitmapObject.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/DoneDrawingObserver.h">DoneDrawingObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/FigTimeObj.h">FigTimeObj.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/FxBitmap.h">FxBitmap.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/FxHeliumImage.h">FxHeliumImage.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/FxHostCapabilities.h">FxHostCapabilities.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/FxImage.h">FxImage.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/FxMatrix44.h">FxMatrix44.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/FxPlugAPIHandler.h">FxPlugAPIHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/FxTexture.h">FxTexture.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/HGInputBitmapCacheItem.h">HGInputBitmapCacheItem.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/OZFxPixelTransformsHandler.h">OZFxPixelTransformsHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/OZFxPlug3DAPI.h">OZFxPlug3DAPI.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/OZFxPlugAPIManager.h">OZFxPlugAPIManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/OZFxPlugHostPrivateAPI.h">OZFxPlugHostPrivateAPI.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/OZFxPlugHostPropertiesAPI.h">OZFxPlugHostPropertiesAPI.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/OZFxPlugParameterHandler.h">OZFxPlugParameterHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/OZFxPlugParameterHandlerUIUpdate.h">OZFxPlugParameterHandlerUIUpdate.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/OZFxPlugParameterHandler_v4.h">OZFxPlugParameterHandler_v4.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/OZFxPlugProgressAPI.h">OZFxPlugProgressAPI.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/OZFxPlugTimingAPI.h">OZFxPlugTimingAPI.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/OZFxPlugVersioningAPI.h">OZFxPlugVersioningAPI.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/OZFxPrincipalDelegate.h">OZFxPrincipalDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/OZNotificationStub.h">OZNotificationStub.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEAddNoise.h">PAEAddNoise.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEBadFilm.h">PAEBadFilm.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEBrightness.h">PAEBrightness.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEChannelMixer.h">PAEChannelMixer.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAECheckerboard.h">PAECheckerboard.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEColorBalance.h">PAEColorBalance.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEColorSolid.h">PAEColorSolid.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEColorize.h">PAEColorize.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAECompoundBlur.h">PAECompoundBlur.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEContrast.h">PAEContrast.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEDesaturate.h">PAEDesaturate.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEDirectionalBlur.h">PAEDirectionalBlur.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEDummyiOS.h">PAEDummyiOS.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEEarthquake.h">PAEEarthquake.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEFilterDefaultBase.h">PAEFilterDefaultBase.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEGamma.h">PAEGamma.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEGaussianBlur.h">PAEGaussianBlur.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEGeneratorDefaultBase.h">PAEGeneratorDefaultBase.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEGloom.h">PAEGloom.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEGlow.h">PAEGlow.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEGradient.h">PAEGradient.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEGradientBlur.h">PAEGradientBlur.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEGradientColorize.h">PAEGradientColorize.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEHSVAdjust.h">PAEHSVAdjust.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEInvert.h">PAEInvert.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEKeyer.h">PAEKeyer.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEKeyerAutokeySetup.h">PAEKeyerAutokeySetup.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEKeyerAutokeySetupUtil.h">PAEKeyerAutokeySetupUtil.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEKeyerCbCrSetup.h">PAEKeyerCbCrSetup.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEKeyerHistogram.h">PAEKeyerHistogram.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEKeyerInitialize.h">PAEKeyerInitialize.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEKeyerLumaSetup.h">PAEKeyerLumaSetup.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEKeyerMatteTools.h">PAEKeyerMatteTools.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEKeyerOMVertex.h">PAEKeyerOMVertex.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEKeyerPreprocess.h">PAEKeyerPreprocess.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEKeyerSetupUtil.h">PAEKeyerSetupUtil.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAELevels.h">PAELevels.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAELumaKey.h">PAELumaKey.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAELumaKeyer.h">PAELumaKeyer.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEMinMax.h">PAEMinMax.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEOffset.h">PAEOffset.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEScratchVector.h">PAEScratchVector.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAESharedDefaultBase.h">PAESharedDefaultBase.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAESharpen.h">PAESharpen.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAESimpleBorder.h">PAESimpleBorder.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAESimpleKeyer.h">PAESimpleKeyer.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEStripesGenerator.h">PAEStripesGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEThreshold.h">PAEThreshold.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAETile.h">PAETile.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAETint.h">PAETint.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEUnderwater.h">PAEUnderwater.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEUnsharpMask.h">PAEUnsharpMask.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PAEVignette.h">PAEVignette.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PCAMatrixArray.h">PCAMatrixArray.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PCFxBlendOptions.h">PCFxBlendOptions.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PCFxLightWrapOptions.h">PCFxLightWrapOptions.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PMCachedBitmapObject.h">PMCachedBitmapObject.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PMObjectCache.h">PMObjectCache.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PMObjectCacheEntry.h">PMObjectCacheEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PROBundleHandler.h">PROBundleHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PROConcretePlugIn.h">PROConcretePlugIn.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PROConcretePlugInGroup.h">PROConcretePlugInGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PROConcretePlugInManager.h">PROConcretePlugInManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PROPlugIn.h">PROPlugIn.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PROPlugInFirewall.h">PROPlugInFirewall.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PROPlugInGroup.h">PROPlugInGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PROPlugInManager.h">PROPlugInManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PROReadWriteLock.h">PROReadWriteLock.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PSMain.h">PSMain.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVAVFCompositingRequestDelegate.h">PVAVFCompositingRequestDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVBlurEffect.h">PVBlurEffect.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVCameraPreviewRenderer.h">PVCameraPreviewRenderer.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVCameraPreviewRequest.h">PVCameraPreviewRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVColorCorrectEffect.h">PVColorCorrectEffect.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVColorCorrectEffect_BnW.h">PVColorCorrectEffect_BnW.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVColorCorrectEffect_Bright.h">PVColorCorrectEffect_Bright.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVColorCorrectEffect_Contrast.h">PVColorCorrectEffect_Contrast.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVColorCorrectEffect_Cool.h">PVColorCorrectEffect_Cool.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVColorCorrectEffect_Warm.h">PVColorCorrectEffect_Warm.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVColorSpace.h">PVColorSpace.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVCrossDissolveTransition.h">PVCrossDissolveTransition.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVDeviceCharacteristics.h">PVDeviceCharacteristics.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVDocumentCacheManager.h">PVDocumentCacheManager.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVDocumentWrapper.h">PVDocumentWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVEffect.h">PVEffect.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVEffectPreviewGenerator.h">PVEffectPreviewGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVEffectPreviewRequestDelegate.h">PVEffectPreviewRequestDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVEffectRegistryEntry.h">PVEffectRegistryEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVEffectScheduler.h">PVEffectScheduler.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVEnvironment.h">PVEnvironment.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVHeliumEffect.h">PVHeliumEffect.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVInputBitmapCache.h">PVInputBitmapCache.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVInstructionGraphEffectNode.h">PVInstructionGraphEffectNode.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVInstructionGraphGeneratorNode.h">PVInstructionGraphGeneratorNode.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVInstructionGraphImageSourceNode.h">PVInstructionGraphImageSourceNode.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVInstructionGraphNode.h">PVInstructionGraphNode.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVInstructionGraphSourceNode.h">PVInstructionGraphSourceNode.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVInstructionGraphSourceTrackNode.h">PVInstructionGraphSourceTrackNode.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVMotionEffect.h">PVMotionEffect.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVPMR.h">PVPMR.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVPanTestEffect.h">PVPanTestEffect.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVPushTransition.h">PVPushTransition.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVRenderedTexture.h">PVRenderedTexture.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVSimpleTransition.h">PVSimpleTransition.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVSlideTransition.h">PVSlideTransition.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVVideoCompositing.h">PVVideoCompositing.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVVideoCompositingContext.h">PVVideoCompositingContext.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVVideoCompositingExporter.h">PVVideoCompositingExporter.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVVideoCompositionInstruction.h">PVVideoCompositionInstruction.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVWipeTransition.h">PVWipeTransition.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/PVXFormEffect.h">PVXFormEffect.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/Program_Dummy.h">Program_Dummy.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/TBXMLHelper.h">TBXMLHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/ProVideo.framework/TXMain.h">TXMain.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

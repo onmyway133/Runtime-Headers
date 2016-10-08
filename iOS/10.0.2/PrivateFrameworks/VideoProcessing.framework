@@ -1,0 +1,120 @@
+<HTML>
+<HEAD>
+<TITLE>VideoProcessing.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/VideoProcessing.framework
+62 classes
+
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPAudioAnalyzer.h">VCPAudioAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNBlock.h">VCPCNNBlock.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNConvBlock.h">VCPCNNConvBlock.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNData.h">VCPCNNData.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNFlattenBlock.h">VCPCNNFlattenBlock.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNFullConnectionBlock.h">VCPCNNFullConnectionBlock.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNGazeAnalysis.h">VCPCNNGazeAnalysis.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNMetalContext.h">VCPCNNMetalContext.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNModel.h">VCPCNNModel.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNPoolingBlock.h">VCPCNNPoolingBlock.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNPoseEstimator.h">VCPCNNPoseEstimator.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNSmileDetector.h">VCPCNNSmileDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCNNSoftmaxBlock.h">VCPCNNSoftmaxBlock.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPCoreMotionDelegate.h">VCPCoreMotionDelegate.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPDatabaseReader.h">VCPDatabaseReader.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPEdgeDetector.h">VCPEdgeDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPEndPointDetector.h">VCPEndPointDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPExifAnalyzer.h">VCPExifAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFace.h">VCPFace.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFaceDetectionRange.h">VCPFaceDetectionRange.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFingerprint.h">VCPFingerprint.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPFullVideoAnalyzer.h">VCPFullVideoAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPGaborFilter.h">VCPGaborFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPHoughTransform.h">VCPHoughTransform.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPICImageClassifierLib.h">VCPICImageClassifierLib.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPICImageTools.h">VCPICImageTools.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPICPIC.h">VCPICPIC.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageAnalyzer.h">VCPImageAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageBlurAnalyzer.h">VCPImageBlurAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageCompositionAnalyzer.h">VCPImageCompositionAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageConverter.h">VCPImageConverter.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageDescriptor.h">VCPImageDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageFaceDetector.h">VCPImageFaceDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageFaceExpressionAnalyzer.h">VCPImageFaceExpressionAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageManager.h">VCPImageManager.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageQualityAnalyzer.h">VCPImageQualityAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPImageSaliencyAnalyzer.h">VCPImageSaliencyAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPInterAssetAnalyzer.h">VCPInterAssetAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPJunkAnalyzer.h">VCPJunkAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPJunkCVMLAnalyzer.h">VCPJunkCVMLAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPJunkDCNAnalyzer.h">VCPJunkDCNAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPLightVideoAnalyzer.h">VCPLightVideoAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPLogManager.h">VCPLogManager.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPMediaAnalysisService.h">VCPMediaAnalysisService.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPMediaAnalyzer.h">VCPMediaAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPMetaTrackDecoder.h">VCPMetaTrackDecoder.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPMovieAnalyzer.h">VCPMovieAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPPhotoAnalyzer.h">VCPPhotoAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVanishingPointDetector.h">VCPVanishingPointDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideMetaOrientationAnalyzer.h">VCPVideMetaOrientationAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoAnalyzer.h">VCPVideoAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoFaceDetector.h">VCPVideoFaceDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoGlobalAnalyzer.h">VCPVideoGlobalAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoMetaAnalyzer.h">VCPVideoMetaAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoMetaFaceAnalyzer.h">VCPVideoMetaFaceAnalyzer.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoTrackDecoder.h">VCPVideoTrackDecoder.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoTrackStandardDecoder.h">VCPVideoTrackStandardDecoder.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoTrackSubsamplingDecoder.h">VCPVideoTrackSubsamplingDecoder.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVideoTrackSyncDecoder.h">VCPVideoTrackSyncDecoder.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVoiceDetector.h">VCPVoiceDetector.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVoiceDetectorV2.h">VCPVoiceDetectorV2.h</A>
+<A HREF="/tree/PrivateFrameworks/VideoProcessing.framework/VCPVoiceDetectorV3.h">VCPVoiceDetectorV3.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

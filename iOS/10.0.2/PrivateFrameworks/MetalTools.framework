@@ -1,0 +1,116 @@
+<HTML>
+<HEAD>
+<TITLE>MetalTools.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/MetalTools.framework
+58 classes
+
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLDebugBlitCommandEncoder.h">MTLDebugBlitCommandEncoder.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLDebugBuffer.h">MTLDebugBuffer.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLDebugBufferMarker.h">MTLDebugBufferMarker.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLDebugCommandBuffer.h">MTLDebugCommandBuffer.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLDebugCommandQueue.h">MTLDebugCommandQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLDebugComputeCommandEncoder.h">MTLDebugComputeCommandEncoder.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLDebugComputePipelineState.h">MTLDebugComputePipelineState.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLDebugDepthStencilState.h">MTLDebugDepthStencilState.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLDebugDevice.h">MTLDebugDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLDebugFragmentRenderCommandEncoder.h">MTLDebugFragmentRenderCommandEncoder.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLDebugFunction.h">MTLDebugFunction.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLDebugHeap.h">MTLDebugHeap.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLDebugLibrary.h">MTLDebugLibrary.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLDebugParallelRenderCommandEncoder.h">MTLDebugParallelRenderCommandEncoder.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLDebugRenderCommandEncoder.h">MTLDebugRenderCommandEncoder.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLDebugRenderPipelineState.h">MTLDebugRenderPipelineState.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLDebugResource.h">MTLDebugResource.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLDebugResourceAccessTracker.h">MTLDebugResourceAccessTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLDebugSamplerState.h">MTLDebugSamplerState.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLDebugTexture.h">MTLDebugTexture.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLDebugTextureLayout.h">MTLDebugTextureLayout.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLTelemetryBlitCommandEncoder.h">MTLTelemetryBlitCommandEncoder.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLTelemetryBuffer.h">MTLTelemetryBuffer.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLTelemetryCommandBuffer.h">MTLTelemetryCommandBuffer.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLTelemetryCommandQueue.h">MTLTelemetryCommandQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLTelemetryComputeCommandEncoder.h">MTLTelemetryComputeCommandEncoder.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLTelemetryComputePipelineState.h">MTLTelemetryComputePipelineState.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLTelemetryDepthStencilState.h">MTLTelemetryDepthStencilState.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLTelemetryDevice.h">MTLTelemetryDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLTelemetryHeap.h">MTLTelemetryHeap.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLTelemetryParallelRenderCommandEncoder.h">MTLTelemetryParallelRenderCommandEncoder.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLTelemetryRenderCommandEncoder.h">MTLTelemetryRenderCommandEncoder.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLTelemetryRenderPipelineState.h">MTLTelemetryRenderPipelineState.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLTelemetrySamplerState.h">MTLTelemetrySamplerState.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLTelemetryTexture.h">MTLTelemetryTexture.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLToolsBlitCommandEncoder.h">MTLToolsBlitCommandEncoder.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLToolsBuffer.h">MTLToolsBuffer.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLToolsCommandBuffer.h">MTLToolsCommandBuffer.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLToolsCommandEncoder.h">MTLToolsCommandEncoder.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLToolsCommandQueue.h">MTLToolsCommandQueue.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLToolsComputeCommandEncoder.h">MTLToolsComputeCommandEncoder.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLToolsComputePipelineState.h">MTLToolsComputePipelineState.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLToolsDepthStencilState.h">MTLToolsDepthStencilState.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLToolsDevice.h">MTLToolsDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLToolsFence.h">MTLToolsFence.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLToolsFragmentRenderCommandEncoder.h">MTLToolsFragmentRenderCommandEncoder.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLToolsFunction.h">MTLToolsFunction.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLToolsHeap.h">MTLToolsHeap.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLToolsLibrary.h">MTLToolsLibrary.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLToolsObject.h">MTLToolsObject.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLToolsParallelRenderCommandEncoder.h">MTLToolsParallelRenderCommandEncoder.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLToolsPointerArray.h">MTLToolsPointerArray.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLToolsRenderCommandEncoder.h">MTLToolsRenderCommandEncoder.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLToolsRenderPipelineState.h">MTLToolsRenderPipelineState.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLToolsResource.h">MTLToolsResource.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLToolsSamplerState.h">MTLToolsSamplerState.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLToolsTexture.h">MTLToolsTexture.h</A>
+<A HREF="/tree/PrivateFrameworks/MetalTools.framework/MTLToolsTextureLayout.h">MTLToolsTextureLayout.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

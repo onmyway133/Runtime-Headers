@@ -1,0 +1,107 @@
+<HTML>
+<HEAD>
+<TITLE>CoreRoutine.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/CoreRoutine.framework
+49 classes
+
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTAction.h">RTAction.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTActionCondition.h">RTActionCondition.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTApplication.h">RTApplication.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTEventAgentHelper.h">RTEventAgentHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTLocation.h">RTLocation.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTLocationOfInterest.h">RTLocationOfInterest.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTLocationOfInterestVisit.h">RTLocationOfInterestVisit.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTLogger.h">RTLogger.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTMicroLocation.h">RTMicroLocation.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTPredicateValidator.h">RTPredicateValidator.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTPredictedApplication.h">RTPredictedApplication.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTPredictedDate.h">RTPredictedDate.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTPredictedLocationOfInterest.h">RTPredictedLocationOfInterest.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTPredictedRoom.h">RTPredictedRoom.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTReceipt.h">RTReceipt.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTReceiptEventKit.h">RTReceiptEventKit.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTRoutineManager.h">RTRoutineManager.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTRoutineManagerExportedObject.h">RTRoutineManagerExportedObject.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTRoutineManagerRegistrant.h">RTRoutineManagerRegistrant.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTRoutineManagerRegistrantApplicationPrediction.h">RTRoutineManagerRegistrantApplicationPrediction.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTRoutineManagerRegistrantRoomPrediction.h">RTRoutineManagerRegistrantRoomPrediction.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTScenarioTrigger.h">RTScenarioTrigger.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTScenarioTriggerArrivedEarly.h">RTScenarioTriggerArrivedEarly.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTScenarioTriggerAtFamiliarLocation.h">RTScenarioTriggerAtFamiliarLocation.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTScenarioTriggerConnectedToCar.h">RTScenarioTriggerConnectedToCar.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTScenarioTriggerDisconnectedFromCar.h">RTScenarioTriggerDisconnectedFromCar.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTScenarioTriggerFirstTimeAtLocation.h">RTScenarioTriggerFirstTimeAtLocation.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTScenarioTriggerFirstTimeInCity.h">RTScenarioTriggerFirstTimeInCity.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTScenarioTriggerFirstTimeInNeighborhood.h">RTScenarioTriggerFirstTimeInNeighborhood.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTScenarioTriggerHeadedToHome.h">RTScenarioTriggerHeadedToHome.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTScenarioTriggerHeadedToWork.h">RTScenarioTriggerHeadedToWork.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTScenarioTriggerLastTimeAtLocation.h">RTScenarioTriggerLastTimeAtLocation.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTScenarioTriggerSettled.h">RTScenarioTriggerSettled.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTScenarioTriggerStayedLate.h">RTScenarioTriggerStayedLate.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTSource.h">RTSource.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTSourceAudio.h">RTSourceAudio.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTSourceBluetooth.h">RTSourceBluetooth.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTSourceCoreLocationPredictedApplication.h">RTSourceCoreLocationPredictedApplication.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTSourceCoreRoutine.h">RTSourceCoreRoutine.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTSourceCoreRoutineLearnedLocation.h">RTSourceCoreRoutineLearnedLocation.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTSourceCoreRoutineVehicleEvent.h">RTSourceCoreRoutineVehicleEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTSourceEventKit.h">RTSourceEventKit.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTSourceLocationVisit.h">RTSourceLocationVisit.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTSourceMapsSupport.h">RTSourceMapsSupport.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTSourceMapsSupportFavoritePlace.h">RTSourceMapsSupportFavoritePlace.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTSourceMapsSupportHistoryEntry.h">RTSourceMapsSupportHistoryEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTSourceMapsSupportHistoryEntryPlaceDisplay.h">RTSourceMapsSupportHistoryEntryPlaceDisplay.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTSourceMapsSupportHistoryEntryRoute.h">RTSourceMapsSupportHistoryEntryRoute.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreRoutine.framework/RTVehicleEvent.h">RTVehicleEvent.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

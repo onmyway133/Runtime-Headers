@@ -1,0 +1,117 @@
+<HTML>
+<HEAD>
+<TITLE>UpNextWidget.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/UpNextWidget.framework
+59 classes
+
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/Localization.h">Localization.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextGeoServicesBridge.h">UpNextGeoServicesBridge.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.Alarm.h">UpNextWidget.Alarm.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.Analytics.h">UpNextWidget.Analytics.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.BlankView.h">UpNextWidget.BlankView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.BlankViewController.h">UpNextWidget.BlankViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.BlendedView.h">UpNextWidget.BlendedView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.CellRowSeparator.h">UpNextWidget.CellRowSeparator.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.CellRowSeparatorInterior.h">UpNextWidget.CellRowSeparatorInterior.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.ColorBarView.h">UpNextWidget.ColorBarView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.ColorCircleImageView.h">UpNextWidget.ColorCircleImageView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.DateFormatter.h">UpNextWidget.DateFormatter.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.Debug.h">UpNextWidget.Debug.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.DetailedView.h">UpNextWidget.DetailedView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.DetailedViewController.h">UpNextWidget.DetailedViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.Event.h">UpNextWidget.Event.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.EventKitEventDataSource.h">UpNextWidget.EventKitEventDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.EventKitReminderDataSource.h">UpNextWidget.EventKitReminderDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.ExpandedAlarmBellImageView.h">UpNextWidget.ExpandedAlarmBellImageView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.ExpandedAlarmTimeLabel.h">UpNextWidget.ExpandedAlarmTimeLabel.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.ExpandedAlarmTitleLabel.h">UpNextWidget.ExpandedAlarmTitleLabel.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.GutterizedEventTrailingView.h">UpNextWidget.GutterizedEventTrailingView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.GutterizedEventView.h">UpNextWidget.GutterizedEventView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.LargeAlarmBellImageView.h">UpNextWidget.LargeAlarmBellImageView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.LargeAlarmLabel.h">UpNextWidget.LargeAlarmLabel.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.LargeAlarmView.h">UpNextWidget.LargeAlarmView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.LargeEventView.h">UpNextWidget.LargeEventView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.LargeReminderTrailingView.h">UpNextWidget.LargeReminderTrailingView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.LargeReminderView.h">UpNextWidget.LargeReminderView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.Layout.h">UpNextWidget.Layout.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.LayoutTestingView.h">UpNextWidget.LayoutTestingView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.Location.h">UpNextWidget.Location.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.Log.h">UpNextWidget.Log.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.LogSubsystem.h">UpNextWidget.LogSubsystem.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.MainView.h">UpNextWidget.MainView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.MainViewController.h">UpNextWidget.MainViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.MapView.h">UpNextWidget.MapView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.MobileTimerAlarmDataSource.h">UpNextWidget.MobileTimerAlarmDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.Model.h">UpNextWidget.Model.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.ModelStorage.h">UpNextWidget.ModelStorage.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.Reminder.h">UpNextWidget.Reminder.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.SmallAndNMoreView.h">UpNextWidget.SmallAndNMoreView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.SmallElementsView.h">UpNextWidget.SmallElementsView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.SmallEventView.h">UpNextWidget.SmallEventView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.SmallReminderView.h">UpNextWidget.SmallReminderView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.SmallSummaryView.h">UpNextWidget.SmallSummaryView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.StackView.h">UpNextWidget.StackView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.StackedAlarmCell.h">UpNextWidget.StackedAlarmCell.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.StackedCellViewController.h">UpNextWidget.StackedCellViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.StackedEventCell.h">UpNextWidget.StackedEventCell.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.StackedReminderCell.h">UpNextWidget.StackedReminderCell.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.TestingViewController.h">UpNextWidget.TestingViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.TintColorAsTextColorLabel.h">UpNextWidget.TintColorAsTextColorLabel.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.TravelAdvisoryView.h">UpNextWidget.TravelAdvisoryView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.VibrantImageView.h">UpNextWidget.VibrantImageView.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.VibrantLabel.h">UpNextWidget.VibrantLabel.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.WidgetContentUnavailableViewController.h">UpNextWidget.WidgetContentUnavailableViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.Workarounds.h">UpNextWidget.Workarounds.h</A>
+<A HREF="/tree/PrivateFrameworks/UpNextWidget.framework/UpNextWidget.WrappingView.h">UpNextWidget.WrappingView.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

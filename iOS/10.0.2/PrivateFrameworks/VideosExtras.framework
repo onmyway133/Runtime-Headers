@@ -1,0 +1,123 @@
+<HTML>
+<HEAD>
+<TITLE>VideosExtras.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/VideosExtras.framework
+65 classes
+
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasAVItem.h">VideosExtrasAVItem.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasActivityIndicator.h">VideosExtrasActivityIndicator.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasActivityIndicatorElementViewController.h">VideosExtrasActivityIndicatorElementViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasArtworkDataSource.h">VideosExtrasArtworkDataSource.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasArtworkLayoutTriggeringView.h">VideosExtrasArtworkLayoutTriggeringView.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasBackgroundViewController.h">VideosExtrasBackgroundViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasBannerController.h">VideosExtrasBannerController.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasBookmarkController.h">VideosExtrasBookmarkController.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasBorderedImageView.h">VideosExtrasBorderedImageView.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasCarouselCollectionView.h">VideosExtrasCarouselCollectionView.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasCarouselCollectionViewCell.h">VideosExtrasCarouselCollectionViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasCarouselCollectionViewFlowLayout.h">VideosExtrasCarouselCollectionViewFlowLayout.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasCarouselCollectionViewLayout.h">VideosExtrasCarouselCollectionViewLayout.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasCarouselViewController.h">VideosExtrasCarouselViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasCollectionReusableView.h">VideosExtrasCollectionReusableView.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasConstrainedArtworkContainerView.h">VideosExtrasConstrainedArtworkContainerView.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasContext.h">VideosExtrasContext.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasDetailTextCell.h">VideosExtrasDetailTextCell.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasElementViewController.h">VideosExtrasElementViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasFeatureContainerViewController.h">VideosExtrasFeatureContainerViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasGalleryTemplateViewController.h">VideosExtrasGalleryTemplateViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasGridCellStyle.h">VideosExtrasGridCellStyle.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasGridCollectionViewCell.h">VideosExtrasGridCollectionViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasGridElementViewController.h">VideosExtrasGridElementViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasGridHeaderStyle.h">VideosExtrasGridHeaderStyle.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasGridSectionHeaderStyle.h">VideosExtrasGridSectionHeaderStyle.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasGridViewControllerStyle.h">VideosExtrasGridViewControllerStyle.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasImageBrowserViewController.h">VideosExtrasImageBrowserViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasImageViewController.h">VideosExtrasImageViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasJSITunesStore.h">VideosExtrasJSITunesStore.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasListTemplateViewController.h">VideosExtrasListTemplateViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasLoadingView.h">VideosExtrasLoadingView.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasLockupCollectionViewCell.h">VideosExtrasLockupCollectionViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasLockupElementViewController.h">VideosExtrasLockupElementViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasMainMenuSectionMetrics.h">VideosExtrasMainMenuSectionMetrics.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasMainTemplateViewController.h">VideosExtrasMainTemplateViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasNavigationBar.h">VideosExtrasNavigationBar.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasNavigationBarButton.h">VideosExtrasNavigationBarButton.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasNavigationController.h">VideosExtrasNavigationController.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasPlaybackContext.h">VideosExtrasPlaybackContext.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasPlaybackItemMetadata.h">VideosExtrasPlaybackItemMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasQueueFeeder.h">VideosExtrasQueueFeeder.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasRootViewController.h">VideosExtrasRootViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasShowcaseTemplateViewController.h">VideosExtrasShowcaseTemplateViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasSlideshowArtworkCatalogHelper.h">VideosExtrasSlideshowArtworkCatalogHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasSlideshowTemplateViewController.h">VideosExtrasSlideshowTemplateViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasSlideshowViewController.h">VideosExtrasSlideshowViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasStackCollectionCell.h">VideosExtrasStackCollectionCell.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasStackTemplateViewController.h">VideosExtrasStackTemplateViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasTableView.h">VideosExtrasTableView.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasTableViewCell.h">VideosExtrasTableViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasTableViewHeaderView.h">VideosExtrasTableViewHeaderView.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasTemplateViewController.h">VideosExtrasTemplateViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasVideoTimeline.h">VideosExtrasVideoTimeline.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasVideoTimelineEvent.h">VideosExtrasVideoTimelineEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasViewElementViewController.h">VideosExtrasViewElementViewController.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasZoomableImageView.h">VideosExtrasZoomableImageView.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasZoomingImageInteractiveTransitionSourceContext.h">VideosExtrasZoomingImageInteractiveTransitionSourceContext.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasZoomingImageTransitionContext.h">VideosExtrasZoomingImageTransitionContext.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosExtrasZoomingImageTransitionController.h">VideosExtrasZoomingImageTransitionController.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosFairplayStreaming.h">VideosFairplayStreaming.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/VideosPlaybackSettings.h">VideosPlaybackSettings.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/_VideosExtrasGridHeaderView.h">_VideosExtrasGridHeaderView.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/_VideosExtrasMainMenuItemCollectionViewCell.h">_VideosExtrasMainMenuItemCollectionViewCell.h</A>
+<A HREF="/tree/PrivateFrameworks/VideosExtras.framework/_VideosExtrasShelfCollectionViewLayout.h">_VideosExtrasShelfCollectionViewLayout.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

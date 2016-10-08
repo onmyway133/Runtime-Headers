@@ -1,0 +1,115 @@
+<HTML>
+<HEAD>
+<TITLE>CoreSuggestions.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/CoreSuggestions.framework
+57 classes
+
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGCircularBufferArray.h">SGCircularBufferArray.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGContact.h">SGContact.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGContactMatch.h">SGContactMatch.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGContactMatchArrayOption.h">SGContactMatchArrayOption.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGDSuggestManagerInterface.h">SGDSuggestManagerInterface.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGDaemonConnection.h">SGDaemonConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGDetection.h">SGDetection.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGDeviceState.h">SGDeviceState.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGEKEventConversions.h">SGEKEventConversions.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGEKUrlParts.h">SGEKUrlParts.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGEmailAddress.h">SGEmailAddress.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGEntityTag.h">SGEntityTag.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGEntityTagPrefixOptions.h">SGEntityTagPrefixOptions.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGErrorMetrics.h">SGErrorMetrics.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGEvent.h">SGEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGEventGeocode.h">SGEventGeocode.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGFn.h">SGFn.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGFuture.h">SGFuture.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGLabeledObject.h">SGLabeledObject.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGLevenshtein.h">SGLevenshtein.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGLocation.h">SGLocation.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGMailMessageKey.h">SGMailMessageKey.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGMatchedDetails.h">SGMatchedDetails.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGMatchinfoData.h">SGMatchinfoData.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGMessagesDaemonConnection.h">SGMessagesDaemonConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGMessagesSuggestionsService.h">SGMessagesSuggestionsService.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGMonochrome.h">SGMonochrome.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGNLEventSuggestionsMetrics.h">SGNLEventSuggestionsMetrics.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGName.h">SGName.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGNotificationListener.h">SGNotificationListener.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGObjCRuntime.h">SGObjCRuntime.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGObject.h">SGObject.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGOrigin.h">SGOrigin.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGPatternMetrics.h">SGPatternMetrics.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGPhoneNumber.h">SGPhoneNumber.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGPostalAddress.h">SGPostalAddress.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGPostalAddressComponents.h">SGPostalAddressComponents.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGPreferenceManager.h">SGPreferenceManager.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGPreferenceStorage.h">SGPreferenceStorage.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGQPFeedbackReport.h">SGQPFeedbackReport.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGQPPrediction.h">SGQPPrediction.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGRealtimeContact.h">SGRealtimeContact.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGRealtimeEvent.h">SGRealtimeEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGRecordId.h">SGRecordId.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGRemoteObjectProxy.h">SGRemoteObjectProxy.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGSearchableItemHelper.h">SGSearchableItemHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGSimpleNamedEmailAddress.h">SGSimpleNamedEmailAddress.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGSimpleTimeRange.h">SGSimpleTimeRange.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGSuggestedActionMetrics.h">SGSuggestedActionMetrics.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGSuggestionsService.h">SGSuggestionsService.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGTaggedMallocCompressionBuffer.h">SGTaggedMallocCompressionBuffer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGTaggedMallocEmailHtml.h">SGTaggedMallocEmailHtml.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGTaggedMallocLevenshteinDistanceBuffer.h">SGTaggedMallocLevenshteinDistanceBuffer.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGTaggedMallocWorkQueueItemPart.h">SGTaggedMallocWorkQueueItemPart.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGTuple2.h">SGTuple2.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGTuple3.h">SGTuple3.h</A>
+<A HREF="/tree/PrivateFrameworks/CoreSuggestions.framework/SGXpcTransaction.h">SGXpcTransaction.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

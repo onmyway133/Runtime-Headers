@@ -1,0 +1,265 @@
+<HTML>
+<HEAD>
+<TITLE>Home.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/Home.framework
+207 classes
+
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFAbstractAlarmStatusItem.h">HFAbstractAlarmStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFAbstractBinaryStatusItem.h">HFAbstractBinaryStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFAbstractDoorAndWindowStatusItem.h">HFAbstractDoorAndWindowStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFAccessoryBrowsingManager.h">HFAccessoryBrowsingManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFAccessoryBuilder.h">HFAccessoryBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFAccessoryInfoServiceItem.h">HFAccessoryInfoServiceItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFAccessoryInvitationServiceItemProvider.h">HFAccessoryInvitationServiceItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFActionBuilder.h">HFActionBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFActionSetBuilder.h">HFActionSetBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFActionSetItem.h">HFActionSetItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFActionSetItemProvider.h">HFActionSetItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFActionSetListItem.h">HFActionSetListItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFActionSetSuggestionItem.h">HFActionSetSuggestionItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFActionSetSuggestionItemProvider.h">HFActionSetSuggestionItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFActionSetValueSource.h">HFActionSetValueSource.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFAggregatedCharacteristicValueBatchReadResponse.h">HFAggregatedCharacteristicValueBatchReadResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFAirQualitySensorStatusItem.h">HFAirQualitySensorStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFAssociatedServiceTypeOptionItem.h">HFAssociatedServiceTypeOptionItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFAssociatedServiceTypeOptionItemProvider.h">HFAssociatedServiceTypeOptionItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFBlindsServiceItem.h">HFBlindsServiceItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFBlindsStatusItem.h">HFBlindsStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFBridgeBuilderItem.h">HFBridgeBuilderItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFBridgeItem.h">HFBridgeItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFBridgeItemProvider.h">HFBridgeItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFCameraItem.h">HFCameraItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFCameraItemProvider.h">HFCameraItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFCarbonDioxideAlarmStatusItem.h">HFCarbonDioxideAlarmStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFCarbonMonoxideAlarmStatusItem.h">HFCarbonMonoxideAlarmStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFCharacteristicConditionBuilder.h">HFCharacteristicConditionBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFCharacteristicGroup.h">HFCharacteristicGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFCharacteristicItem.h">HFCharacteristicItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFCharacteristicNotificationManager.h">HFCharacteristicNotificationManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFCharacteristicStateItem.h">HFCharacteristicStateItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFCharacteristicStateItemProvider.h">HFCharacteristicStateItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFCharacteristicTriggerBuilder.h">HFCharacteristicTriggerBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFCharacteristicValueBatchReadResponse.h">HFCharacteristicValueBatchReadResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFCharacteristicValueDisplayError.h">HFCharacteristicValueDisplayError.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFCharacteristicValueDisplayMetadata.h">HFCharacteristicValueDisplayMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFCharacteristicValueManager.h">HFCharacteristicValueManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFCharacteristicValueSet.h">HFCharacteristicValueSet.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFCharacteristicValueTransaction.h">HFCharacteristicValueTransaction.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFCharacteristicWriteActionBuilder.h">HFCharacteristicWriteActionBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFColorControlItem.h">HFColorControlItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFColorItemProvider.h">HFColorItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFColorPalette.h">HFColorPalette.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFColorPaletteColor.h">HFColorPaletteColor.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFConditionBuilder.h">HFConditionBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFConditionItem.h">HFConditionItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFConditionItemProvider.h">HFConditionItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFContactController.h">HFContactController.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFContactSensorStatusItem.h">HFContactSensorStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFControlItem.h">HFControlItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFControlPanelItem.h">HFControlPanelItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFControlPanelItemProvider.h">HFControlPanelItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFCroppedWallpaperInfo.h">HFCroppedWallpaperInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFDateComponentsConditionBuilder.h">HFDateComponentsConditionBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFDiscoveredAccessory.h">HFDiscoveredAccessory.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFDiscoveredAccessoryItem.h">HFDiscoveredAccessoryItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFDiscoveredAccessoryItemProvider.h">HFDiscoveredAccessoryItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFDoorServiceItem.h">HFDoorServiceItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFDoorStatusItem.h">HFDoorStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFDynamicListString.h">HFDynamicListString.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFErrorHandler.h">HFErrorHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFEventItem.h">HFEventItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFFanServiceItem.h">HFFanServiceItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFFanStatusItem.h">HFFanStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFFormatterManager.h">HFFormatterManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFFormatterTransformer.h">HFFormatterTransformer.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFGarageDoorOpenerServiceItem.h">HFGarageDoorOpenerServiceItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFGarageDoorOpenerStatusItem.h">HFGarageDoorOpenerStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFGenericAccessoryItem.h">HFGenericAccessoryItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFGenericAccessoryItemProvider.h">HFGenericAccessoryItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFHomeBuilder.h">HFHomeBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFHomeItem.h">HFHomeItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFHomeKitDispatcher.h">HFHomeKitDispatcher.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFHomeKitTransformItem.h">HFHomeKitTransformItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFHomeStatusItemManager.h">HFHomeStatusItemManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFHumiditySensorServiceItem.h">HFHumiditySensorServiceItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFHumiditySensorStatusItem.h">HFHumiditySensorStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFImageIconDescriptor.h">HFImageIconDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFIncrementalStateControlItem.h">HFIncrementalStateControlItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFIncrementalStateIconDescriptor.h">HFIncrementalStateIconDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFItem.h">HFItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFItemBuilder.h">HFItemBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFItemManager.h">HFItemManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFItemProvider.h">HFItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFItemProviderReloadResults.h">HFItemProviderReloadResults.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFItemUpdateOutcome.h">HFItemUpdateOutcome.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFLeakAlarmStatusItem.h">HFLeakAlarmStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFLightSensorServiceItem.h">HFLightSensorServiceItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFLightbulbServiceItem.h">HFLightbulbServiceItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFLightbulbStatusItem.h">HFLightbulbStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFLocationTriggerBuilder.h">HFLocationTriggerBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFLockMechanismServiceItem.h">HFLockMechanismServiceItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFLockStatusItem.h">HFLockStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFMeasurementFormatter.h">HFMeasurementFormatter.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFMotionAlarmStatusItem.h">HFMotionAlarmStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFMultiServiceAggregatedCharacteristicValueSource.h">HFMultiServiceAggregatedCharacteristicValueSource.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFMultiServiceCharacteristicValueBatchReadResponse.h">HFMultiServiceCharacteristicValueBatchReadResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFMultiStateControlItem.h">HFMultiStateControlItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFMultiStateValueSet.h">HFMultiStateValueSet.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFMultistateImageIconDescriptor.h">HFMultistateImageIconDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFMutableColorPalette.h">HFMutableColorPalette.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFMutableItemUpdateOutcome.h">HFMutableItemUpdateOutcome.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFMutableReorderableHomeKitItemList.h">HFMutableReorderableHomeKitItemList.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFMutableSetDiff.h">HFMutableSetDiff.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFNoRemoteAccessStatusDetailsItem.h">HFNoRemoteAccessStatusDetailsItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFNullValueSource.h">HFNullValueSource.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFNumberRange.h">HFNumberRange.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFOccupancyAlarmStatusItem.h">HFOccupancyAlarmStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFOrderedHomeKitItemData.h">HFOrderedHomeKitItemData.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFOutgoingHomeInvitationItem.h">HFOutgoingHomeInvitationItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFOutgoingHomeInvitationItemProvider.h">HFOutgoingHomeInvitationItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFOutletServiceItem.h">HFOutletServiceItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFOutletStatusItem.h">HFOutletStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFOverrideCharacteristicValueSource.h">HFOverrideCharacteristicValueSource.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFPrimaryStateControlItem.h">HFPrimaryStateControlItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFReorderableHomeKitItemList.h">HFReorderableHomeKitItemList.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFResidentDeviceItem.h">HFResidentDeviceItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFResidentDeviceItemProvider.h">HFResidentDeviceItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFResidentDeviceStatusDetailsItem.h">HFResidentDeviceStatusDetailsItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFResidentDeviceStatusDetailsItemProvider.h">HFResidentDeviceStatusDetailsItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFResidentDeviceStatusItem.h">HFResidentDeviceStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFRoomBuilder.h">HFRoomBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFRoomBuilderItem.h">HFRoomBuilderItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFRoomItem.h">HFRoomItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFRoomItemProvider.h">HFRoomItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFRoomSuggestion.h">HFRoomSuggestion.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFRoomSuggestionItemProvider.h">HFRoomSuggestionItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFSection.h">HFSection.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFSecurityServiceItem.h">HFSecurityServiceItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFSecurityStatusItem.h">HFSecurityStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFSecuritySystemIconDescriptor.h">HFSecuritySystemIconDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFSelectableRoomTransformItem.h">HFSelectableRoomTransformItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFSelectedRoomItemProvider.h">HFSelectedRoomItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFSensorServiceItem.h">HFSensorServiceItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFServiceActionItem.h">HFServiceActionItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFServiceActionItemProvider.h">HFServiceActionItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFServiceBuilder.h">HFServiceBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFServiceBuilderItem.h">HFServiceBuilderItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFServiceGroupBuilder.h">HFServiceGroupBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFServiceGroupItem.h">HFServiceGroupItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFServiceGroupItemProvider.h">HFServiceGroupItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFServiceIconItem.h">HFServiceIconItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFServiceIconItemProvider.h">HFServiceIconItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFServiceIconSet.h">HFServiceIconSet.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFServiceItem.h">HFServiceItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFServiceItemProvider.h">HFServiceItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFServiceNameComponents.h">HFServiceNameComponents.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFSetDiff.h">HFSetDiff.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFSetupAutoPairingController.h">HFSetupAutoPairingController.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFSetupSingleAccessoryPairingController.h">HFSetupSingleAccessoryPairingController.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFSetupUtilities.h">HFSetupUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFSimpleAggregatedCharacteristicValueSource.h">HFSimpleAggregatedCharacteristicValueSource.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFSimpleIncrementalControlItem.h">HFSimpleIncrementalControlItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFSimpleItemManager.h">HFSimpleItemManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFSmokeAlarmStatusItem.h">HFSmokeAlarmStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFStaticItem.h">HFStaticItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFStaticItemProvider.h">HFStaticItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFStatusItem.h">HFStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFStatusItemProvider.h">HFStatusItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFSunriseSunsetConditionBuilder.h">HFSunriseSunsetConditionBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFSwitchServiceItem.h">HFSwitchServiceItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFSwitchStatusItem.h">HFSwitchStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFTemperatureIconDescriptor.h">HFTemperatureIconDescriptor.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFTemperatureSensorServiceItem.h">HFTemperatureSensorServiceItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFTemperatureServiceStatusItem.h">HFTemperatureServiceStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFTemperatureThresholdControlItem.h">HFTemperatureThresholdControlItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFTemperatureThresholdValue.h">HFTemperatureThresholdValue.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFTemperatureUnitControlItem.h">HFTemperatureUnitControlItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFTemperatureUnitCoordinator.h">HFTemperatureUnitCoordinator.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFThermostatItemProvider.h">HFThermostatItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFThermostatServiceItem.h">HFThermostatServiceItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFTimeConditionBuilder.h">HFTimeConditionBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFTimeIntervalFormatter.h">HFTimeIntervalFormatter.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFTimerTriggerBuilder.h">HFTimerTriggerBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFTimerTriggerDateExecution.h">HFTimerTriggerDateExecution.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFTimerTriggerSignificantEventExecution.h">HFTimerTriggerSignificantEventExecution.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFTransformItem.h">HFTransformItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFTransformItemProvider.h">HFTransformItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFTriggerAnonymousActionSetBuilder.h">HFTriggerAnonymousActionSetBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFTriggerBuilder.h">HFTriggerBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFTriggerItem.h">HFTriggerItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFTriggerItemProvider.h">HFTriggerItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFURLComponents.h">HFURLComponents.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFUnknownConditionBuilder.h">HFUnknownConditionBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFUnreachableStatusItem.h">HFUnreachableStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFUpdateLogger.h">HFUpdateLogger.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFUpdateLoggerDebuggingController.h">HFUpdateLoggerDebuggingController.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFUserItem.h">HFUserItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFUserItemProvider.h">HFUserItemProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFUtilities.h">HFUtilities.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFValueSetFormatter.h">HFValueSetFormatter.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFValueTransformer.h">HFValueTransformer.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFWallpaper.h">HFWallpaper.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFWallpaperEditCollection.h">HFWallpaperEditCollection.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFWallpaperEditCollectionBuilder.h">HFWallpaperEditCollectionBuilder.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFWallpaperFileManager.h">HFWallpaperFileManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFWallpaperImageCache.h">HFWallpaperImageCache.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFWallpaperLegacyFileManager.h">HFWallpaperLegacyFileManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFWallpaperManager.h">HFWallpaperManager.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFWallpaperSlice.h">HFWallpaperSlice.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFWindowServiceItem.h">HFWindowServiceItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/HFWindowStatusItem.h">HFWindowStatusItem.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/_HFDefaultRoomSuggestionVendor.h">_HFDefaultRoomSuggestionVendor.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/_HFItemUpdateFutureWrapper.h">_HFItemUpdateFutureWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/Home.framework/_HFNamespaceAndSharedCachePolluter.h">_HFNamespaceAndSharedCachePolluter.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

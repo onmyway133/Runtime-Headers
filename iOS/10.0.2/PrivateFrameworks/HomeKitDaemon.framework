@@ -1,0 +1,383 @@
+<HTML>
+<HEAD>
+<TITLE>HomeKitDaemon.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/PrivateFrameworks/HomeKitDaemon.framework
+325 classes
+
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/AWDHomeKitAccessoryPairing.h">AWDHomeKitAccessoryPairing.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/AWDHomeKitAccessoryReadWrite.h">AWDHomeKitAccessoryReadWrite.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/AWDHomeKitActionSetTriggered.h">AWDHomeKitActionSetTriggered.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/AWDHomeKitCameraStream.h">AWDHomeKitCameraStream.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/AWDHomeKitCharacteristic.h">AWDHomeKitCharacteristic.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/AWDHomeKitCloudSync.h">AWDHomeKitCloudSync.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/AWDHomeKitCloudSyncInfoTuple.h">AWDHomeKitCloudSyncInfoTuple.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/AWDHomeKitConfigurationData.h">AWDHomeKitConfigurationData.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/AWDHomeKitHomeConfiguration.h">AWDHomeKitHomeConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/AWDHomeKitHomeSharing.h">AWDHomeKitHomeSharing.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/AWDHomeKitMessageTransported.h">AWDHomeKitMessageTransported.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/AWDHomeKitRemoteSession.h">AWDHomeKitRemoteSession.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/AWDHomeKitResetConfiguration.h">AWDHomeKitResetConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/AWDHomeKitVendorInformation.h">AWDHomeKitVendorInformation.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/AWDHomeKitVideoResolutionCount.h">AWDHomeKitVideoResolutionCount.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HAPCharacteristicTuple.h">HAPCharacteristicTuple.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMAccessoryCategory.h">HMAccessoryCategory.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMBulletinObjectTuple.h">HMBulletinObjectTuple.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAWDConfigurationLogEvent.h">HMDAWDConfigurationLogEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAWDLogEventObserver.h">HMDAWDLogEventObserver.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAWDRemoteSessionMetric.h">HMDAWDRemoteSessionMetric.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAccessory.h">HMDAccessory.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAccessoryBrowser.h">HMDAccessoryBrowser.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAccessoryInvitation.h">HMDAccessoryInvitation.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAccessoryPairingEvent.h">HMDAccessoryPairingEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAccessoryProfile.h">HMDAccessoryProfile.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAccessoryReachabilityTuple.h">HMDAccessoryReachabilityTuple.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAccessoryRetrievalCompletionTuple.h">HMDAccessoryRetrievalCompletionTuple.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAccessoryTransportInformation.h">HMDAccessoryTransportInformation.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAccount.h">HMDAccount.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAccountRegistry.h">HMDAccountRegistry.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDActionSet.h">HMDActionSet.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDActionSetEvent.h">HMDActionSetEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAdminEnforcementMessageFilter.h">HMDAdminEnforcementMessageFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDApplicationData.h">HMDApplicationData.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDApplicationInfo.h">HMDApplicationInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDApplicationMonitor.h">HMDApplicationMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDApplicationRegistry.h">HMDApplicationRegistry.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDApplicationVendorIDStore.h">HMDApplicationVendorIDStore.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDApplicationVendorIDStoreValue.h">HMDApplicationVendorIDStoreValue.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDArrayWrapper.h">HMDArrayWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAsset.h">HMDAsset.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAssistantColorCharacteristic.h">HMDAssistantColorCharacteristic.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAssistantCommand.h">HMDAssistantCommand.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAssistantCommandHelper.h">HMDAssistantCommandHelper.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAssistantGather.h">HMDAssistantGather.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAudioCodecConfiguration.h">HMDAudioCodecConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAudioCodecGroup.h">HMDAudioCodecGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAudioCodecParameters.h">HMDAudioCodecParameters.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAudioSampleRate.h">HMDAudioSampleRate.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAudioStreamConfig.h">HMDAudioStreamConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDAudioStreamInterface.h">HMDAudioStreamInterface.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDBackgroundAppMessageFilter.h">HMDBackgroundAppMessageFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDBitRateSetting.h">HMDBitRateSetting.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDBridgeInformation.h">HMDBridgeInformation.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDBulletinBoard.h">HMDBulletinBoard.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDBulletinBoardCameraNotificationAssociation.h">HMDBulletinBoardCameraNotificationAssociation.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDBulletinBoardNotification.h">HMDBulletinBoardNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDBulletinBoardNotificationServiceGroup.h">HMDBulletinBoardNotificationServiceGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDBulletinCategory.h">HMDBulletinCategory.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDBulletinCharacteristicTuple.h">HMDBulletinCharacteristicTuple.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDBulletinProvider.h">HMDBulletinProvider.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDBulletinUIManager.h">HMDBulletinUIManager.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraAudioParameterCombination.h">HMDCameraAudioParameterCombination.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraAudioParameterSelection.h">HMDCameraAudioParameterSelection.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraIDSDeviceConnection.h">HMDCameraIDSDeviceConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraIDSDeviceConnectionReceiver.h">HMDCameraIDSDeviceConnectionReceiver.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraIDSDeviceConnectionSender.h">HMDCameraIDSDeviceConnectionSender.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraIDSSessionHandler.h">HMDCameraIDSSessionHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraIDSSessionInitiator.h">HMDCameraIDSSessionInitiator.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraIDSSessionReceiver.h">HMDCameraIDSSessionReceiver.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraLocalStreamControlManager.h">HMDCameraLocalStreamControlManager.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraMediaConfigGenerator.h">HMDCameraMediaConfigGenerator.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraNetworkConfig.h">HMDCameraNetworkConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraParameterSelection.h">HMDCameraParameterSelection.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraParameterSelectionBase.h">HMDCameraParameterSelectionBase.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraProfile.h">HMDCameraProfile.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraProtocolParameters.h">HMDCameraProtocolParameters.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraRemoteStreamControlManager.h">HMDCameraRemoteStreamControlManager.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraSessionID.h">HMDCameraSessionID.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraSettingProactiveReader.h">HMDCameraSettingProactiveReader.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraSettingsControlManager.h">HMDCameraSettingsControlManager.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraSnapshotData.h">HMDCameraSnapshotData.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraSnapshotIDSRelay.h">HMDCameraSnapshotIDSRelay.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraSnapshotIDSRelayInitiator.h">HMDCameraSnapshotIDSRelayInitiator.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraSnapshotIDSRelayReceiver.h">HMDCameraSnapshotIDSRelayReceiver.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraSnapshotIDSStream.h">HMDCameraSnapshotIDSStream.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraSnapshotIDSStreamInitiator.h">HMDCameraSnapshotIDSStreamInitiator.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraSnapshotIDSStreamReceiver.h">HMDCameraSnapshotIDSStreamReceiver.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraSnapshotLocal.h">HMDCameraSnapshotLocal.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraSnapshotManager.h">HMDCameraSnapshotManager.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraSnapshotMonitorEvents.h">HMDCameraSnapshotMonitorEvents.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraSnapshotNotificationTimer.h">HMDCameraSnapshotNotificationTimer.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraSnapshotReceiver.h">HMDCameraSnapshotReceiver.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraSnapshotRemoteRelayReceiver.h">HMDCameraSnapshotRemoteRelayReceiver.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraSnapshotRemoteRelaySender.h">HMDCameraSnapshotRemoteRelaySender.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraSnapshotRemoteRelayStream.h">HMDCameraSnapshotRemoteRelayStream.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraSnapshotRemoteStreamReceiver.h">HMDCameraSnapshotRemoteStreamReceiver.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraSnapshotRemoteStreamSender.h">HMDCameraSnapshotRemoteStreamSender.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraSnapshotSender.h">HMDCameraSnapshotSender.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraStreamControlManager.h">HMDCameraStreamControlManager.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraStreamControlMessageHandler.h">HMDCameraStreamControlMessageHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraStreamManagerSession.h">HMDCameraStreamManagerSession.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraStreamMetrics.h">HMDCameraStreamMetrics.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraStreamSession.h">HMDCameraStreamSession.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraStreamSnapshotCapture.h">HMDCameraStreamSnapshotCapture.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraStreamSnapshotHandler.h">HMDCameraStreamSnapshotHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraStreamTracker.h">HMDCameraStreamTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraSupportedConfigurationCache.h">HMDCameraSupportedConfigurationCache.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraTLVBase.h">HMDCameraTLVBase.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraTLVCreator.h">HMDCameraTLVCreator.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraTLVDescription.h">HMDCameraTLVDescription.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraTLVParser.h">HMDCameraTLVParser.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraVideoParameterCombination.h">HMDCameraVideoParameterCombination.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraVideoParameterSelection.h">HMDCameraVideoParameterSelection.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraVideoTier.h">HMDCameraVideoTier.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCameraVideoTierParameters.h">HMDCameraVideoTierParameters.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCentralMessageDispatcher.h">HMDCentralMessageDispatcher.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCharacteristic.h">HMDCharacteristic.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCharacteristicEvent.h">HMDCharacteristicEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCharacteristicMetadata.h">HMDCharacteristicMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCharacteristicNotificationRegistry.h">HMDCharacteristicNotificationRegistry.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCharacteristicReadWriteLogEvent.h">HMDCharacteristicReadWriteLogEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCharacteristicRequest.h">HMDCharacteristicRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCharacteristicResponse.h">HMDCharacteristicResponse.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCharacteristicValueUpdate.h">HMDCharacteristicValueUpdate.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCharacteristicWriteAction.h">HMDCharacteristicWriteAction.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCharacteristicWriteRequest.h">HMDCharacteristicWriteRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDClientConnection.h">HMDClientConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCloudDataSyncManager.h">HMDCloudDataSyncManager.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCloudDataSyncStateFilter.h">HMDCloudDataSyncStateFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCloudFetchLogEvent.h">HMDCloudFetchLogEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDCompanionManager.h">HMDCompanionManager.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDConfigurationResetLogEvent.h">HMDConfigurationResetLogEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDConnectionProxy.h">HMDConnectionProxy.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDDAccessoryServerBrowserDemo.h">HMDDAccessoryServerBrowserDemo.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDDAccessoryServerDemo.h">HMDDAccessoryServerDemo.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDDataSyncStateEvent.h">HMDDataSyncStateEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDDataWrapper.h">HMDDataWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDDecryptionCompletedEvent.h">HMDDecryptionCompletedEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDDevice.h">HMDDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDDeviceRegistrationEntry.h">HMDDeviceRegistrationEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDDuetEventManager.h">HMDDuetEventManager.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDEducationModeMessageFilter.h">HMDEducationModeMessageFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDEndPointAddress.h">HMDEndPointAddress.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDEvent.h">HMDEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDEventTrigger.h">HMDEventTrigger.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDFairPlaySAPSession.h">HMDFairPlaySAPSession.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDFieldWrapper.h">HMDFieldWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDFollowUpController.h">HMDFollowUpController.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDFragmentationStreamTuple.h">HMDFragmentationStreamTuple.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDH264Level.h">HMDH264Level.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDH264Profile.h">HMDH264Profile.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDHAPMetadata.h">HMDHAPMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDHAPMetadataAssistantCharacteristic.h">HMDHAPMetadataAssistantCharacteristic.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDHAPMetadataCategory.h">HMDHAPMetadataCategory.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDHAPMetadataCharacteristic.h">HMDHAPMetadataCharacteristic.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDHAPMetadataCharacteristicValue.h">HMDHAPMetadataCharacteristicValue.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDHAPMetadataService.h">HMDHAPMetadataService.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDHAPMetadataTuple.h">HMDHAPMetadataTuple.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDHAPMetadataUnit.h">HMDHAPMetadataUnit.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDHAPProperty.h">HMDHAPProperty.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDHTTPClientMessageTransport.h">HMDHTTPClientMessageTransport.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDHTTPDevice.h">HMDHTTPDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDHTTPMessageTransport.h">HMDHTTPMessageTransport.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDHTTPServerMessageTransport.h">HMDHTTPServerMessageTransport.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDHome.h">HMDHome.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDHomeAssistantOperation.h">HMDHomeAssistantOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDHomeData.h">HMDHomeData.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDHomeInvitation.h">HMDHomeInvitation.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDHomeInviteLogEvent.h">HMDHomeInviteLogEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDHomeKitVersion.h">HMDHomeKitVersion.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDHomeLocationHandler.h">HMDHomeLocationHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDHomeManager.h">HMDHomeManager.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDHomeRemoteNotification.h">HMDHomeRemoteNotification.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDHomeRemoteNotificationHandler.h">HMDHomeRemoteNotificationHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDIDSMessageTransport.h">HMDIDSMessageTransport.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDIDSProxyMessageTransport.h">HMDIDSProxyMessageTransport.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDIDSServiceManager.h">HMDIDSServiceManager.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDIdentifierSaltStore.h">HMDIdentifierSaltStore.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDIncomingCloudPushLogEvent.h">HMDIncomingCloudPushLogEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDIncomingHomeInvitation.h">HMDIncomingHomeInvitation.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDKeyTransferAgent.h">HMDKeyTransferAgent.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDKeyTransferAgentClient.h">HMDKeyTransferAgentClient.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDKeyTransferAgentServer.h">HMDKeyTransferAgentServer.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDKeyedRemoteArchiver.h">HMDKeyedRemoteArchiver.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDKeyedXPCArchiver.h">HMDKeyedXPCArchiver.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDLaunchHandler.h">HMDLaunchHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDLegacyIDSProxyMessageTransport.h">HMDLegacyIDSProxyMessageTransport.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDLocalStreamSession.h">HMDLocalStreamSession.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDLocation.h">HMDLocation.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDLocationEvent.h">HMDLocationEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDLogEvent.h">HMDLogEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDLogEventDispatcher.h">HMDLogEventDispatcher.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDLostModeMessageFilter.h">HMDLostModeMessageFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDMainDriver.h">HMDMainDriver.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDMediaStreamConfig.h">HMDMediaStreamConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDMessageFilter.h">HMDMessageFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDMessageFilterChain.h">HMDMessageFilterChain.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDMetadataActionSetSuggestion.h">HMDMetadataActionSetSuggestion.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDNameValidator.h">HMDNameValidator.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDNumberParser.h">HMDNumberParser.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDNumberWrapper.h">HMDNumberWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDOutgoingHomeInvitation.h">HMDOutgoingHomeInvitation.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDPacketizationMode.h">HMDPacketizationMode.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDPairedSync.h">HMDPairedSync.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDPendingCloudSyncTransactions.h">HMDPendingCloudSyncTransactions.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDPersistentStore.h">HMDPersistentStore.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDPowerManager.h">HMDPowerManager.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDProcessInfo.h">HMDProcessInfo.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRelayAccessToken.h">HMDRelayAccessToken.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRelayActivationClient.h">HMDRelayActivationClient.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRelayActivationSession.h">HMDRelayActivationSession.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRelayCertificateRequest.h">HMDRelayCertificateRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRelayConsentToken.h">HMDRelayConsentToken.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRelayManager.h">HMDRelayManager.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRelayPairingClient.h">HMDRelayPairingClient.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRelayStream.h">HMDRelayStream.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRemoteAccountMessageDestination.h">HMDRemoteAccountMessageDestination.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRemoteDeviceConfirmationHandler.h">HMDRemoteDeviceConfirmationHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRemoteDeviceInformation.h">HMDRemoteDeviceInformation.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRemoteDeviceMessageDestination.h">HMDRemoteDeviceMessageDestination.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRemoteDeviceMonitor.h">HMDRemoteDeviceMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRemoteIdentityRegistry.h">HMDRemoteIdentityRegistry.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRemoteMessage.h">HMDRemoteMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRemoteMessageFilter.h">HMDRemoteMessageFilter.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRemoteMessageLogEvent.h">HMDRemoteMessageLogEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRemoteMessageNotifications.h">HMDRemoteMessageNotifications.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRemoteMessageSerialization.h">HMDRemoteMessageSerialization.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRemoteMessageTransport.h">HMDRemoteMessageTransport.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRemoteReadRequestMessage.h">HMDRemoteReadRequestMessage.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRemoteStreamSession.h">HMDRemoteStreamSession.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRemovedUser.h">HMDRemovedUser.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDReselectedRTPParameters.h">HMDReselectedRTPParameters.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDReselectedStreamConfigurationWrite.h">HMDReselectedStreamConfigurationWrite.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDReselectedVideoParameters.h">HMDReselectedVideoParameters.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDResidentCommunicationHandler.h">HMDResidentCommunicationHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDResidentDevice.h">HMDResidentDevice.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDResidentDeviceManager.h">HMDResidentDeviceManager.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDResidentMesh.h">HMDResidentMesh.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDResidentMeshMeshStorage.h">HMDResidentMeshMeshStorage.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDResidentMeshResidentStorage.h">HMDResidentMeshResidentStorage.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDResidentUser.h">HMDResidentUser.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDRoom.h">HMDRoom.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSRTPCryptoSuite.h">HMDSRTPCryptoSuite.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSRTPParameters.h">HMDSRTPParameters.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSecureRemoteMessageTransport.h">HMDSecureRemoteMessageTransport.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSecureSession.h">HMDSecureSession.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSelectedAudioParameters.h">HMDSelectedAudioParameters.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSelectedRTPParameters.h">HMDSelectedRTPParameters.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSelectedStreamConfigurationWrite.h">HMDSelectedStreamConfigurationWrite.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSelectedVideoParameters.h">HMDSelectedVideoParameters.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDServerBag.h">HMDServerBag.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDService.h">HMDService.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDServiceGroup.h">HMDServiceGroup.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSessionControl.h">HMDSessionControl.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSetupEndPointRead.h">HMDSetupEndPointRead.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSetupEndPointWrite.h">HMDSetupEndPointWrite.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSnapshotCacheEntry.h">HMDSnapshotCacheEntry.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSnapshotCacheRequestHandler.h">HMDSnapshotCacheRequestHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSnapshotCompletionTimer.h">HMDSnapshotCompletionTimer.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSnapshotFile.h">HMDSnapshotFile.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSnapshotLocalSession.h">HMDSnapshotLocalSession.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSnapshotRemoteSession.h">HMDSnapshotRemoteSession.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSnapshotRequest.h">HMDSnapshotRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSnapshotRequestHandler.h">HMDSnapshotRequestHandler.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSnapshotSession.h">HMDSnapshotSession.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSnapshotSessionApplicationID.h">HMDSnapshotSessionApplicationID.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSnapshotSlotManager.h">HMDSnapshotSlotManager.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDStreamInterface.h">HMDStreamInterface.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDStreamingCapabilities.h">HMDStreamingCapabilities.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDStreamingManager.h">HMDStreamingManager.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDStreamingStatus.h">HMDStreamingStatus.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDStringWrapper.h">HMDStringWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSupportedAudioStreamConfiguration.h">HMDSupportedAudioStreamConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSupportedRTPConfiguration.h">HMDSupportedRTPConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSupportedVideoStreamConfiguration.h">HMDSupportedVideoStreamConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSyncOperation.h">HMDSyncOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDSyncOperationManager.h">HMDSyncOperationManager.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDTimeInformationMonitor.h">HMDTimeInformationMonitor.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDTimerTrigger.h">HMDTimerTrigger.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDTrigger.h">HMDTrigger.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDUIDialogPresenter.h">HMDUIDialogPresenter.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDUUIDWrapper.h">HMDUUIDWrapper.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDUnpairedAccessory.h">HMDUnpairedAccessory.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDUploadCompletedLogEvent.h">HMDUploadCompletedLogEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDUploadMaximumDelayEvent.h">HMDUploadMaximumDelayEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDUploadStartingLogEvent.h">HMDUploadStartingLogEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDUser.h">HMDUser.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDUserManagementOperation.h">HMDUserManagementOperation.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDUserManagementOperationManager.h">HMDUserManagementOperationManager.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDVideoAttributes.h">HMDVideoAttributes.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDVideoCodec.h">HMDVideoCodec.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDVideoCodecConfiguration.h">HMDVideoCodecConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDVideoCodecParameters.h">HMDVideoCodecParameters.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDVideoResolution.h">HMDVideoResolution.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDVideoStreamConfig.h">HMDVideoStreamConfig.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDVideoStreamInterface.h">HMDVideoStreamInterface.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDVideoStreamReconfigure.h">HMDVideoStreamReconfigure.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDVideoStreamReconfigureEvent.h">HMDVideoStreamReconfigureEvent.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDWatchConfiguration.h">HMDWatchConfiguration.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDWatchManager.h">HMDWatchManager.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDWatchSync.h">HMDWatchSync.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDWatchSyncState.h">HMDWatchSyncState.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDWatchSystemState.h">HMDWatchSystemState.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDXPCRequest.h">HMDXPCRequest.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDXPCRequestTracker.h">HMDXPCRequestTracker.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDXpcServer.h">HMDXpcServer.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMDZone.h">HMDZone.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMHAPMetadata.h">HMHAPMetadata.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMHAPMetadataAssistantCharacteristic.h">HMHAPMetadataAssistantCharacteristic.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMHAPMetadataCategory.h">HMHAPMetadataCategory.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMHAPMetadataCharacteristic.h">HMHAPMetadataCharacteristic.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMHAPMetadataService.h">HMHAPMetadataService.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMHAPMetadataUnit.h">HMHAPMetadataUnit.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMHomeInvitationData.h">HMHomeInvitationData.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMIncomingHomeInvitationData.h">HMIncomingHomeInvitationData.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMLocalization.h">HMLocalization.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMOutgoingHomeInvitationData.h">HMOutgoingHomeInvitationData.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/HMPendingFetchedRecordsTuple.h">HMPendingFetchedRecordsTuple.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/_HMDCameraStreamTrackerAssertion.h">_HMDCameraStreamTrackerAssertion.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/_HMDHTTPServerClientConnection.h">_HMDHTTPServerClientConnection.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/_HMDIDSProxyLinkPreferenceAssertion.h">_HMDIDSProxyLinkPreferenceAssertion.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/_HMDLegacyWatchSession.h">_HMDLegacyWatchSession.h</A>
+<A HREF="/tree/PrivateFrameworks/HomeKitDaemon.framework/_HMDLegacyWatchSessionTransaction.h">_HMDLegacyWatchSessionTransaction.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>
