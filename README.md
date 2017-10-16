@@ -1,11 +1,21 @@
 # Runtime Headers
 
-## Export
+## Description
+
+- Support macOS
+	- 10.12
+	- 10.13
+- Support iOS
+	- 10
+	- 11
+
+## How to export
 
 ### macOS
 
 - Checkout https://github.com/onmyway133/RuntimeBrowser/tree/fix/write
 - Run `OSX/RuntimeBrowser.xcodeproj`
+- Write to `Users/khoa/Downloads/macOS-Runtime-Headers`
 
 ### iOS
 
