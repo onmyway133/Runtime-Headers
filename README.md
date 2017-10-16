@@ -6,7 +6,7 @@
 	- 10.12
 	- 10.13
 - Support iOS
-	- 10
+	- 10.0.2
 	- 11
 
 ## How to export
